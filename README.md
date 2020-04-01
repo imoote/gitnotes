@@ -2,6 +2,8 @@
 
 There are two remote repositories for this project:  "_origin_" and "_github_"
 
+**git.odm** needs to be loaded after every edit to update its revision number.  This also requires that it be committed with edited files as well.
+
 # Personal Programming Notes: GIT
 
 This is my "**_Personal Programming Notes_**" project to summarize usage and document best practices when using GIT.  If you're an experienced user of GIT you don't need this reference.
