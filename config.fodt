@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-09T11:36:24.125499464</meta:creation-date><dc:date>2020-04-09T12:21:36.685790763</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT13M32S</meta:editing-duration><meta:editing-cycles>2</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="20" meta:word-count="261" meta:character-count="1673" meta:non-whitespace-character-count="1438"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott"/></office:meta>
+ <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-09T11:36:24.125499464</meta:creation-date><dc:date>2020-04-09T17:34:39.876902808</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT4H25M12S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="23" meta:word-count="311" meta:character-count="1970" meta:non-whitespace-character-count="1691"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">2540</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">635</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24634</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">16406</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">20431</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">17810</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">16646</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">7952</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">2540</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">635</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24633</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">18944</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">17039</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -40,7 +40,7 @@
    <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1044485</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1183355</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -268,52 +268,52 @@
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.3in" fo:text-indent="-0.3in" fo:margin-left="0.3in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="2" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.4in" fo:text-indent="-0.4in" fo:margin-left="0.4in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="3" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.5in" fo:margin-left="0.5in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="4" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.6in" fo:text-indent="-0.6in" fo:margin-left="0.6in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="5" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.7in" fo:text-indent="-0.7in" fo:margin-left="0.7in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="6" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.8in" fo:text-indent="-0.8in" fo:margin-left="0.8in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="7" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.9in" fo:text-indent="-0.9in" fo:margin-left="0.9in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="8" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-1in" fo:margin-left="1in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="9" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.1in" fo:text-indent="-1.1in" fo:margin-left="1.1in"/>
     </style:list-level-properties>
    </text:outline-level-style>
    <text:outline-level-style text:level="10" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.2in" fo:text-indent="-1.2in" fo:margin-left="1.2in"/>
     </style:list-level-properties>
    </text:outline-level-style>
   </text:outline-style>
@@ -345,6 +345,21 @@
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties officeooo:rsid="000ff005" officeooo:paragraph-rsid="000ff005"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="000d1cc3" officeooo:paragraph-rsid="000d1cc3"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="000ff005" officeooo:paragraph-rsid="000ff005"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="000d1cc3" officeooo:paragraph-rsid="000d1cc3"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="0010421c" officeooo:paragraph-rsid="0010421c"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="00113296" officeooo:paragraph-rsid="00113296"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="000d68b5"/>
@@ -379,8 +394,12 @@
    <text:p text:style-name="P5"/>
    <text:p text:style-name="P5">git config --local &lt;option&gt;<text:tab/>// ./.git/config -- the repository</text:p>
    <text:p text:style-name="P5">git config --global &lt;option&gt;<text:tab/>// ~/.gitconfig or ~/.config/git/config -- user</text:p>
-   <text:p text:style-name="P5">git config --system &lt;option&gt;<text:tab/>// /etc/gitconfig -- system-wide</text:p>
-   <text:p text:style-name="P1">Git allows you to configure options on three levels: <text:s/>globally for the user, system-wide, and just for the local repository. <text:s/>Generally, things which will be the same for every project should be set <text:span text:style-name="_30_0coderef">globally</text:span>. <text:s/>System-wide and local config settings would be few and far between. <text:s/>--<text:span text:style-name="T1">local trumps --global trumps --system.</text:span></text:p>
+   <text:p text:style-name="P5">git config --system &lt;option&gt;<text:tab/>// /etc/gitconfig – system-wide</text:p>
+   <text:p text:style-name="P5"/>
+   <text:p text:style-name="P12">git config --global --unset &lt;option&gt;<text:tab/>//unset an option</text:p>
+   <text:p text:style-name="P12">git config --global --edit<text:tab/><text:tab/><text:tab/>//edit the indicated config file</text:p>
+   <text:p text:style-name="P13">git config --global --replace-all<text:tab/><text:tab/>//replace entries</text:p>
+   <text:p text:style-name="P1">Git allows you to configure options on three levels: <text:s/>globally for the user, system-wide, and just for the local repository. <text:s/>Generally, things which will be the same for every project should be set <text:span text:style-name="_30_0coderef">globally</text:span>. <text:s/>System-wide and local config settings would be few and far between. <text:s/>--<text:span text:style-name="T1">local trumps --global trumps --system. <text:s/>You can </text:span><text:span text:style-name="_30_0coderef">unset</text:span><text:span text:style-name="T1"> any option you set by using the </text:span><text:span text:style-name="_30_0coderef">--unset</text:span><text:span text:style-name="T1"> modifier; remember to use the </text:span><text:span text:style-name="_30_0coderef">--global/local/system</text:span><text:span text:style-name="T1"> modifier as appropriate</text:span></text:p>
    <text:p text:style-name="P5">git config --global core.editor <text:span text:style-name="T1">gedit</text:span><text:tab/>//<text:span text:style-name="T1">usually a global preferance</text:span></text:p>
    <text:p text:style-name="P6">git config --global user.name “First Last”<text:tab/>//usually always the same</text:p>
    <text:p text:style-name="P6">git config --global user.email user@domain.tld<text:tab/>//usually always the same</text:p>
