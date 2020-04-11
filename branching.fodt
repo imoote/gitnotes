@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-03-30T16:44:21.597686548</meta:creation-date><dc:date>2020-04-01T10:07:10.449438470</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT9M15S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="1" meta:object-count="0" meta:page-count="3" meta:paragraph-count="45" meta:word-count="1141" meta:character-count="7104" meta:non-whitespace-character-count="5972"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
+ <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-03-30T16:44:21.597686548</meta:creation-date><dc:date>2020-04-10T21:24:21.918138254</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT33M25S</meta:editing-duration><meta:editing-cycles>5</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="1" meta:object-count="0" meta:page-count="3" meta:paragraph-count="46" meta:word-count="1157" meta:character-count="7196" meta:non-whitespace-character-count="6048"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">38312</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">7832</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24634</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">16406</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">3522</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">40016</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6260</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">11217</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">38312</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">7832</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24633</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">54716</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">24236</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2619662</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2763601</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -467,52 +467,43 @@
   <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="002689aa" officeooo:paragraph-rsid="002689aa"/>
   </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00dfd262" officeooo:paragraph-rsid="00109a92"/>
-  </style:style>
-  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00e3787a" officeooo:paragraph-rsid="00109a92"/>
-  </style:style>
-  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00dc8dc6" officeooo:paragraph-rsid="00109a92" style:font-style-asian="normal" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00dc8dc6" officeooo:paragraph-rsid="00109a92"/>
-  </style:style>
-  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="00d1c80f" officeooo:paragraph-rsid="00109a92"/>
   </style:style>
-  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00de74bf" officeooo:paragraph-rsid="00109a92"/>
   </style:style>
-  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00daf94f" officeooo:paragraph-rsid="00109a92"/>
   </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00209fc3" officeooo:paragraph-rsid="00209fc3"/>
   </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00195ffc" officeooo:paragraph-rsid="00195ffc"/>
   </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="001d33bc" officeooo:paragraph-rsid="001d33bc"/>
   </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="001eb46e" officeooo:paragraph-rsid="001eb46e"/>
   </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00236b59" officeooo:paragraph-rsid="00236b59"/>
   </style:style>
-  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="0023aaec" officeooo:paragraph-rsid="0023aaec"/>
   </style:style>
-  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00daf94f" officeooo:paragraph-rsid="00295a7c"/>
+  </style:style>
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:text-properties officeooo:rsid="00e1c3e5" officeooo:paragraph-rsid="00109a92"/>
   </style:style>
-  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:text-properties officeooo:rsid="00120e85" officeooo:paragraph-rsid="00120e85"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Heading_20_4">
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:text-properties officeooo:rsid="0018cef7" officeooo:paragraph-rsid="0018cef7"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -528,142 +519,151 @@
    <style:text-properties fo:font-style="normal" officeooo:rsid="00262047" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="bold" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00295a7c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0024f39a" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00262047" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0024f39a" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="002689aa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00262047" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="002689aa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00256dce" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00262047" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00256dce" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002689aa" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00262047" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties officeooo:rsid="00e056fa"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002689aa" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties officeooo:rsid="00e5e0ff"/>
+   <style:text-properties officeooo:rsid="00e056fa"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="00e5e0ff"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="00256dce" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="00262047" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00256dce" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00262047" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002689aa" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00295a7c" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties officeooo:rsid="00e3787a"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties style:font-name="Liberation Serif1" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002689aa" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="00e3787a"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" officeooo:rsid="00de74bf" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Liberation Serif1" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties officeooo:rsid="00daf94f"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties officeooo:rsid="00dec667"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" officeooo:rsid="00de74bf" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties officeooo:rsid="00e56947"/>
+   <style:text-properties officeooo:rsid="00daf94f"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties officeooo:rsid="00df4158"/>
+   <style:text-properties officeooo:rsid="00dec667"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties officeooo:rsid="00120e85"/>
+   <style:text-properties officeooo:rsid="00e56947"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties officeooo:rsid="00de74bf"/>
+   <style:text-properties officeooo:rsid="00df4158"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties officeooo:rsid="0013bd87"/>
+   <style:text-properties officeooo:rsid="00120e85"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties officeooo:rsid="001590eb"/>
+   <style:text-properties officeooo:rsid="00de74bf"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0013bd87"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="00e3787a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="001590eb"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0024f39a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00e3787a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0016e83c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0024f39a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties officeooo:rsid="0017f15d"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0016e83c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties officeooo:rsid="0018cef7"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0024f39a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties officeooo:rsid="00195ffc"/>
+   <style:text-properties officeooo:rsid="0017f15d"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties officeooo:rsid="001b4355"/>
+   <style:text-properties officeooo:rsid="0018cef7"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties officeooo:rsid="001eb46e"/>
+   <style:text-properties officeooo:rsid="00195ffc"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties officeooo:rsid="0021e86b"/>
+   <style:text-properties officeooo:rsid="001b4355"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties officeooo:rsid="00236b59"/>
+   <style:text-properties officeooo:rsid="001eb46e"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties officeooo:rsid="0023aaec"/>
+   <style:text-properties officeooo:rsid="0021e86b"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties officeooo:rsid="0024f39a"/>
+   <style:text-properties officeooo:rsid="00236b59"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties officeooo:rsid="00256dce"/>
+   <style:text-properties officeooo:rsid="0023aaec"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties officeooo:rsid="00262047"/>
+   <style:text-properties officeooo:rsid="0024f39a"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
+   <style:text-properties officeooo:rsid="00256dce"/>
+  </style:style>
+  <style:style style:name="T51" style:family="text">
+   <style:text-properties officeooo:rsid="00262047"/>
+  </style:style>
+  <style:style style:name="T52" style:family="text">
    <style:text-properties officeooo:rsid="002689aa"/>
+  </style:style>
+  <style:style style:name="T53" style:family="text">
+   <style:text-properties officeooo:rsid="00295a7c"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0.1in" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -691,7 +691,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P1" text:outline-level="2">Branches</text:h>
-   <text:p text:style-name="P18"><draw:frame draw:style-name="fr1" draw:name="Image3" text:anchor-type="paragraph" svg:width="6.5598in" svg:height="1.8299in" draw:z-index="0"><draw:image loext:mime-type="image/png">
+   <text:p text:style-name="P57"><draw:frame draw:style-name="fr1" draw:name="Image3" text:anchor-type="paragraph" svg:width="6.5598in" svg:height="1.8299in" draw:z-index="0"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAnYAAACwCAIAAAANGLQuAAAAA3NCSVQICAjb4U/gAAAgAElE
        QVR4nO3df1wUdf4H8M+QhAjLovJjRYQVE/aoEEKS4AgvOXokx6EHcRj3YHmkKXRiZI8TvQdF
        3zT1NDHPflGZD/wR6JFBoNXjzl+XPezURLoyQBFIEQk8+SUsCc73j8lt3R+zs7uzuzO7r+eD
@@ -874,50 +874,51 @@
        BnzAO4oBAACsAvdiAQAArAIhFgAAwCoQYgEAAKzi/wFq8mSvMy2+AwAAAABJRU5ErkJggg==
       </office:binary-data>
      </draw:image>
-    </draw:frame>“Branching” is a feature whcih allows work to be performed in parallel by encapsulating such work into a separate, parallel work flow which has branched off from the main trunk. <text:s/><text:span text:style-name="T14">Ideally, no work should be done along the main “master” branch. <text:s/>Instead, all work should be done in branches and merged into the “master”.</text:span></text:p>
+    </draw:frame><text:span text:style-name="T53">You are always working on a branch. <text:s/>The “trunk” is called the m</text:span><text:span text:style-name="_30_0coderef"><text:span text:style-name="T1">aster</text:span></text:span><text:span text:style-name="T53"> branch.</text:span></text:p>
+   <text:p text:style-name="P57">“Branching” is <text:span text:style-name="T53">the mechanism which</text:span> allows work to be performed in parallel <text:span text:style-name="T53">with peers</text:span> by encapsulating such work into a separate, parallel work flow which has branched off from the main trunk. <text:s/><text:span text:style-name="T15">Ideally, no work should be done along the main “master” branch. <text:s/>Instead, all work should be done in branches and merged into the “master”.</text:span></text:p>
    <text:h text:style-name="P2" text:outline-level="3">When To Branch</text:h>
-   <text:p text:style-name="P34">In a nutshell, branch whenever you&apos;re working on a specific part <text:span text:style-name="T31">of your project</text:span>. <text:s/>Ideally, all editing should be conducted in a branch and merged into the master branch. <text:s/><text:span text:style-name="T31">Every person working on the project should create and checkout a new branch before beginning work.</text:span> <text:s/>Other than for the purposes of merging, no editing should be conducted while in the master branch.</text:p>
-   <text:p text:style-name="P34">One <text:span text:style-name="T31">merging</text:span> technique is to create a branch off master, <text:span text:style-name="T31">merge work into that branch, then rebase that branch into master. <text:s/>Or, you could use a branch to save the branch into which you&apos;re merging before attempting a merge.</text:span></text:p>
+   <text:p text:style-name="P34">In a nutshell, branch whenever you&apos;re working on a specific part <text:span text:style-name="T33">of your project</text:span>. <text:s/>Ideally, all editing should be conducted in a branch and merged into the master branch. <text:s/><text:span text:style-name="T33">Every person working on the project should create and checkout a new branch before beginning work.</text:span> <text:s/>Other than for the purposes of merging, no editing should be conducted while in the master branch.</text:p>
+   <text:p text:style-name="P34">One <text:span text:style-name="T33">merging</text:span> technique is to create a branch off master, <text:span text:style-name="T33">merge work into that branch, then rebase that branch into master. <text:s/>Or, you could use a branch to save the branch into which you&apos;re merging before attempting a merge.</text:span></text:p>
    <text:p text:style-name="P35">Branching is also frequently used for experimentation.</text:p>
    <text:h text:style-name="P13" text:outline-level="4">Software</text:h>
-   <text:p text:style-name="P19">When you wish to fix a bug or add a feature to your software project, it should be branched. <text:s/><text:span text:style-name="T32">Unit, integration, and system tests should be in their own branches.</text:span> <text:s/>Every bug, “<text:span text:style-name="T29">topic”,</text:span> or new feature should have its own branch. <text:s/>You may be working on several bugs <text:span text:style-name="T15">or features</text:span> <text:span text:style-name="T15">simultaneously, and each should have its own branch.</text:span></text:p>
-   <text:p text:style-name="P35"><text:span text:style-name="T32">Bug fix and f</text:span>eature branches can <text:span text:style-name="T32">also</text:span> have their own separate experimentation or topic branches, <text:span text:style-name="T32">especially if there is more than one person working on the bug or feature. <text:s/>Bug fixes, like features, are applied to the main development branch (usually master) for future release.</text:span></text:p>
-   <text:p text:style-name="P36">Many pieces of software have a <text:span text:style-name="T33">stable</text:span><text:span text:style-name="T36"> branch which contains </text:span><text:span text:style-name="T37">pre-release or beta</text:span><text:span text:style-name="T36"> code known to successfully compile.</text:span></text:p>
-   <text:p text:style-name="P36"><text:span text:style-name="T36">There should be a branch for each minor release. <text:s/></text:span><text:span text:style-name="T37">Unlike bug fixes, which are applied to the development branch, h</text:span><text:span text:style-name="T36">otfixes are applied </text:span><text:span text:style-name="T37">to both the development branch and the release branch(es).</text:span></text:p>
-   <text:p text:style-name="P39"><text:span text:style-name="T37">D</text:span><text:span text:style-name="T36">ocumentation should be maintained in separate branches; in branches parallel to features, if possible.</text:span></text:p>
+   <text:p text:style-name="P19">When you wish to fix a bug or add a feature to your software project, it should be branched. <text:s/><text:span text:style-name="T34">Unit, integration, and system tests should be in their own branches.</text:span> <text:s/>Every bug, “<text:span text:style-name="T31">topic”,</text:span> or new feature should have its own branch. <text:s/>You may be working on several bugs <text:span text:style-name="T16">or features</text:span> <text:span text:style-name="T16">simultaneously, and each should have its own branch.</text:span></text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T34">Bug fix and f</text:span>eature branches can <text:span text:style-name="T34">also</text:span> have their own separate experimentation or topic branches, <text:span text:style-name="T34">especially if there is more than one person working on the bug or feature. <text:s/>Bug fixes, like features, are applied to the main development branch (usually master) for future release.</text:span></text:p>
+   <text:p text:style-name="P36">Many pieces of software have a <text:span text:style-name="T35">stable</text:span><text:span text:style-name="T38"> branch which contains </text:span><text:span text:style-name="T39">pre-release or beta</text:span><text:span text:style-name="T38"> code known to successfully compile.</text:span></text:p>
+   <text:p text:style-name="P36"><text:span text:style-name="T38">There should be a branch for each minor release. <text:s/></text:span><text:span text:style-name="T39">Unlike bug fixes, which are applied to the development branch, h</text:span><text:span text:style-name="T38">otfixes are applied </text:span><text:span text:style-name="T39">to both the development branch and the release branch(es).</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T39">D</text:span><text:span text:style-name="T38">ocumentation should be maintained in separate branches; in branches parallel to features, if possible.</text:span></text:p>
    <text:h text:style-name="P15" text:outline-level="4"><text:soft-page-break/>Writing</text:h>
-   <text:p text:style-name="P34">Includes technical documentation and creative writing. <text:s/>The project should probably consist of several documents, each being a chapter, part, section, or topic, all controlled by a master document. <text:s/><text:span text:style-name="T39">Branching each chapter allows the writer(s) to return to earlier of just that chapter. <text:s/>Images should be developed in their own branches so that the writer(s) can return to earlier versions of the image, if neccessary.</text:span></text:p>
+   <text:p text:style-name="P34">Includes technical documentation and creative writing. <text:s/>The project should probably consist of several documents, each being a chapter, part, section, or topic, all controlled by a master document. <text:s/><text:span text:style-name="T41">Branching each chapter allows the writer(s) to return to earlier of just that chapter. <text:s/>Images should be developed in their own branches so that the writer(s) can return to earlier versions of the image, if neccessary.</text:span></text:p>
    <text:p text:style-name="P37">Every contributor and/or editor require their own branch.</text:p>
-   <text:p text:style-name="P37">If applicable, each release version of the document should have its own branch. <text:s/><text:span text:style-name="T40">For novels or other publications, each manuscript revision need not neccessarily, but should be tagged.</text:span></text:p>
+   <text:p text:style-name="P37">If applicable, each release version of the document should have its own branch. <text:s/><text:span text:style-name="T42">For novels or other publications, each manuscript revision need not neccessarily, but should be tagged.</text:span></text:p>
    <text:p text:style-name="P39">Saving text in a flat XML format allows for easier automatic merging but may result in element-based content loss.</text:p>
    <text:h text:style-name="P16" text:outline-level="4">Graphics / Animation</text:h>
-   <text:p text:style-name="P38">A new branch should be created every time a new layer is created. <text:s/>Branches should be created for experimentation, etc. <text:s/><text:span text:style-name="T41">For animation, each character and each scene should have its own branch.</text:span></text:p>
+   <text:p text:style-name="P38">A new branch should be created every time a new layer is created. <text:s/>Branches should be created for experimentation, etc. <text:s/><text:span text:style-name="T43">For animation, each character and each scene should have its own branch.</text:span></text:p>
    <text:h text:style-name="P4" text:outline-level="3">Master Branch</text:h>
-   <text:p text:style-name="P29">By default every Git project begins with a <text:span text:style-name="_30_0coderef">master</text:span> branch. <text:s/><text:span text:style-name="T46">This branch exists for the life of the project and represents the “development” , or “as-yet unreleased”, state of the project.</text:span> <text:s/><text:span text:style-name="T41">If reasonably feasible, directly editing files on the master branch should be avoided, even if you are the only one working on the project.</text:span></text:p>
-   <text:p text:style-name="P18"><text:span text:style-name="T41">I</text:span>f you are working on a project which will be consumed by others, at the very least you will want a separate “release” branch. <text:s/>The release branch holds a record of the copy of the work which you have distributed.</text:p>
-   <text:p text:style-name="P45">The master branch could be renamed <text:span text:style-name="T16">develop</text:span><text:span text:style-name="T1"> or </text:span><text:span text:style-name="T16">stable</text:span><text:span text:style-name="T1">.</text:span></text:p>
+   <text:p text:style-name="P29">By default every Git project begins with a <text:span text:style-name="_30_0coderef">master</text:span> branch. <text:s/><text:span text:style-name="T48">This branch exists for the life of the project and represents the “development” , or “as-yet unreleased”, state of the project.</text:span> <text:s/><text:span text:style-name="T43">If reasonably feasible, directly editing files on the master branch should be avoided, even if you are the only one working on the project.</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T43">I</text:span>f you are working on a project which will be consumed by others, at the very least you will want a separate “release” branch. <text:s/>The release branch holds a record of the copy of the work which you have distributed.</text:p>
+   <text:p text:style-name="P45">The master branch could be renamed <text:span text:style-name="T17">develop</text:span><text:span text:style-name="T1"> or </text:span><text:span text:style-name="T17">stable</text:span><text:span text:style-name="T1">.</text:span></text:p>
    <text:h text:style-name="P10" text:outline-level="3">Chapter Branches</text:h>
-   <text:p text:style-name="P42">Book chapters should generally have their own <text:span text:style-name="T44">long-lived</text:span> branches. <text:s/><text:span text:style-name="T44">Each chapter should be checked out before editing. <text:s/>Doing it this way makes it easier to follow the history of chapter edits. <text:s/>Chapter branches are merged into the master branch for manuscript generation, and get wrapped up at the same time as the master with final publication. <text:s/>Of course, each branch would be named </text:span><text:span text:style-name="T17">chapter-nn</text:span><text:span text:style-name="T3">.</text:span></text:p>
+   <text:p text:style-name="P42">Book chapters should generally have their own <text:span text:style-name="T46">long-lived</text:span> branches. <text:s/><text:span text:style-name="T46">Each chapter should be checked out before editing. <text:s/>Doing it this way makes it easier to follow the history of chapter edits. <text:s/>Chapter branches are merged into the master branch for manuscript generation, and get wrapped up at the same time as the master with final publication. <text:s/>Of course, each branch would be named </text:span><text:span text:style-name="T18">chapter-nn</text:span><text:span text:style-name="T3">.</text:span></text:p>
    <text:h text:style-name="P7" text:outline-level="3">Feature Branch</text:h>
-   <text:p text:style-name="P25">In software development, <text:span text:style-name="T42">each feature should be on its own branch. <text:s/>The branch will exist for as long as it takes to develop the feature. <text:s/>If more than one developer is working on the feature, each one should have his own branch branching off the feature branch. <text:s/>The feature branch may also have a topic branch associated with it, and there may also be documentation being written in parallel with the feature.</text:span></text:p>
-   <text:p text:style-name="P26">Features <text:span text:style-name="T45">and documentation</text:span> are rolled into the master/develop branch for future release along the release branch. <text:s/><text:span text:style-name="T45">The branch should be deleted when the feature is merged with the master.</text:span></text:p>
-   <text:p text:style-name="P27">Feature branches should probably be named <text:span text:style-name="T16">feature-&lt;name_of_feature&gt;</text:span>, <text:span text:style-name="T16">feature-###</text:span>, or something similar.</text:p>
-   <text:h text:style-name="P8" text:outline-level="3"><text:soft-page-break/>Bugfix/<text:span text:style-name="T43">Hotfix</text:span> Branch<text:span text:style-name="T43">es</text:span></text:h>
-   <text:p text:style-name="P40">A bug is something which does not work the way it was intended or expected to work. <text:s/><text:span text:style-name="T43">Relatively minor b</text:span>ug<text:span text:style-name="T43">s are fixed on their own short-lived branches and</text:span> rolled into the master/develop branch for future release along the release branch.</text:p>
-   <text:p text:style-name="P41">The only difference between a <text:span text:style-name="T16">bugfix</text:span> branch and a <text:span text:style-name="T16">hotfix</text:span> branch is that hotfixes are rolled into the <text:span text:style-name="T33">release</text:span> branch for immediate <text:span text:style-name="T45">release,</text:span> as well as <text:span text:style-name="T45">being rolled into</text:span> the <text:span text:style-name="T33">master/develop</text:span> branch.</text:p>
-   <text:p text:style-name="P45">These branches should probably be named <text:span text:style-name="T5">bugfix-####</text:span><text:span text:style-name="T1"> / </text:span><text:span text:style-name="T5">hotfix-####</text:span><text:span text:style-name="T1">, or </text:span><text:span text:style-name="T5">bugfix-version-####</text:span><text:span text:style-name="T1"> / </text:span><text:span text:style-name="T5">hotfix-version-####</text:span><text:span text:style-name="T1">.</text:span></text:p>
-   <text:h text:style-name="P9" text:outline-level="3">Release / <text:span text:style-name="T47">Stable</text:span> / <text:span text:style-name="T49">Release Candidate Branches</text:span></text:h>
-   <text:p text:style-name="P43">Every type of project has its own release schedule and strategy.<text:span text:style-name="T10"> <text:s/>You can do this in </text:span><text:span text:style-name="T11">a few</text:span><text:span text:style-name="T10"> ways.</text:span></text:p>
-   <text:p text:style-name="P43"><text:span text:style-name="T10">One method is to have one long-lived </text:span><text:span text:style-name="T6">stable</text:span><text:span text:style-name="T10"> branch which lives for the life of the project and represents incremental release versions of the project.</text:span></text:p>
-   <text:p text:style-name="P43"><text:span text:style-name="T10">Or you can have multiple </text:span><text:span text:style-name="T19">release</text:span><text:span text:style-name="T10"> branches which eventually dead-end. </text:span><text:s/>Every major release <text:span text:style-name="T47">would</text:span> ha<text:span text:style-name="T47">ve</text:span> its own <text:span text:style-name="T45">long-lived</text:span> branch <text:span text:style-name="T45">which eventually dead-ends at that version&apos;s end-of-life</text:span>. <text:s/>Minor releases and hotfixes are merged incrementally into the <text:span text:style-name="T16">ma</text:span><text:span text:style-name="T18">jo</text:span><text:span text:style-name="T16">r</text:span> <text:span text:style-name="T49">version </text:span>branch.</text:p>
-   <text:p text:style-name="P45">A <text:span text:style-name="T49">popular</text:span> variation is to <text:span text:style-name="T49">use </text:span><text:span text:style-name="T18">release candidate</text:span><text:span text:style-name="T4"> branches in lieu of a </text:span><text:span text:style-name="T7">develop</text:span><text:span text:style-name="T4"> branch whch eventually gets merged onto the project&apos;s </text:span><text:span text:style-name="T7">stable</text:span><text:span text:style-name="T12"> branch. <text:s/></text:span><text:span text:style-name="T13">Multiple </text:span><text:span text:style-name="T20">release candidates</text:span><text:span text:style-name="T13"> can be worked on simultaneously, but this requires regular merging of features from </text:span><text:span text:style-name="T8">master</text:span><text:span text:style-name="T13"> into the </text:span><text:span text:style-name="T20">release candidate</text:span><text:span text:style-name="T13"> branches.</text:span></text:p>
-   <text:p text:style-name="P46"><text:span text:style-name="T12">R</text:span><text:span text:style-name="T9">elease branches should probably be named </text:span><text:span text:style-name="T5">rel-#.##.####</text:span><text:span text:style-name="T9">, release candidate branches generally branch off of </text:span><text:span text:style-name="T5">master</text:span><text:span text:style-name="T9"> with the name </text:span><text:span text:style-name="T5">rc-#.##.####</text:span><text:span text:style-name="T9"> and get merged into </text:span><text:span text:style-name="T5">stable</text:span><text:span text:style-name="T9"> onrelease, as well as back into </text:span><text:span text:style-name="T5">maseter</text:span><text:span text:style-name="T9">.</text:span></text:p>
+   <text:p text:style-name="P25">In software development, <text:span text:style-name="T44">each feature should be on its own branch. <text:s/>The branch will exist for as long as it takes to develop the feature. <text:s/>If more than one developer is working on the feature, each one should have his own branch branching off the feature branch. <text:s/>The feature branch may also have a topic branch associated with it, and there may also be documentation being written in parallel with the feature.</text:span></text:p>
+   <text:p text:style-name="P26">Features <text:span text:style-name="T47">and documentation</text:span> are rolled into the master/develop branch for future release along the release branch. <text:s/><text:span text:style-name="T47">The branch should be deleted when the feature is merged with the master.</text:span></text:p>
+   <text:p text:style-name="P27">Feature branches should probably be named <text:span text:style-name="T17">feature-&lt;name_of_feature&gt;</text:span>, <text:span text:style-name="T17">feature-###</text:span>, or something similar.</text:p>
+   <text:h text:style-name="P8" text:outline-level="3"><text:soft-page-break/>Bugfix/<text:span text:style-name="T45">Hotfix</text:span> Branch<text:span text:style-name="T45">es</text:span></text:h>
+   <text:p text:style-name="P40">A bug is something which does not work the way it was intended or expected to work. <text:s/><text:span text:style-name="T45">Relatively minor b</text:span>ug<text:span text:style-name="T45">s are fixed on their own short-lived branches and</text:span> rolled into the master/develop branch for future release along the release branch.</text:p>
+   <text:p text:style-name="P41">The only difference between a <text:span text:style-name="T17">bugfix</text:span> branch and a <text:span text:style-name="T17">hotfix</text:span> branch is that hotfixes are rolled into the <text:span text:style-name="T35">release</text:span> branch for immediate <text:span text:style-name="T47">release,</text:span> as well as <text:span text:style-name="T47">being rolled into</text:span> the <text:span text:style-name="T35">master/develop</text:span> branch.</text:p>
+   <text:p text:style-name="P45">These branches should probably be named <text:span text:style-name="T6">bugfix-####</text:span><text:span text:style-name="T1"> / </text:span><text:span text:style-name="T6">hotfix-####</text:span><text:span text:style-name="T1">, or </text:span><text:span text:style-name="T6">bugfix-version-####</text:span><text:span text:style-name="T1"> / </text:span><text:span text:style-name="T6">hotfix-version-####</text:span><text:span text:style-name="T1">.</text:span></text:p>
+   <text:h text:style-name="P9" text:outline-level="3">Release / <text:span text:style-name="T49">Stable</text:span> / <text:span text:style-name="T51">Release Candidate Branches</text:span></text:h>
+   <text:p text:style-name="P43">Every type of project has its own release schedule and strategy.<text:span text:style-name="T11"> <text:s/>You can do this in </text:span><text:span text:style-name="T12">a few</text:span><text:span text:style-name="T11"> ways.</text:span></text:p>
+   <text:p text:style-name="P43"><text:span text:style-name="T11">One method is to have one long-lived </text:span><text:span text:style-name="T7">stable</text:span><text:span text:style-name="T11"> branch which lives for the life of the project and represents incremental release versions of the project.</text:span></text:p>
+   <text:p text:style-name="P43"><text:span text:style-name="T11">Or you can have multiple </text:span><text:span text:style-name="T21">release</text:span><text:span text:style-name="T11"> branches which eventually dead-end. </text:span><text:s/>Every major release <text:span text:style-name="T49">would</text:span> ha<text:span text:style-name="T49">ve</text:span> its own <text:span text:style-name="T47">long-lived</text:span> branch <text:span text:style-name="T47">which eventually dead-ends at that version&apos;s end-of-life</text:span>. <text:s/>Minor releases and hotfixes are merged incrementally into the <text:span text:style-name="T17">ma</text:span><text:span text:style-name="T19">jo</text:span><text:span text:style-name="T17">r</text:span> <text:span text:style-name="T51">version </text:span>branch.</text:p>
+   <text:p text:style-name="P45">A <text:span text:style-name="T51">popular</text:span> variation is to <text:span text:style-name="T51">use </text:span><text:span text:style-name="T19">release candidate</text:span><text:span text:style-name="T4"> branches in lieu of a </text:span><text:span text:style-name="T8">develop</text:span><text:span text:style-name="T4"> branch whch eventually gets merged onto the project&apos;s </text:span><text:span text:style-name="T8">stable</text:span><text:span text:style-name="T13"> branch. <text:s/></text:span><text:span text:style-name="T14">Multiple </text:span><text:span text:style-name="T22">release candidates</text:span><text:span text:style-name="T14"> can be worked on simultaneously, but this requires regular merging of features from </text:span><text:span text:style-name="T9">master</text:span><text:span text:style-name="T14"> into the </text:span><text:span text:style-name="T22">release candidate</text:span><text:span text:style-name="T14"> branches.</text:span></text:p>
+   <text:p text:style-name="P46"><text:span text:style-name="T13">R</text:span><text:span text:style-name="T10">elease branches should probably be named </text:span><text:span text:style-name="T6">rel-#.##.####</text:span><text:span text:style-name="T10">, release candidate branches generally branch off of </text:span><text:span text:style-name="T6">master</text:span><text:span text:style-name="T10"> with the name </text:span><text:span text:style-name="T6">rc-#.##.####</text:span><text:span text:style-name="T10"> and get merged into </text:span><text:span text:style-name="T6">stable</text:span><text:span text:style-name="T10"> onrelease, as well as back into </text:span><text:span text:style-name="T6">maseter</text:span><text:span text:style-name="T10">.</text:span></text:p>
    <text:h text:style-name="P11" text:outline-level="3">Support Branches</text:h>
    <text:p text:style-name="P44">Support branches are dead-end branches created on-demand to “freeze” a version for those who are unable to move forward to current release versions. <text:s/>Security and hotfixes are merged into the support branch.</text:p>
-   <text:p text:style-name="P44">Support branches tend to be long-lived <text:span text:style-name="T47">and</text:span> generally create a lot of extra work. <text:s/><text:span text:style-name="T47">While they</text:span> should be avoided whenever possible, <text:span text:style-name="T47">they are usually necessary when the project has a </text:span><text:span text:style-name="T35">stable</text:span><text:span text:style-name="T38"> branch which represents a continuous flow of development.</text:span></text:p>
-   <text:p text:style-name="P47"><text:span text:style-name="T38">S</text:span><text:span text:style-name="T36">upport branches should probably be named </text:span><text:span text:style-name="T33">support-#.##</text:span><text:span text:style-name="T36">.</text:span></text:p>
-   <text:h text:style-name="P12" text:outline-level="3"><text:span text:style-name="T50">Additional </text:span>Naming <text:span text:style-name="T50">Conventions</text:span></text:h>
-   <text:p text:style-name="P44">Branch names should be descriptive. <text:s/><text:span text:style-name="T48">I&apos;ve suggested naming conventions for each branch, but you can also include the name of the person or team to which the branch has been assigned.</text:span></text:p>
+   <text:p text:style-name="P44">Support branches tend to be long-lived <text:span text:style-name="T49">and</text:span> generally create a lot of extra work. <text:s/><text:span text:style-name="T49">While they</text:span> should be avoided whenever possible, <text:span text:style-name="T49">they are usually necessary when the project has a </text:span><text:span text:style-name="T37">stable</text:span><text:span text:style-name="T40"> branch which represents a continuous flow of development.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T40">S</text:span><text:span text:style-name="T38">upport branches should probably be named </text:span><text:span text:style-name="T35">support-#.##</text:span><text:span text:style-name="T38">.</text:span></text:p>
+   <text:h text:style-name="P12" text:outline-level="3"><text:span text:style-name="T52">Additional </text:span>Naming <text:span text:style-name="T52">Conventions</text:span></text:h>
+   <text:p text:style-name="P44">Branch names should be descriptive. <text:s/><text:span text:style-name="T50">I&apos;ve suggested naming conventions for each branch, but you can also include the name of the person or team to which the branch has been assigned.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>

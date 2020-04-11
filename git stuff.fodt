@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-03-24T21:24:27.802331086</meta:creation-date><meta:editing-duration>P6DT2H29M34S</meta:editing-duration><meta:editing-cycles>65</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2020-04-08T22:11:39.856209976</dc:date><dc:creator>Ian Moote</dc:creator><meta:document-statistic meta:table-count="0" meta:image-count="1" meta:object-count="0" meta:page-count="14" meta:paragraph-count="337" meta:word-count="3633" meta:character-count="22219" meta:non-whitespace-character-count="18787"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
+ <office:meta><meta:creation-date>2016-03-24T21:24:27.802331086</meta:creation-date><meta:editing-duration>P6DT3H7M27S</meta:editing-duration><meta:editing-cycles>66</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2020-04-10T21:26:23.202148125</dc:date><dc:creator>Ian Moote</dc:creator><meta:document-statistic meta:table-count="0" meta:image-count="1" meta:object-count="0" meta:page-count="13" meta:paragraph-count="318" meta:word-count="3477" meta:character-count="21234" meta:non-whitespace-character-count="17936"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">52070</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24634</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">16406</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">9541</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">60775</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">3522</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">2653</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">52070</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24633</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">68474</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">16404</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">15396649</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">15473513</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -1014,113 +1014,122 @@
   <style:style style:name="P226" style:family="paragraph" style:parent-style-name="Heading_20_4">
    <style:text-properties officeooo:rsid="00e1c3e5" officeooo:paragraph-rsid="00e1c3e5"/>
   </style:style>
-  <style:style style:name="P227" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00bd23bf" officeooo:paragraph-rsid="00bd23bf"/>
-  </style:style>
-  <style:style style:name="P228" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="004f0e20" officeooo:paragraph-rsid="008f8428"/>
-  </style:style>
-  <style:style style:name="P229" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="004f0e20" officeooo:paragraph-rsid="004f0e20"/>
-  </style:style>
-  <style:style style:name="P230" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00518346" officeooo:paragraph-rsid="00518346"/>
-  </style:style>
-  <style:style style:name="P231" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P232" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0052a406" officeooo:paragraph-rsid="0052a406" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="007de7f5" officeooo:paragraph-rsid="007de7f5"/>
-  </style:style>
-  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="005839e0" officeooo:paragraph-rsid="005839e0"/>
-  </style:style>
-  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00507790" officeooo:paragraph-rsid="00507790"/>
-  </style:style>
-  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="005330a7" officeooo:paragraph-rsid="005330a7"/>
-  </style:style>
-  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="005427aa" officeooo:paragraph-rsid="005427aa"/>
-  </style:style>
-  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="006396e9" officeooo:paragraph-rsid="006396e9"/>
-  </style:style>
-  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="0066fdb8" officeooo:paragraph-rsid="0066fdb8"/>
-  </style:style>
-  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00605426"/>
-  </style:style>
-  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:paragraph-rsid="0066fdb8"/>
-  </style:style>
-  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="008d27ab" officeooo:paragraph-rsid="008d27ab"/>
-  </style:style>
-  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P227" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties officeooo:rsid="00c27d0a" officeooo:paragraph-rsid="00c27d0a"/>
   </style:style>
-  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00c0e766" officeooo:paragraph-rsid="00c0e766"/>
-  </style:style>
-  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00bbd988" officeooo:paragraph-rsid="00bbd988"/>
-  </style:style>
-  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00c28ec1" officeooo:paragraph-rsid="00c28ec1"/>
-  </style:style>
-  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00c75b5d" officeooo:paragraph-rsid="00c75b5d"/>
-  </style:style>
-  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00adde29" officeooo:paragraph-rsid="00b07f18"/>
-  </style:style>
-  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="008df304" officeooo:paragraph-rsid="008df304"/>
-  </style:style>
-  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="008f6f07" officeooo:paragraph-rsid="008f6f07"/>
-  </style:style>
-  <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00a95c44" officeooo:paragraph-rsid="00a95c44"/>
-  </style:style>
-  <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="004265a4"/>
-  </style:style>
-  <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00507790" officeooo:paragraph-rsid="00507790"/>
-  </style:style>
-  <style:style style:name="P254" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="00507790"/>
-  </style:style>
-  <style:style style:name="P255" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="005427aa"/>
-  </style:style>
-  <style:style style:name="P256" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="005fd8a6" officeooo:paragraph-rsid="005fd8a6"/>
-  </style:style>
-  <style:style style:name="P257" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="00761ffd" officeooo:paragraph-rsid="00761ffd"/>
-  </style:style>
-  <style:style style:name="P258" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:text-properties officeooo:rsid="00c27d0a" officeooo:paragraph-rsid="00c27d0a"/>
-  </style:style>
-  <style:style style:name="P259" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P228" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:rsid="00c10375" officeooo:paragraph-rsid="00c10375"/>
   </style:style>
-  <style:style style:name="P260" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P229" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:rsid="00c2350b" officeooo:paragraph-rsid="00c2350b"/>
   </style:style>
-  <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+  <style:style style:name="P230" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:text-properties fo:font-weight="normal" officeooo:rsid="00c75b5d" officeooo:paragraph-rsid="00c75b5d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+  <style:style style:name="P231" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
    <style:text-properties officeooo:rsid="008f8428" officeooo:paragraph-rsid="008f8428"/>
+  </style:style>
+  <style:style style:name="P232" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="00b07f18"/>
+  </style:style>
+  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="004d4d3c" officeooo:paragraph-rsid="00b07f18"/>
+  </style:style>
+  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:paragraph-rsid="00c28ec1"/>
+  </style:style>
+  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="00bd23bf" officeooo:paragraph-rsid="00bd23bf"/>
+  </style:style>
+  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="004f0e20" officeooo:paragraph-rsid="008f8428"/>
+  </style:style>
+  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="004f0e20" officeooo:paragraph-rsid="004f0e20"/>
+  </style:style>
+  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="00518346" officeooo:paragraph-rsid="00518346"/>
+  </style:style>
+  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0052a406" officeooo:paragraph-rsid="0052a406" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="007de7f5" officeooo:paragraph-rsid="007de7f5"/>
+  </style:style>
+  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="005839e0" officeooo:paragraph-rsid="005839e0"/>
+  </style:style>
+  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="00507790" officeooo:paragraph-rsid="00507790"/>
+  </style:style>
+  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="005330a7" officeooo:paragraph-rsid="005330a7"/>
+  </style:style>
+  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="005427aa" officeooo:paragraph-rsid="005427aa"/>
+  </style:style>
+  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="006396e9" officeooo:paragraph-rsid="006396e9"/>
+  </style:style>
+  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="0066fdb8" officeooo:paragraph-rsid="0066fdb8"/>
+  </style:style>
+  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="00605426"/>
+  </style:style>
+  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:paragraph-rsid="0066fdb8"/>
+  </style:style>
+  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="008d27ab" officeooo:paragraph-rsid="008d27ab"/>
+  </style:style>
+  <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00c27d0a" officeooo:paragraph-rsid="00c27d0a"/>
+  </style:style>
+  <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00c0e766" officeooo:paragraph-rsid="00c0e766"/>
+  </style:style>
+  <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00bbd988" officeooo:paragraph-rsid="00bbd988"/>
+  </style:style>
+  <style:style style:name="P254" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00c28ec1" officeooo:paragraph-rsid="00c28ec1"/>
+  </style:style>
+  <style:style style:name="P255" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00c75b5d" officeooo:paragraph-rsid="00c75b5d"/>
+  </style:style>
+  <style:style style:name="P256" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00adde29" officeooo:paragraph-rsid="00b07f18"/>
+  </style:style>
+  <style:style style:name="P257" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="008df304" officeooo:paragraph-rsid="008df304"/>
+  </style:style>
+  <style:style style:name="P258" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="008f6f07" officeooo:paragraph-rsid="008f6f07"/>
+  </style:style>
+  <style:style style:name="P259" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00a95c44" officeooo:paragraph-rsid="00a95c44"/>
+  </style:style>
+  <style:style style:name="P260" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="004265a4"/>
+  </style:style>
+  <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00507790" officeooo:paragraph-rsid="00507790"/>
+  </style:style>
+  <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="00507790"/>
+  </style:style>
+  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="005427aa"/>
+  </style:style>
+  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="005fd8a6" officeooo:paragraph-rsid="005fd8a6"/>
+  </style:style>
+  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="00761ffd" officeooo:paragraph-rsid="00761ffd"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="004265a4"/>
@@ -1843,17 +1852,11 @@
    <text:p text:style-name="P54"/>
    <text:h text:style-name="P187" text:outline-level="2">Quick Start (from the command line)</text:h>
    <text:p text:style-name="P52">If you will be using an “open/public” repository (GitHub, BitBucket, etc.):</text:p>
-   <text:p text:style-name="P162">git init -–bare &lt;[username@host:]/path/to/repository&gt;</text:p>
-   <text:p text:style-name="P98">git clone &lt;[username@hostname]/path/to/repository&gt;</text:p>
-   <text:p text:style-name="P145">//create or log into your account on the open service</text:p>
+   <text:p text:style-name="P162"><text:span text:style-name="T127">//create or log into your account on the open service</text:span></text:p>
    <text:p text:style-name="P144">//create your on-line project repository through their web interface</text:p>
    <text:p text:style-name="P144">//a “bare” project now exists on the <text:span text:style-name="T134">open</text:span> repository <text:span text:style-name="T134">service</text:span></text:p>
    <text:p text:style-name="P144">//<text:span text:style-name="T134">use git clone to create your local repository</text:span></text:p>
-   <text:p text:style-name="P44"><text:span text:style-name="T134">And/or i</text:span>nitialize <text:span text:style-name="T129">a</text:span> “remote” repository <text:span text:style-name="T134">on your local netowrk</text:span>:</text:p>
-   <text:p text:style-name="P155">//<text:span text:style-name="T119">NB: Git does its own filename expansion, so do NOT use “~” in the remote</text:span></text:p>
-   <text:p text:style-name="P157">//<text:tab/>repository name! <text:s/>See the notes.</text:p>
-   <text:p text:style-name="P147">//<text:span text:style-name="T134">a “bare” repository now exists on the network share</text:span></text:p>
-   <text:p text:style-name="P53">GIT clone; creating a local repository from a <text:span text:style-name="T134">local network or</text:span> public/open <text:span text:style-name="T134">repository</text:span>:</text:p>
+   <text:p text:style-name="P232"><text:span text:style-name="T128">GIT clone; creating a local repository from a local network or public/open repository:</text:span></text:p>
    <text:p text:style-name="P143">//<text:span text:style-name="T127">the project working</text:span> directory is created within the current directory</text:p>
    <text:p text:style-name="P143">//<text:span text:style-name="T128">&lt;origin&gt; is automatically set by the clone command</text:span></text:p>
    <text:p text:style-name="P143">//<text:span text:style-name="T130">master branch is automatically checked out</text:span></text:p>
@@ -1861,24 +1864,14 @@
    <text:p text:style-name="P140">//Create the new project directory from within your IDE (geany, et al)</text:p>
    <text:p text:style-name="P146">mkdir &lt;working_directory&gt;</text:p>
    <text:p text:style-name="P147">cd &lt;<text:span text:style-name="T128">working_directory</text:span>&gt;</text:p>
-   <text:p text:style-name="P147">git init</text:p>
    <text:p text:style-name="P147">//<text:span text:style-name="T134">the local repository is located in the ./.git directory</text:span></text:p>
-   <text:p text:style-name="P61">Configure some minimum settings:</text:p>
-   <text:p text:style-name="P147">//<text:span text:style-name="T134">config --global applies to any git project on your account</text:span></text:p>
-   <text:p text:style-name="P147">//<text:span text:style-name="T134">config --local applies only to the git project in your directory</text:span></text:p>
-   <text:p text:style-name="P147">//<text:span text:style-name="T134">config --system applies globally to any account on your computer</text:span></text:p>
-   <text:p text:style-name="P148">git config --global user.name “&lt;User Name&gt;”</text:p>
-   <text:p text:style-name="P147">git config --global user.email “&lt;user<text:span text:style-name="T120">@</text:span>email&gt;”</text:p>
-   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P233"/>
    <text:p text:style-name="P97">//<text:span text:style-name="T134">configure remote, if used, for pushing and pulling</text:span></text:p>
    <text:p text:style-name="P97">git remote add origin &lt;[username@host:]/path/to/repository&gt;</text:p>
    <text:p text:style-name="P62">Basic workflow:</text:p>
-   <text:p text:style-name="P152"><text:soft-page-break/>git add &lt;filename&gt;<text:tab/><text:tab/><text:tab/>//add file to staging area and track</text:p>
    <text:p text:style-name="P154">git rm --cached &lt;filename&gt;<text:tab/><text:tab/>//remove files from staging (and index?)</text:p>
-   <text:p text:style-name="P152">git commit -a -m “&lt;commit message&gt;”<text:tab/>//commit tracked files when neccessary</text:p>
    <text:p text:style-name="P62">Typical workflow:</text:p>
    <text:p text:style-name="P154">git stash<text:tab/>//??</text:p>
-   <text:p text:style-name="P154">git pull<text:tab/>//??</text:p>
    <text:p text:style-name="P154">git pop<text:tab/>//??</text:p>
    <text:p text:style-name="P153">git status<text:tab/><text:tab/><text:tab/><text:tab/>//show what has changed</text:p>
    <text:p text:style-name="P154">git mv &lt;oldfile&gt; &lt;newfile&gt;<text:tab/>//rename or move a file</text:p>
@@ -1888,12 +1881,7 @@
    <text:p text:style-name="P152">git rm --cached &lt;filename&gt;<text:tab/>//remove file from staging area <text:span text:style-name="T135">(and index?)</text:span></text:p>
    <text:p text:style-name="P152">git commit -m &lt;”commit message”&gt;<text:tab/>//commit <text:span text:style-name="T135">staged files</text:span> to local repository</text:p>
    <text:p text:style-name="P154">git commit --amend<text:tab/><text:tab/>//add to previous commit</text:p>
-   <text:p text:style-name="P152">git push origin master<text:tab/><text:tab/>//push branch “master” to repository “origin”</text:p>
-   <text:p text:style-name="P161"/>
-   <text:p text:style-name="P161">git checkout -- &lt;filename&gt;<text:tab/>//abandon edits; restore file from last commit</text:p>
-   <text:p text:style-name="P161"/>
-   <text:p text:style-name="P154">git log --graph --stat<text:tab/><text:tab/>//show log with branch graph</text:p>
-   <text:h text:style-name="P188" text:outline-level="2">Index</text:h>
+   <text:h text:style-name="P188" text:outline-level="2"><text:soft-page-break/>Index</text:h>
    <text:p text:style-name="P90">Almost every operation is performed on the local repository.</text:p>
    <text:p text:style-name="P67"><draw:frame draw:style-name="fr1" draw:name="Image1" text:anchor-type="paragraph" svg:width="4.2299in" svg:height="4.2299in" draw:z-index="0"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAZYAAAGWCAIAAADUmjLBAAAAA3NCSVQICAjb4U/gAAAgAElE
@@ -2145,55 +2133,55 @@
       </office:binary-data>
      </draw:image>
     </draw:frame>You must be able to:</text:p>
-   <text:list xml:id="list3997029670" text:style-name="L1">
+   <text:list xml:id="list1266377812" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P258">clone a project from a repository</text:p>
+     <text:p text:style-name="P227">clone a project from a repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">add/remove files to/from the index</text:p>
+     <text:p text:style-name="P227">add/remove files to/from the index</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">commit files to your repository</text:p>
+     <text:p text:style-name="P227">commit files to your repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">recover earlier versions of files from your local repository</text:p>
+     <text:p text:style-name="P227">recover earlier versions of files from your local repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">checkout branches</text:p>
+     <text:p text:style-name="P227">checkout branches</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">create branches</text:p>
+     <text:p text:style-name="P227">create branches</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">fetch and pull updates</text:p>
+     <text:p text:style-name="P227">fetch and pull updates</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">push your changes to the remote repository</text:p>
+     <text:p text:style-name="P227">push your changes to the remote repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P258">initiate a pull request</text:p>
+     <text:p text:style-name="P227">initiate a pull request</text:p>
     </text:list-item>
    </text:list>
-   <text:h text:style-name="P189" text:outline-level="2"><text:soft-page-break/>States</text:h>
+   <text:h text:style-name="P189" text:outline-level="2">States</text:h>
    <text:p text:style-name="P66">Git stores your working files in one of four areas:</text:p>
-   <text:list xml:id="list1023419590" text:style-name="L2">
+   <text:list xml:id="list3741773320" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P259">the current working directory</text:p>
+     <text:p text:style-name="P228">the current working directory</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P259">indexed in the “staging area”</text:p>
+     <text:p text:style-name="P228">indexed in the “staging area”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P259">in your local repository</text:p>
+     <text:p text:style-name="P228">in your local repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P260">stash</text:p>
+     <text:p text:style-name="P229">stash</text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P190" text:outline-level="2">Branching and Branches</text:h>
    <text:h text:style-name="P206" text:outline-level="3">Branches</text:h>
    <text:p text:style-name="P65">You are always working on a branch. <text:s/>The default is the <text:span text:style-name="_30_0coderef">master</text:span> branch; <text:span text:style-name="_30_0coderef">git clone</text:span><text:span text:style-name="T138"> automatically checks out the master branch after it </text:span><text:span text:style-name="_30_0coderef">git pull</text:span><text:span text:style-name="T138">&apos;s the project out of the repository.</text:span></text:p>
-   <text:h text:style-name="P191" text:outline-level="2">Commits <text:span text:style-name="T139">and Pushes</text:span></text:h>
+   <text:h text:style-name="P191" text:outline-level="2"><text:soft-page-break/>Commits <text:span text:style-name="T139">and Pushes</text:span></text:h>
    <text:p text:style-name="P68"><text:span text:style-name="T32">When To Commit:</text:span> <text:s/>Commit whenever you&apos;re finished an edit. <text:s/>Avoid commits which contain a great deal of edits across many files, unless those edits are similar or related to each other. <text:s/>If you make unrelated edits to multiple files, commit them to the repository using separate commits; if those edits are related, use just one commit.</text:p>
    <text:p text:style-name="P14">Commit Message:<text:span text:style-name="T74"> <text:s/>The commit message should have a one-line “title”, followed by a blank line, followed by </text:span><text:span text:style-name="T83">the body of the message. <text:s/>Use the editor. <text:s/>Use commit&apos;s </text:span><text:span text:style-name="_30_0coderef">-m</text:span><text:span text:style-name="T83"> option only when, for some reason, you only need a one-line message.</text:span></text:p>
    <text:p text:style-name="P15">When To Push:<text:span text:style-name="T74"> <text:s/>You </text:span><text:span text:style-name="_30_0coderef">git push</text:span><text:span text:style-name="T74"> when the editing task is complete; generally, when you are ready to perform a new </text:span><text:span text:style-name="_30_0coderef">git pull</text:span><text:span text:style-name="T74">; if programming, when your coding is complete and passes unit testing. <text:s/>And, of course, you only </text:span><text:span text:style-name="_30_0coderef">git push</text:span><text:span text:style-name="T74"> after you&apos;ve given your edits one last review for both quality, typos, proper intentation (programming), commenting, style, conformation to convention and policies, etc. <text:s/></text:span><text:span text:style-name="T84">Some people say that you should review your work as if you are performing a </text:span><text:span text:style-name="_30_0coderef">git request pull</text:span><text:span text:style-name="T84"> review.</text:span></text:p>
@@ -2202,18 +2190,18 @@
    <text:p text:style-name="P163">git request-pull -<text:span text:style-name="T140">p</text:span> origin/master feature/awesomeFeature <text:span text:style-name="T140">&gt; pull-request.txt</text:span></text:p>
    <text:p text:style-name="P16">Title:<text:span text:style-name="T74"> <text:s/>The title of the pull request should be descriptive. <text:s/>One example gives “goal of the pull-request: <text:s/>area and function”.</text:span></text:p>
    <text:p text:style-name="P16">Body:<text:span text:style-name="T74"> <text:s/>The body of the pull-request message should be organized by relevance to the reviewer:</text:span></text:p>
-   <text:list xml:id="list510273429" text:style-name="L3">
+   <text:list xml:id="list749368580" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P261">Purpose of the PR; what issue it is resolving</text:p>
+     <text:p text:style-name="P230">Purpose of the PR; what issue it is resolving</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P261"><text:soft-page-break/>Main changes made</text:p>
+     <text:p text:style-name="P230">Main changes made</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P261">Code before changes / code after changes.</text:p>
+     <text:p text:style-name="P230">Code before changes / code after changes.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P261">Any additional resources/links/issues.</text:p>
+     <text:p text:style-name="P230">Any additional resources/links/issues.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P45"/>
@@ -2225,7 +2213,7 @@
    <text:p text:style-name="P60"><text:tab/>display all config parameters</text:p>
    <text:p text:style-name="P12">Tags are local unless explicitely pushed</text:p>
    <text:p text:style-name="P63">git tag</text:p>
-   <text:p text:style-name="P63"><text:tab/>display all tags</text:p>
+   <text:p text:style-name="P63"><text:soft-page-break/><text:tab/>display all tags</text:p>
    <text:p text:style-name="P63">git tag --list “&lt;pattern&gt;”</text:p>
    <text:p text:style-name="P63"><text:tab/>display all tags which conform to the pattern</text:p>
    <text:p text:style-name="P63">git tag &lt;tag&gt;</text:p>
@@ -2244,7 +2232,7 @@
    <text:p text:style-name="P63"><text:tab/><text:span text:style-name="T137">changes specified tag to null</text:span></text:p>
    <text:p text:style-name="P64">git push origin --delete &lt;tagname&gt;</text:p>
    <text:p text:style-name="P64"><text:tab/>deletes tag from server</text:p>
-   <text:p text:style-name="P64"><text:soft-page-break/>git checkout &lt;tagname&gt;</text:p>
+   <text:p text:style-name="P64">git checkout &lt;tagname&gt;</text:p>
    <text:p text:style-name="P64"><text:tab/>checks out repository at the tag name; puts you in “detached HEAD” state</text:p>
    <text:p text:style-name="P64">git checkout -b &lt;branchname&gt; &lt;tagname&gt;</text:p>
    <text:p text:style-name="P64"><text:tab/>create a branch at the tagname</text:p>
@@ -2255,7 +2243,7 @@
    <text:p text:style-name="P49">git request-pull</text:p>
    <text:p text:style-name="P49"><text:tab/>request that the dev pull your changes and incorporate them into the master</text:p>
    <text:p text:style-name="P49"/>
-   <text:h text:style-name="P193" text:outline-level="2">Introduction to Versioning</text:h>
+   <text:h text:style-name="P193" text:outline-level="2"><text:soft-page-break/>Introduction to Versioning</text:h>
    <text:p text:style-name="P42">Versioning systems track the evolution of your program (or <text:span text:style-name="T121">manuscript </text:span><text:span text:style-name="T36">any</text:span> other project which evolves over time). <text:s/>You add a feature or clean up code, then you save the changes. <text:s/>If it doesn&apos;t work out you can back out of your changes and return your project to an earlier state.</text:p>
    <text:p text:style-name="P42">Versioning system<text:span text:style-name="T121">s</text:span> also allow you to branch code <text:span text:style-name="T117">off into smaller portions or parallel projects. <text:s/>Versioning also allows you to sandbox.</text:span></text:p>
    <text:p text:style-name="P33"><text:span text:style-name="T117">Versioning systems</text:span> can be use for projects other than programming. <text:s/>Any projecct which experiences changes, which grows and evolves – writing, design, drafting, layout, course planning, <text:span text:style-name="T117">websites</text:span> etc. – can all benefit from version snapshotting.</text:p>
@@ -2263,21 +2251,21 @@
    <text:h text:style-name="P194" text:outline-level="2">Introduction to Git</text:h>
    <text:p text:style-name="P3"><text:span text:style-name="T122">While it&apos;s common for projects to be “homed” at a centralized location, </text:span>Git is a <text:span text:style-name="T2">distributed</text:span><text:span text:style-name="T39"> versioning system. <text:s/>Everyone who is collaborating on a project ha</text:span><text:span text:style-name="T52">s</text:span><text:span text:style-name="T39"> a complete copy of the entire project </text:span><text:span text:style-name="T53">and can work on any part of it without having access to the project&apos;s “home”</text:span><text:span text:style-name="T39">. <text:s/>Editing and compiling is done in </text:span><text:span text:style-name="T42">the </text:span><text:span text:style-name="T51">user&apos;s</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T2">work directory</text:span><text:span text:style-name="T39">. <text:s/></text:span><text:span text:style-name="T53">Edits are committed to</text:span><text:span text:style-name="T39"> a </text:span><text:span text:style-name="T7">local</text:span><text:span text:style-name="T55"> repository </text:span><text:span text:style-name="T60">on the user&apos;s machine,</text:span><text:span text:style-name="T55"> </text:span><text:span text:style-name="T56">which is a subdirectory of the </text:span><text:span text:style-name="T60">user&apos;s</text:span><text:span text:style-name="T56"> </text:span><text:span text:style-name="T9">working directory</text:span><text:span text:style-name="T55">. <text:s/>That </text:span><text:span text:style-name="T8">local</text:span><text:span text:style-name="T55"> repository maintains the complete history of the project (or whichever part of it you have worked on). <text:s/></text:span><text:span text:style-name="T61">When your edits are complete and working, you</text:span><text:span text:style-name="T55"> </text:span><text:span text:style-name="T8">push</text:span><text:span text:style-name="T55"> that </text:span><text:span text:style-name="T10">local</text:span><text:span text:style-name="T55"> repository to </text:span><text:span text:style-name="T62">the central “home” r</text:span><text:span text:style-name="T57">epository on a </text:span><text:span text:style-name="T62">network</text:span><text:span text:style-name="T57"> </text:span><text:span text:style-name="T55">server </text:span><text:span text:style-name="T62">or on</text:span><text:span text:style-name="T55"> </text:span><text:span text:style-name="T62">a public repository service.</text:span></text:p>
    <text:p text:style-name="P34">You don&apos;t actually need <text:span text:style-name="T122">that</text:span> central “<text:span text:style-name="T122">home”</text:span> repository. <text:s/><text:span text:style-name="T123">The project can be hosted on a number of peers, each machine working on one part of the project and bringing it all together at a later “push party”.</text:span></text:p>
-   <text:h text:style-name="P195" text:outline-level="2"><text:soft-page-break/>Difference Between Distributed and Centralized Versioning</text:h>
+   <text:h text:style-name="P195" text:outline-level="2">Difference Between Distributed and Centralized Versioning</text:h>
    <text:p text:style-name="P57">- distributed: all files and history are <text:span text:style-name="T132">mirrored</text:span> local<text:span text:style-name="T132">ly</text:span>; can have a central repository; most operations available without network/internet connection; <text:span text:style-name="T132">tend do be more robust due to enhanced hashing/checking; compilation??</text:span></text:p>
    <text:p text:style-name="P57">- centralized: <text:s/>everything <text:span text:style-name="T132">stored</text:span> on central repository, no local files or history; most operations require a network/internet connection; <text:span text:style-name="T132">every user checks out the project as a branch; compillation??</text:span></text:p>
    <text:p text:style-name="P58">Similarities: <text:s/>distributed; features are represented by branches. <text:s/>centralized; users are represented as branches, but each user is working on a feature.</text:p>
    <text:h text:style-name="P194" text:outline-level="2">Workflow</text:h>
    <text:p text:style-name="P59">work is in 3 states: <text:s/>modified; staged; committed</text:p>
-   <text:list xml:id="list481209412" text:style-name="L4">
+   <text:list xml:id="list632017454" text:style-name="L4">
     <text:list-item>
-     <text:p text:style-name="P262">check out the branch from the local repository</text:p>
+     <text:p text:style-name="P231">check out the branch from the local repository</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P262">work on the project</text:p>
+     <text:p text:style-name="P231">work on the project</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P262">commit any successful edits to the local repository</text:p>
+     <text:p text:style-name="P231"><text:soft-page-break/>commit any successful edits to the local repository</text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P207" text:outline-level="3">git checkout</text:h>
@@ -2295,7 +2283,7 @@
    <text:h text:style-name="P208" text:outline-level="3"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Local Repository for a New Project</text:h>
    <text:p text:style-name="P38">Note that a “new” project can also be a project upon which you have been working for some time and <text:span text:style-name="T124">to whcih you </text:span>have decided to add versioning control.</text:p>
-   <text:p text:style-name="P133"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P133"/>
    <text:p text:style-name="P133">mkdir working_directory<text:tab/>#create the working directory</text:p>
    <text:p text:style-name="P91">cd working_directory<text:tab/><text:span text:style-name="T1">#change into the working directory</text:span></text:p>
    <text:p text:style-name="P91">git init<text:tab/><text:tab/><text:tab/><text:span text:style-name="T1">#creates the .git directory, index, and master branch</text:span></text:p>
@@ -2314,7 +2302,7 @@
    <text:p text:style-name="P138">git commit -am “messge”<text:tab/>#adds and commits all <text:span text:style-name="T110">files</text:span> with message</text:p>
    <text:p text:style-name="P137"/>
    <text:p text:style-name="P2">The initial commit will contain all your source code up to that point or, <text:span text:style-name="T85">if you have no source code yet,</text:span> at least project notes, roadmap, flowcharts, etc. – <text:span text:style-name="T110">whatever you initially add and commit.</text:span></text:p>
-   <text:h text:style-name="Heading_20_3" text:outline-level="3">Creating and Using a Central (<text:span text:style-name="T87">or </text:span>“Network” or “Remote”) Repository</text:h>
+   <text:h text:style-name="Heading_20_3" text:outline-level="3"><text:soft-page-break/>Creating and Using a Central (<text:span text:style-name="T87">or </text:span>“Network” or “Remote”) Repository</text:h>
    <text:p text:style-name="P92">#<text:span text:style-name="T85">C</text:span>reate your local repository and perform at least one commit <text:span text:style-name="T85">before pushing</text:span></text:p>
    <text:p text:style-name="P102">git init -–bare &lt;<text:span text:style-name="T125">[</text:span>[username<text:span text:style-name="T125">[password]</text:span>@<text:span text:style-name="T125">]</text:span>host]/path/to/repository&gt;</text:p>
    <text:p text:style-name="P93">git remote add origin &lt;[username<text:span text:style-name="T125">[password]</text:span>@host]/path/to/repository&gt;</text:p>
@@ -2326,7 +2314,7 @@
    <text:p text:style-name="P4"><text:span text:style-name="T24">ma</text:span><text:span text:style-name="T25">ster</text:span><text:span text:style-name="T39"> is </text:span><text:span text:style-name="T41">typically</text:span><text:span text:style-name="T39"> the name of the branch you </text:span><text:span text:style-name="T41">wish</text:span><text:span text:style-name="T39"> to push; “</text:span><text:span text:style-name="T41">ma</text:span><text:span text:style-name="T48">ster</text:span><text:span text:style-name="T41">” can be replaced with the </text:span><text:span text:style-name="T49">name of the</text:span><text:span text:style-name="T41"> branch on which you were working.</text:span></text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Cloning an Existing Project</text:h>
    <text:p text:style-name="P7">If you are joining an existing collaboration team you will need to <text:span text:style-name="T2">clone</text:span><text:span text:style-name="T39"> the existing code base.</text:span></text:p>
-   <text:p text:style-name="P7"><text:span text:style-name="T39">Git clone</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T70">automatically </text:span><text:span text:style-name="T71">creates the working directory</text:span><text:span text:style-name="T65">, </text:span><text:span text:style-name="T63">creates the local repository, copies the </text:span><text:span text:style-name="T11">entire project</text:span><text:span text:style-name="T63"> into the local repository, automatically checks out the </text:span><text:span text:style-name="T26">ma</text:span><text:span text:style-name="T29">ster</text:span><text:span text:style-name="T63"> branch into the working directory, and automatically adds the name of the host and your login credentials to the configuration </text:span><text:span text:style-name="T66">file</text:span><text:span text:style-name="T63"> under </text:span><text:soft-page-break/><text:span text:style-name="T63">the alias </text:span><text:span text:style-name="T30">origin</text:span><text:span text:style-name="T63">.</text:span></text:p>
+   <text:p text:style-name="P7"><text:span text:style-name="T39">Git clone</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T70">automatically </text:span><text:span text:style-name="T71">creates the working directory</text:span><text:span text:style-name="T65">, </text:span><text:span text:style-name="T63">creates the local repository, copies the </text:span><text:span text:style-name="T11">entire project</text:span><text:span text:style-name="T63"> into the local repository, automatically checks out the </text:span><text:span text:style-name="T26">ma</text:span><text:span text:style-name="T29">ster</text:span><text:span text:style-name="T63"> branch into the working directory, and automatically adds the name of the host and your login credentials to the configuration </text:span><text:span text:style-name="T66">file</text:span><text:span text:style-name="T63"> under the alias </text:span><text:span text:style-name="T30">origin</text:span><text:span text:style-name="T63">.</text:span></text:p>
    <text:p text:style-name="P102"/>
    <text:p text:style-name="P93">cd ~/<text:span text:style-name="T111">dev/</text:span>projects<text:tab/><text:span text:style-name="T109">#the directory in which you want your repository created</text:span></text:p>
    <text:p text:style-name="P102">git clone [<text:span text:style-name="T125">[</text:span>&lt;username<text:span text:style-name="T125">[:password]</text:span>@<text:span text:style-name="T125">]</text:span>host&gt;]&lt;/path/to/repository&gt; </text:p>
@@ -2337,7 +2325,7 @@
    <text:p text:style-name="P7"><text:span text:style-name="T125">If you do not have your name and e-mail address set y</text:span>ou must run <text:span text:style-name="T12">git config</text:span> <text:span text:style-name="T87">(after changing into the working directory) </text:span>to <text:span text:style-name="T125">set them in either the local, global, or system</text:span> configuration. <text:s/>This is an <text:span text:style-name="T111">absolutely</text:span> essential step when collaborating with a team.</text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Hashes <text:span text:style-name="T106">and Branch References</text:span></text:h>
    <text:p text:style-name="P27">A<text:span text:style-name="T105">n abbreviated</text:span> note on <text:span text:style-name="T104">git&apos;s 160-bit 40-character hashes:</text:span></text:p>
-   <text:p text:style-name="P28">As long as the <text:span text:style-name="T105">hash fragment is</text:span> unique, a particular commit point may be referenced <text:span text:style-name="T105">by using a minimum of the first four characters. <text:s/>The abbreviated hashes displayed by the log are seven digits, but there is a git log option for displaying the shortest unique hash.</text:span></text:p>
+   <text:p text:style-name="P28">As long as the <text:span text:style-name="T105">hash fragment is</text:span> unique, a particular commit point may be referenced <text:span text:style-name="T105">by using a minim</text:span><text:soft-page-break/><text:span text:style-name="T105">um of the first four characters. <text:s/>The abbreviated hashes displayed by the log are seven digits, but there is a git log option for displaying the shortest unique hash.</text:span></text:p>
    <text:p text:style-name="P29">The last commit point is identified by the keyword “HEAD”. <text:s/>The parent of any commit point can be referenced by adding a tilde after the rerference, eg. “HEAD~” <text:s/>Adding a caret before a branch reference means to exclude that reference (from logs, searches, etc.).</text:p>
    <text:p text:style-name="P29">Reference points can be spanned using the “..” <text:span text:style-name="T107">operator. <text:s/>Eg. 1ad5ba..7b568f.</text:span></text:p>
    <text:h text:style-name="P196" text:outline-level="2">git config</text:h>
@@ -2356,7 +2344,7 @@
    <text:p text:style-name="Preformatted_20_Text">git status -s<text:tab/><text:span text:style-name="T89">#one-line status</text:span></text:p>
    <text:p text:style-name="Preformatted_20_Text"/>
    <text:p text:style-name="P10"><text:span text:style-name="T126">Shows the</text:span> files staged for commit <text:span text:style-name="T126">and</text:span> modified files not yet staged, <text:span text:style-name="T126">and the multi-line status s</text:span>hows which branch is currently checked out <text:span text:style-name="T126">as well as</text:span> untracked files.</text:p>
-   <text:h text:style-name="P209" text:outline-level="3"><text:soft-page-break/>Staging Files for Commit</text:h>
+   <text:h text:style-name="P209" text:outline-level="3">Staging Files for Commit</text:h>
    <text:p text:style-name="Preformatted_20_Text">git status<text:tab/><text:tab/><text:tab/><text:span text:style-name="T89">#always check before committing</text:span></text:p>
    <text:p text:style-name="P107">git add &lt;filename&gt;<text:tab/>#track file and add it to staging area</text:p>
    <text:p text:style-name="P107">git add *<text:tab/><text:tab/><text:tab/>#track all files and add to staging area</text:p>
@@ -2372,7 +2360,7 @@
    <text:p text:style-name="P107">git reset HEAD -- filename(s)<text:tab/>#unstage only these files</text:p>
    <text:p text:style-name="P116">git reset --soft <text:span text:style-name="T95">HEAD~</text:span><text:tab/><text:tab/><text:span text:style-name="T95">#reset index pointer to sha-1; don&apos;t unstage</text:span></text:p>
    <text:p text:style-name="P117">git reset --hard<text:tab/><text:tab/><text:tab/>#undo all changes back to the sha-1 point</text:p>
-   <text:p text:style-name="P107">git rm &lt;filename&gt;<text:tab/><text:tab/><text:tab/>#unstage, <text:span text:style-name="T95">stop tracking, </text:span>and delete file<text:span text:style-name="T95">(s)</text:span></text:p>
+   <text:p text:style-name="P107"><text:soft-page-break/>git rm &lt;filename&gt;<text:tab/><text:tab/><text:tab/>#unstage, <text:span text:style-name="T95">stop tracking, </text:span>and delete file<text:span text:style-name="T95">(s)</text:span></text:p>
    <text:p text:style-name="P107">git rm --cached &lt;filename&gt;<text:tab/>#unstage and stop tracking the file(s)</text:p>
    <text:p text:style-name="P107"/>
    <text:p text:style-name="P11">NB<text:span text:style-name="T74">: <text:s/></text:span><text:span text:style-name="T31">git rm</text:span><text:span text:style-name="T74"> deletes files from the hard-drive. </text:span><text:span text:style-name="T82">[*** NO IT DOESN&apos;T; FIX THIS ***]</text:span></text:p>
@@ -2394,7 +2382,7 @@
    <text:h text:style-name="P213" text:outline-level="3">Patch Mode</text:h>
    <text:p text:style-name="Preformatted_20_Text">git add -p &lt;filename&gt;</text:p>
    <text:p text:style-name="P115"/>
-   <text:p text:style-name="P21"><text:span text:style-name="T94">Interactive </text:span><text:span text:style-name="T14">add</text:span><text:span text:style-name="T94"> mode f</text:span>or staging <text:span text:style-name="T2">parts</text:span><text:span text:style-name="T39"> of a changed file instead of the entire file. <text:s/></text:span><text:span text:style-name="T43">Use “?” option </text:span><text:span text:style-name="T50">at the </text:span><text:soft-page-break/><text:span text:style-name="T50">interactive prompt</text:span><text:span text:style-name="T43"> to get a terse list of commands.</text:span></text:p>
+   <text:p text:style-name="P21"><text:span text:style-name="T94">Interactive </text:span><text:span text:style-name="T14">add</text:span><text:span text:style-name="T94"> mode f</text:span>or staging <text:span text:style-name="T2">parts</text:span><text:span text:style-name="T39"> of a changed file instead of the entire file. <text:s/></text:span><text:span text:style-name="T43">Use “?” option </text:span><text:span text:style-name="T50">at the interactive prompt</text:span><text:span text:style-name="T43"> to get a terse list of commands.</text:span></text:p>
    <text:p text:style-name="P30">The canonical example of <text:span text:style-name="T112">***INCOMPLETE***</text:span></text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3"><text:span text:style-name="T39">Tagging </text:span><text:span text:style-name="T44">Commits</text:span></text:h>
    <text:p text:style-name="P23"><text:span text:style-name="T39">Tags are meant to mark important commit points, such as stable releases, version changes, </text:span><text:span text:style-name="T45">or some other milestone</text:span><text:span text:style-name="T39">. <text:s/></text:span><text:span text:style-name="T50">Use them w</text:span><text:span text:style-name="T45">here needed, but don&apos;t overdo it.</text:span></text:p>
@@ -2405,7 +2393,7 @@
    <text:p text:style-name="P136">git tag -a v1.0 &lt;<text:span text:style-name="T5">sha</text:span><text:span text:style-name="T2">-1</text:span>&gt;<text:tab/>#tag the commit point at the <text:span text:style-name="T113">indicated</text:span> SHA-1 hash</text:p>
    <text:p text:style-name="P125"/>
    <text:p text:style-name="P24"><text:span text:style-name="T39">“Annotation” tags the commit point with the time and date it was tagged and who tagged it. <text:s/>It also allows you to create an annotation message. <text:s/>You can leave out the </text:span><text:span text:style-name="T21">-a</text:span><text:span text:style-name="T39"> flag, but you almost always want to annotate.</text:span></text:p>
-   <text:h text:style-name="P198" text:outline-level="2">Branches</text:h>
+   <text:h text:style-name="P198" text:outline-level="2"><text:soft-page-break/>Branches</text:h>
    <text:h text:style-name="P214" text:outline-level="3">Why Branch?</text:h>
    <text:p text:style-name="P8">Branching allows you to sandbox, experiment with new ideas, develop parallel code, or break the projects up into smaller parts. <text:s/>You <text:span text:style-name="T113">and your</text:span> collaborators can fetch one or two branches instead of the entire project.</text:p>
    <text:h text:style-name="P215" text:outline-level="3">Displaying All Branches</text:h>
@@ -2425,7 +2413,7 @@
    <text:p text:style-name="P118">git branch<text:tab/><text:tab/><text:tab/><text:tab/>#list avaiable branches</text:p>
    <text:p text:style-name="P118">git branch -v<text:tab/><text:tab/><text:tab/>#see the last commit on each branch</text:p>
    <text:p text:style-name="P112"><text:span text:style-name="T96">git</text:span> checkout ma<text:span text:style-name="T109">ster</text:span><text:tab/><text:tab/>#checks out the <text:span text:style-name="T32">ma</text:span><text:span text:style-name="T35">ster</text:span> branch <text:span text:style-name="T113">(usually automatic)</text:span></text:p>
-   <text:p text:style-name="P112"><text:soft-page-break/><text:span text:style-name="T96">git</text:span> checkout &lt;branch_name&gt;<text:tab/>#check out the branch to the working directory</text:p>
+   <text:p text:style-name="P112"><text:span text:style-name="T96">git</text:span> checkout &lt;branch_name&gt;<text:tab/>#check out the branch to the working directory</text:p>
    <text:p text:style-name="P119">git checkout -b &lt;branch_name&gt;<text:tab/>#<text:span text:style-name="T113">shortcut: create and checkout new branch</text:span></text:p>
    <text:p text:style-name="P112"/>
    <text:p text:style-name="P18">Apparently this automatically commits the current branch before checking out the new one? <text:s/><text:span text:style-name="T32">That doesn&apos;t sound right</text:span>. <text:s/><text:span text:style-name="T113">See: branch stashing and popping.</text:span></text:p>
@@ -2438,7 +2426,7 @@
    <text:p text:style-name="P113">git stash -u<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>also stash untracked files </text:p>
    <text:p text:style-name="Preformatted_20_Text">git stash list<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>lists the stashes currently on the stack </text:p>
    <text:p text:style-name="Preformatted_20_Text">git stash pop<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>pops stash@{0} off the stack </text:p>
-   <text:p text:style-name="Preformatted_20_Text">git stash apply<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>copies stash@{0} off the stack <text:span text:style-name="T91">without popping</text:span></text:p>
+   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/>git stash apply<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>copies stash@{0} off the stack <text:span text:style-name="T91">without popping</text:span></text:p>
    <text:p text:style-name="Preformatted_20_Text">git stash apply stash@{n}<text:tab/><text:span text:style-name="T91">#</text:span>copies the indicated stash off the stack </text:p>
    <text:p text:style-name="Preformatted_20_Text">git stash drop<text:tab/><text:tab/><text:tab/><text:span text:style-name="T91">#</text:span>drops stash@{0} off the stack without popping </text:p>
    <text:p text:style-name="Preformatted_20_Text">git stash drop stash@{n}<text:tab/><text:span text:style-name="T91">#</text:span>drops indicated stash from stack without popping </text:p>
@@ -2456,7 +2444,7 @@
    <text:p text:style-name="P19">“<text:span text:style-name="T15">Pushes</text:span><text:span text:style-name="T99">” the differences between your repository and the remote repository, and a</text:span>ttempts to make your branch the new branch on the remote repository. <text:s/><text:span text:style-name="T100">Can be done at any time and does not need to correspond to any commmit or merge.</text:span> <text:s/>Remember that <text:span text:style-name="T17">origin</text:span> can be replaced by any alias or remote URL.</text:p>
    <text:p text:style-name="Preformatted_20_Text"/>
    <text:p text:style-name="P114">git push origin &lt;local_branch&gt;<text:tab/><text:tab/><text:tab/>#attempts to push branch</text:p>
-   <text:p text:style-name="P114"><text:soft-page-break/>git push origin &lt;local_branch&gt;:&lt;remote_branch&gt;<text:tab/>#replace/rename remote branch</text:p>
+   <text:p text:style-name="P114">git push origin &lt;local_branch&gt;:&lt;remote_branch&gt;<text:tab/>#replace/rename remote branch</text:p>
    <text:p text:style-name="P114">git push origin :&lt;remote_branch&gt;<text:tab/><text:tab/><text:tab/>#delete remote branch</text:p>
    <text:p text:style-name="P125">git push origin -–tags<text:tab/><text:tab/><text:tab/><text:tab/><text:tab/>#push tags as well</text:p>
    <text:p text:style-name="P125"/>
@@ -2469,7 +2457,7 @@
    <text:p text:style-name="P125">git fetch origin tag &lt;tag-name&gt;<text:tab/>#just fetch this one tag?</text:p>
    <text:p text:style-name="P127">git pull origin<text:tab/><text:tab/><text:tab/><text:tab/>#fetch and merge everything</text:p>
    <text:p text:style-name="P125"/>
-   <text:p text:style-name="P24">The <text:span text:style-name="T12">--tags</text:span> flag in<text:span text:style-name="T109">s</text:span>tructs fetch to get <text:span text:style-name="T2">all</text:span><text:span text:style-name="T39"> tags, not just the ones reachable by the indicated branch heads.</text:span></text:p>
+   <text:p text:style-name="P24"><text:soft-page-break/>The <text:span text:style-name="T12">--tags</text:span> flag in<text:span text:style-name="T109">s</text:span>tructs fetch to get <text:span text:style-name="T2">all</text:span><text:span text:style-name="T39"> tags, not just the ones reachable by the indicated branch heads.</text:span></text:p>
    <text:h text:style-name="P200" text:outline-level="2">Merging Branches</text:h>
    <text:h text:style-name="P217" text:outline-level="3">git merge</text:h>
    <text:p text:style-name="P121">git checkout main<text:tab/><text:tab/>#checks out the branch into which you wish to merge</text:p>
@@ -2487,7 +2475,7 @@
    <text:p text:style-name="P124">git diff --stat<text:tab/>#show summary of changes</text:p>
    <text:p text:style-name="P124"/>
    <text:p text:style-name="P35"><text:span text:style-name="T114">F</text:span>ile names and SHA-1 hash references <text:span text:style-name="T114">can be added</text:span> to these commands.</text:p>
-   <text:h text:style-name="P219" text:outline-level="3"><text:soft-page-break/>Logs</text:h>
+   <text:h text:style-name="P219" text:outline-level="3">Logs</text:h>
    <text:p text:style-name="P22"><text:span text:style-name="T97">Generally used as an aid to merging. <text:s/>G</text:span>it log opens the log file in an editor.</text:p>
    <text:p text:style-name="P122"/>
    <text:p text:style-name="P122">git log<text:tab/><text:tab/><text:tab/>#list of parents of current branch</text:p>
@@ -2506,7 +2494,7 @@
    <text:p text:style-name="P127">#<text:tab/>{2001-09-11}</text:p>
    <text:p text:style-name="P132">git log --abbrev-commit --oneline<text:tab/>#display shortest unique abbreviated hashes</text:p>
    <text:p text:style-name="P128"/>
-   <text:h text:style-name="P201" text:outline-level="2">Git Command Aliases</text:h>
+   <text:h text:style-name="P201" text:outline-level="2"><text:soft-page-break/>Git Command Aliases</text:h>
    <text:p text:style-name="P26">Allows you to create aliases for oft-repeated commands. <text:s/>Better than having a tonne of command-line scripts.</text:p>
    <text:p text:style-name="Preformatted_20_Text"/>
    <text:p text:style-name="P130">git config --global alias.unstage &quot;reset HEAD&quot; </text:p>
@@ -2517,7 +2505,7 @@
    <text:p text:style-name="P26"><text:span text:style-name="T114">github<text:line-break/></text:span>gitosis<text:line-break/>gitolite<text:line-break/>(etc?)</text:p>
    <text:h text:style-name="P201" text:outline-level="2">Aliases and Keywords</text:h>
    <text:h text:style-name="P220" text:outline-level="3">Keywords</text:h>
-   <text:p text:style-name="P36">In this document the “HEAD” keyword refers to the most recent commit point. <text:s/>“HEAD” can always be replaced with the SHA-1 hash for the desired commit point. <text:s/>Also, the tilde (~) can be added to refer <text:soft-page-break/>to the parent of “HEAD” (HEAD~) or <text:span text:style-name="T115">of</text:span> the hash.</text:p>
+   <text:p text:style-name="P36">In this document the “HEAD” keyword refers to the most recent commit point. <text:s/>“HEAD” can always be replaced with the SHA-1 hash for the desired commit point. <text:s/>Also, the tilde (~) can be added to refer to the parent of “HEAD” (HEAD~) or <text:span text:style-name="T115">of</text:span> the hash.</text:p>
   </office:text>
  </office:body>
 </office:document>
