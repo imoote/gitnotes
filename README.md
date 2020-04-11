@@ -14,4 +14,4 @@ I'm beginning by working with my original haphazard nine page notes.  I've made 
 
 I don't use public/open repositories, but I'm pushing these "**_Personal Programming Notes_**" to a public/open repositories to both provide real-world experience with the open repository and to possibly provide some beginner notes to anyone who may be interested.
 
-I don't know how social this particular site is; typographical and grammar corrections welcome; other comments and suggestions welcome from _experienced users of **GIT** only_.
+I don't know how social _GitHub_ is; typographical and grammar corrections welcome; other comments and suggestions welcome from _experienced users of **GIT** only_.
