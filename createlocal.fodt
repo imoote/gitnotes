@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-11T09:21:21.294721247</meta:creation-date><dc:date>2020-04-11T11:13:51.830251305</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT3M7S</meta:editing-duration><meta:editing-cycles>2</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="19" meta:word-count="338" meta:character-count="2149" meta:non-whitespace-character-count="1818"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
+ <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-11T09:21:21.294721247</meta:creation-date><dc:date>2020-04-11T11:37:12.214961521</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT3M48S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="19" meta:word-count="338" meta:character-count="2116" meta:non-whitespace-character-count="1785"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">7832</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24634</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">16406</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">13259</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">22271</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6486</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">8823</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">7832</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24633</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">24236</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">16404</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1521469</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1620985</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -335,34 +335,31 @@
   <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
    <style:text-properties officeooo:rsid="00145b87" officeooo:paragraph-rsid="00145b87"/>
   </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00129781"/>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="0017373d" officeooo:paragraph-rsid="0017373d"/>
   </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00129781"/>
   </style:style>
   <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00145b87"/>
+   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00129781"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00138d1b" officeooo:paragraph-rsid="00138d1b"/>
+   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00145b87"/>
   </style:style>
   <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="0013f778" officeooo:paragraph-rsid="0013f778"/>
+   <style:text-properties officeooo:rsid="00138d1b" officeooo:paragraph-rsid="00138d1b"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00129781"/>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="0013f778" officeooo:paragraph-rsid="0013f778"/>
   </style:style>
   <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="00145b87" officeooo:paragraph-rsid="00145b87"/>
   </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="0013f778" officeooo:paragraph-rsid="0013f778"/>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="00129781" officeooo:paragraph-rsid="00129781"/>
   </style:style>
-  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-   <style:text-properties officeooo:rsid="0017373d" officeooo:paragraph-rsid="0017373d"/>
-  </style:style>
-  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="0011d2de" officeooo:paragraph-rsid="0011d2de"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -414,25 +411,25 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P1" text:outline-level="2"><text:span text:style-name="T7">Creating A</text:span> Local Repository</text:h>
-   <text:p text:style-name="P6">Most GIT operations are performed on the local repository. <text:s/>Before you can use GIT you must create the local repository. <text:s/><text:span text:style-name="T2">If you have just created a remote repository or are joining a current project you will clone from the remote repository. <text:s/>If you are working without a remote repository for some reason, you would simply create the local repository.</text:span></text:p>
-   <text:h text:style-name="P5" text:outline-level="3"><text:span text:style-name="T8">By </text:span>Clon<text:span text:style-name="T8">ing</text:span> From Remote Repository</text:h>
-   <text:p text:style-name="P6">The <text:span text:style-name="_30_0coderef">git-clone</text:span> command is used to create your local working directory and your local repository from the remote repository:</text:p>
-   <text:p text:style-name="P2">git clone <text:span text:style-name="T1">&lt;[username@][//server:]</text:span>/path/to/repository<text:span text:style-name="T1">&gt;</text:span></text:p>
+   <text:p text:style-name="P7">Most GIT operations are performed on the local repository. <text:s/>Before you can use GIT you must create the local repository. <text:s/><text:span text:style-name="T2">If you have just created a remote repository or are joining a current project you will clone from the remote repository. <text:s/>If you are working without a remote repository for some reason, you would simply create the local repository.</text:span></text:p>
+   <text:h text:style-name="P6" text:outline-level="3"><text:span text:style-name="T8">By </text:span>Clon<text:span text:style-name="T8">ing</text:span> From Remote Repository</text:h>
+   <text:p text:style-name="P7">The <text:span text:style-name="_30_0coderef">git-clone</text:span> command is used to create your local working directory and your local repository from the remote repository:</text:p>
+   <text:p text:style-name="P2">git clone <text:span text:style-name="T1">&lt;[//server:]</text:span>/path/to/repository<text:span text:style-name="T1">&gt;</text:span></text:p>
    <text:p text:style-name="P11">The remote may be a locally-mounted share on your local network, a network share accessible over the internet, or an internet-based repository service.</text:p>
-   <text:p text:style-name="P7">The <text:span text:style-name="_30_0coderef">git-clone</text:span> command creates the working directory <text:span text:style-name="T2">within the current directory, creates the local GIT repository, performs a </text:span><text:span text:style-name="_30_0coderef">git-pull</text:span><text:span text:style-name="T2"> (a </text:span><text:span text:style-name="_30_0coderef">fetch</text:span><text:span text:style-name="T2"> plus a </text:span><text:span text:style-name="_30_0coderef">merge</text:span><text:span text:style-name="T2">), sets the </text:span><text:span text:style-name="_30_0coderef">origin</text:span><text:span text:style-name="T2"> to the remote repository, and places you on the </text:span><text:span text:style-name="_30_0coderef">master</text:span><text:span text:style-name="T2"> branch.</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T9">NB:</text:span> <text:s/>Cloning a repository places the entire project <text:span text:style-name="T8">and its history</text:span> in your <text:span text:style-name="T8">local repository</text:span>. <text:s/>At the time of this writing the Linux kernal repository was 1<text:span text:style-name="T3">.5</text:span><text:span text:style-name="T4">GB, and Microsoft&apos;s GIT repository for </text:span><text:span text:style-name="T5">Visual Studio was over 2GB, and</text:span><text:span text:style-name="T4"> Windows was 230GB </text:span><text:span text:style-name="T6">with close to 20,000 significant contributors</text:span><text:span text:style-name="T4">.</text:span></text:p>
-   <text:h text:style-name="P5" text:outline-level="3">Create A Local Repository</text:h>
-   <text:p text:style-name="P9">If you are not using a remote repository for some reason, you can create <text:span text:style-name="T8">just</text:span> <text:span text:style-name="T8">a</text:span> local repository from within your working directory using the <text:span text:style-name="_30_0coderef">git-init</text:span> command:</text:p>
+   <text:p text:style-name="P8">The <text:span text:style-name="_30_0coderef">git-clone</text:span> command creates the working directory <text:span text:style-name="T2">within the current directory, creates the local GIT repository, performs a </text:span><text:span text:style-name="_30_0coderef">git-pull</text:span><text:span text:style-name="T2"> (a </text:span><text:span text:style-name="_30_0coderef">fetch</text:span><text:span text:style-name="T2"> plus a </text:span><text:span text:style-name="_30_0coderef">merge</text:span><text:span text:style-name="T2">), sets the </text:span><text:span text:style-name="_30_0coderef">origin</text:span><text:span text:style-name="T2"> to the remote repository, and places you on the </text:span><text:span text:style-name="_30_0coderef">master</text:span><text:span text:style-name="T2"> branch.</text:span></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T9">NB:</text:span> <text:s/>Cloning a repository places the entire project <text:span text:style-name="T8">and its history</text:span> in your <text:span text:style-name="T8">local repository</text:span>. <text:s/>At the time of this writing the Linux kernal repository was 1<text:span text:style-name="T3">.5</text:span><text:span text:style-name="T4">GB, and Microsoft&apos;s GIT repository for </text:span><text:span text:style-name="T5">Visual Studio was over 2GB, and</text:span><text:span text:style-name="T4"> Windows was 230GB </text:span><text:span text:style-name="T6">with close to 20,000 significant contributors</text:span><text:span text:style-name="T4">.</text:span></text:p>
+   <text:h text:style-name="P6" text:outline-level="3">Create A Local Repository</text:h>
+   <text:p text:style-name="P10">If you are not using a remote repository for some reason, you can create <text:span text:style-name="T8">just</text:span> <text:span text:style-name="T8">a</text:span> local repository from within your working directory using the <text:span text:style-name="_30_0coderef">git-init</text:span> command:</text:p>
    <text:p text:style-name="P3">git init</text:p>
-   <text:p text:style-name="P9">The local repository is always the <text:span text:style-name="_30_0coderef">.git</text:span> directory inside the working directory. <text:s/><text:span text:style-name="T8">The repository will have no content so it is customary to immediately follow the </text:span><text:span text:style-name="_30_0coderef">git-init</text:span><text:span text:style-name="T8"> with a </text:span><text:span text:style-name="_30_0coderef">git-commit</text:span><text:span text:style-name="T8">:</text:span></text:p>
+   <text:p text:style-name="P10">The local repository is always the <text:span text:style-name="_30_0coderef">.git</text:span> directory inside the working directory. <text:s/><text:span text:style-name="T8">The repository will have no content so it is customary to immediately follow the </text:span><text:span text:style-name="_30_0coderef">git-init</text:span><text:span text:style-name="T8"> with a </text:span><text:span text:style-name="_30_0coderef">git-commit</text:span><text:span text:style-name="T8">:</text:span></text:p>
    <text:p text:style-name="P4">edit .gitignore<text:tab/><text:tab/><text:tab/><text:tab/>//usually create an ignore file</text:p>
    <text:p text:style-name="P4">//<text:tab/>for lock file, temporary files, object files, etc. (q.v.)</text:p>
    <text:p text:style-name="P4">git add -r *<text:tab/><text:tab/><text:tab/><text:tab/>//add everything; recursive, if necessary</text:p>
    <text:p text:style-name="P4">git commit -m “Initial commit.”<text:tab/>//the only exception to never using “-m”</text:p>
-   <text:p text:style-name="P9">If you later decide to add a remote repository you would first create the remote repository, add an <text:span text:style-name="_30_0coderef">origin</text:span> URL to your config, then perform a <text:span text:style-name="_30_0coderef">push</text:span> to the remote:</text:p>
-   <text:p text:style-name="P13">git remote add origin &lt;[username[:password]@][//server:]/path/to/repository&gt;</text:p>
-   <text:p text:style-name="P13">git push origin master</text:p>
-   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P10">If you later decide to add a remote repository you would first create the remote repository, add an <text:span text:style-name="_30_0coderef">origin</text:span> URL to your config, then perform a <text:span text:style-name="_30_0coderef">push</text:span> to the remote:</text:p>
+   <text:p text:style-name="P5">git remote add origin &lt;[//server:]/path/to/repository&gt;</text:p>
+   <text:p text:style-name="P5">git push origin master</text:p>
+   <text:p text:style-name="P10"/>
   </office:text>
  </office:body>
 </office:document>
