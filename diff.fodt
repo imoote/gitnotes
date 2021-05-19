@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-08T21:35:25.983655324</meta:creation-date><dc:date>2020-04-13T16:13:30.252803026</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT13H5M46S</meta:editing-duration><meta:editing-cycles>2</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="4" meta:word-count="39" meta:character-count="223" meta:non-whitespace-character-count="188"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
+ <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-04-08T21:35:25.983655324</meta:creation-date><dc:date>2020-04-14T13:50:20.334841580</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>PT13H38M55S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="11" meta:word-count="138" meta:character-count="799" meta:non-whitespace-character-count="668"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal c language notes" xlink:href="../../../../../Dropbox/templates/personal%20programming%20notes.ott" meta:date="2018-02-27T15:25:59.952331130"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="ViewAreaTop" config:type="long">635</config:config-item>
@@ -14,7 +14,7 @@
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
      <config:config-item config:name="ViewLeft" config:type="long">3522</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">6315</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">9518</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleTop" config:type="long">635</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24633</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1859673</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2038781</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -340,14 +340,41 @@
   <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="001a07e5"/>
   </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="0015d826" officeooo:paragraph-rsid="0015d826"/>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="001c6059" officeooo:paragraph-rsid="001c6059"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="001c6059" officeooo:paragraph-rsid="001c6059"/>
   </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="001d3a90" officeooo:paragraph-rsid="001d3a90"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="0015d826" officeooo:paragraph-rsid="0015d826"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="0017aa02" officeooo:paragraph-rsid="001c922d"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="0015d826" officeooo:paragraph-rsid="001c922d"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="001c922d" officeooo:paragraph-rsid="001c922d"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:text-properties officeooo:rsid="001d3a90" officeooo:paragraph-rsid="001d3a90"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="0017aa02"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties officeooo:rsid="001c922d"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties officeooo:rsid="0015d826"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties officeooo:rsid="001d3a90"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
@@ -371,10 +398,18 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P1" text:outline-level="2">Diff</text:h>
-   <text:p text:style-name="P8">While status tells you what files have changed, <text:span text:style-name="_30_0coderef">git-diff</text:span> tells you what has changed in each file.</text:p>
-   <text:p text:style-name="P2">git diff<text:tab/><text:tab/>//compares files in working directory to <text:span text:style-name="T1">staged</text:span></text:p>
-   <text:p text:style-name="P3">git diff --staged<text:tab/>//compares files in staging area to last commit</text:p>
-   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P7">While status tells you what files have changed, <text:span text:style-name="_30_0coderef">git-diff</text:span> tells you what has changed in each file.</text:p>
+   <text:p text:style-name="P12">//<text:span text:style-name="T2">if files are staged:</text:span></text:p>
+   <text:p text:style-name="P12">git diff<text:tab/><text:tab/>//compares <text:span text:style-name="T4">all</text:span> files in working directory to <text:span text:style-name="T1">staged</text:span></text:p>
+   <text:p text:style-name="P11">git diff --staged<text:tab/>//compares <text:span text:style-name="T4">all</text:span> files in staging area to last commit</text:p>
+   <text:p text:style-name="P11"/>
+   <text:p text:style-name="P12">//<text:span text:style-name="T2">if files are not staged:</text:span></text:p>
+   <text:p text:style-name="P13">git diff<text:tab/><text:tab/><text:span text:style-name="T3">//compares all files in working directory to </text:span>last commit</text:p>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13">//<text:span text:style-name="T4">specific file:</text:span></text:p>
+   <text:p text:style-name="P14">git diff &lt;filename.ext&gt;<text:tab/><text:tab/><text:tab/>//compare working to staged or committed</text:p>
+   <text:p text:style-name="P14">git diff --staged &lt;filename.ext&gt;<text:tab/>//compare staged to committed</text:p>
+   <text:p text:style-name="P9">Output depends on there being changes to the files. <text:s/>If there are no changes between files, there will be no output. <text:s/>It&apos;s also important to note that <text:span text:style-name="_30_0coderef">git-diff</text:span> will compare the file in the working directory to the version of the file after its last commit if the file has been modified but not yet been staged.</text:p>
   </office:text>
  </office:body>
 </office:document>
