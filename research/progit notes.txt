@@ -1,0 +1,69 @@
+NOTES FROM PROGIT BOOK
+======================
+
+git status [-s]					;current branch; status if files in directory
+git add <pathname>				;stage file or directory
+git diff <pathname>				;show differences between modified and staged
+git diff --staged <pathname>	;show differences between staged and committed
+git diff --cached <pathname>	;the same as --staged??
+
+
+Three States (very important!)
+1. modified:  changed, but not committed
+2. staged:  marked a changed file to go into the next snapshot
+3. committed:  file has been safely stored in the local database
+
+Also:
+1. tracked: (in the last snapshot)
+2. untracked (not in the last snapshot)
+
+
+Three Main Areas
+1. working directory:  a single checkout of a project branch
+2. staging area:  the staging index file in the .git directory
+3. .git directory:  the local repository
+
+
+Basic Workflow
+1. Modify files in your working directory
+2. Selectively stage the changes you want in your next commit
+3. Perform a commit which stores the staged files in the repository
+
+
+Untracked       Unmodified      Modified        Staged
+    |               |              |               |
+    |-------------add the file-------------------->|
+    |               |              |               |
+    |               |--edit file-->|               |
+    |               |              |               |
+    |               |              |--stage file-->|
+    |<-remove file--|              |               |
+    |               |<------commit the file--------|
+    |               |              |               |
+
+
+GIT Config Files
+--system
+	- /etc/gitconfig
+	- affects every user on the computer
+	- requires a sudo?
+--global
+	- ~/.gitconfig or .config/.gitconfig
+	- affects every project for only this user
+	- overrides --system config settings
+--local
+	- ./.git/.gitconfig
+	- the default
+	- affects just this one project for this user
+	- overrides --global config settings
+
+
+GIT INIT
+- automatic checkout of the Master branch
+
+
+Branches
+- you gotta create them as you go
+
+
+
