@@ -6,7 +6,7 @@ Note that **git.odm** needs to be loaded after every edit to update the document
 
 # Personal Programming Notes: GIT
 
-These notes on the use of Git are the latest addition to my personal "**_Personal Programming Notes_**" project.  My "**_Personal Programming Notes_**" series summarizes usage, and document best practices, for various languages, frameworks, and tools.  I move back and forth between languages, frameworks, platforms, and tools, but because my experience is broad my knowledge isn't always deep and I often need a quick refresher when I do.
+These notes on the use of Git are the latest addition to my personal "**_Personal Programming Notes_**" project.  My "**_Personal Programming Notes_**" series summarizes usage, and documents best practices, for various languages, frameworks, and tools.  I move back and forth between languages, frameworks, platforms, and tools, but because my experience is broad my knowledge isn't always deep and I often need a quick refresher when I do.
 
 The base work for this document is in "flat open document" (.fodt) format -- OpenDocument XML.  I started this quite some time ago before leaving it by the wayside.  I've returned to the document with a desire to codify my more-mature understanding of GIT.
 
