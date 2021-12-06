@@ -17,3 +17,27 @@ I don't generally use public/open repositories, but I'm pushing these "**_Person
 I don't know how social _GitHub_ is; typographical and grammar corrections welcome; other comments and suggestions welcome from _experienced users of **GIT** only_.  I have little patience for ultracrepidarian advice.
 
 My personal programming notes are generally neither useful as tutorials nor helpful to inexperienced users.  For an in-depth Git reference you should download "**_Pro Git, Second Edition_**" from https://git-scm.com/book/en/v2, updated regularly and available in fifteen languages online, most of which also seem to be downloadable in at least one of PDF, EPUB, or MOBI formats.  Don't leave home without it.
+
+- [x] verify my standard "_programming notes_" template and open a master document
+- [X] begin organizing the document files into topic chapters and include them in the master document
+- [X] begin writing topic documents based on Git documentation
+- [X] create account on GITHub
+- [X] create repository in the document working directory and configure
+- [X] create remote repository on server and push
+- [X] create remote repository on GITHub and push
+- [X] take two years off for no apparent reason
+- [X] check out _Pro Git_ to see if it's any good
+- [ ] distill rough notes from _Pro Git_ and merge them into topic documents
+- [X] finish playing around the GitHub's markdown checklist
+- [ ] make it to the half-way point of _Pro Git_
+- [ ] quickly finish off remaining chapters (probably don't apply much to quick notes)
+- [ ] complete a rough logical re-organization of the existing chapters
+- [ ] set final _Quick Start_ block
+- [ ] give the complete document a full, pre-polis proof-read
+- [ ] final logical re-organization of the chapters
+- [ ] massage the template for the final commit
+- [ ] title page
+- [ ] output final PDF
+- [ ] make final commit and archive the repository on ____2022-??-??____
+- [ ] print and bind
+- [ ] remove this GITHub repository on ____2022-??-??____
