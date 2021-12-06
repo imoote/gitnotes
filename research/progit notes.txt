@@ -2,10 +2,27 @@ NOTES FROM PROGIT BOOK
 ======================
 
 git status [-s]					;current branch; status if files in directory
+git log							;display the log of changes, most recent first
+git log -p						;log, but show the actual diffs
+git log --stat					;log with additional status
+git log --oneline				;one-line log display
+git log --graph					;log with branches shown
+git log --since=2.weeks			;limit log display
 git add <pathname>				;stage file or directory
+git restore --staged <pathname>	;unstage a staged file
 git diff <pathname>				;show differences between modified and staged
 git diff --staged <pathname>	;show differences between staged and committed
 git diff --cached <pathname>	;the same as --staged??
+git commit						;opens editor for commit message and commits files
+git commit -m "<message>"		;commit with very simple messasge
+git commit -a					;skip staging: add all modified files and commit
+git commit --amend				;adds to and replaces the previous commit
+git rm <pathname>				;delete file and stage for removal from project
+git rm --cached <pathname>		;untrack a tracked file
+git rm -f <pathname>			;force removal of a staged, uncommitted file
+git checkout <branch>			;move the branch into your working directory
+git checkout -- <pathname>		;restore last version of this file to working
+git mv <pathname> <pathname>	;move or rename a file
 
 
 Three States (very important!)
@@ -66,4 +83,225 @@ Branches
 - you gotta create them as you go
 
 
+Commit
+- git commit
+- git commit -a
+- git commit -m "<message>"
+- git describe
+	- perform this on a specific commit
+	- generates a tag consisting of the name of the most recent annotated tag
+	  earlier than the commit, followed by the number of commits since that tag,
+	  followed by a partial SHA-1 value of the commit being described (prefixed
+	  by the letter "g")
+		- eg.: git describe master
+		- 	use git describe --tags master for lightweight tags
+	- can also use these tags in git checkout or git show
 
+
+Undoing
+- anything committed can almost always be recovered
+- replace the previous commit with git commit --amend
+- unstage a file using git restore --staged <filename>
+	- can also unstage using git reset HEAD <filename>
+- undo changes to a file using git checkout -- <filename>
+	- dangerous
+
+
+Remote Repositories
+- the "local" repository is the .git directory in your working directory
+- "remote" repositories are repositories which are not in the local directory
+	- usually located on a server or another computer
+	- can be on the same host as the working directory
+- show remotes using git remote or git remote -v
+- add remotes with git remote add <shortname> <url>
+- push updates with git push <shortname> <branch>
+	- pushes changes committed to your local repository
+- fetch updates with git fetch <shortname>
+	- branches are now accessible as <shortname>/<branchname>
+	- adds to your local repository only, not your working directory
+- git clone <url> automatically adds the remote under the shortname "origin"
+	- must now be merged?
+- git pull <shortname> will automagically fetch and merge
+- examine a remote using git remote show <shortname>
+- rename a remote using git remote rename <oldshortname> <newshortname>
+- remove a remote using git remote remove <shortname> (or git remote rm <shortname>)
+
+
+Tagging
+- typically used to mark release points
+- list existing tags in alphabetical order with git tag, or git tag --list
+	- git tags -l "<search-string>"
+- annotated tag git tag -a <tag> [-m <message>] [<unique_hash>]
+- show commit informat at tag using git show <tag>
+- lightweight tag using git tag <tag> [<unique_hash>]
+- git push <remote> <tag> or git push <remote>	 --tags
+	- git doesn't push tags by default
+- delete tags using git tag -d <tag>
+	- to also remove from host use git push <remote> :refs/tags/<tagname>
+	- git push <remote> --delete <tagname>
+- to checkout by tagname use git checkout <tagname>
+	- will detach the head
+		- can't reach the commit except by using the exact hash
+- git checkout -b <branchname> <tagname>
+
+
+Aliases
+- command aliases; look it up
+
+
+Branching
+- create a new branch with git branch <branchname>
+	- only creates new branch from current HEAD?
+	- does not checkout the new branch
+- you can branch from a branch
+	- you just need to make sure that you branch it back in to the source branch
+- checkout a branch with git checkout <branchname>
+	- moves HEAD to point to the chosen branch
+	- changes the files in your working directory
+	- git will not allow you to switch branches if it cannot be done cleanly
+		- may have to commit or stash before switching
+- create and checkout a new branch with git checkout -b <branchname>
+- display all branches using git branch without options
+	- display the last commit on each branch with git branch -v
+- delete a branch using git branch -d <branchname>
+	- git won't allow you to delete a branch which has not been merged
+	- can force a delete using git branch -D <branchname>
+
+
+Merging Branches
+- use the git merge command to merge branches:
+	- git checkout master
+	- git merge <branch>
+- use git branch --merged or git branch --no-merged to find which branches have
+  or haven't been merged
+	- git branch --merged [branchname] | --no-merged [branchname]
+
+
+Merge Conflicts
+- *** NOTA BENE:  AVOID CONFLICTS BY USING GIT FETCH/PULL BEFORE ATTEMPTING TO MERGE
+- if a merge failes, git status will tell you which file has the conflict
+	- it could just say that you have two file of the same name
+- the partially-merged file has "conflict resolution markers" added to it
+	- "<<<<<<<", "=======", and ">>>>>>>"
+- must add the file back into the staging area to mark it resolved
+- can use git mergetool to resolve the issue graphically
+	- loads "the appropriate" merge tool
+	- must be configured
+	- after you exit the merge tool git will ask if the merge was successful
+	- if it was, it adds the file back into the staging area
+- *** NOTA BENE:  THIS DOES NOT ALTER THE FILES IN THE BRANCH BEING MERGED!!
+	- the file in conflict in the current working directory will be marked
+	  up with "conflict resolution markers which you can use to correct the
+	  conflicts
+	- only the conflicting file in the current branch is changed with the
+	  corrections, not the conflicting file in the branch being merged!
+
+
+Workflow: Long-Running Branches
+- merging from one branch to another multiple times over a long period of time
+- branches which are always open; used for different stages in the dev cycle
+- only code which is entirely stable ends up in the master branch
+	- could be only release candidate code
+	- another branch named develop or something for actually working
+	- other branches to collect proposed updates
+
+Workflow: Top Branches
+- short-lived branches which are used for a single particular feature or edit
+	- create a branch
+	- work on the feature/edit
+	- merge it back in
+	- delete the branch
+- multiple levels of branches
+	- create a branch to deal with an issue
+	- branch from that branch to try a different option
+	- merge or discard
+- delete top branches when the job is done
+- can create branches for trying out "dumb ideas"
+
+Workflow: Remote Branches
+- examine remote branches with git ls-remote <remote> and git remote show <remote>
+
+Workflow: Pushing Branches
+- upload/transfer the changes you've made in a branch to a remote repository
+  with git push <remote> <branchname>
+
+Workflow: Tracking Branch
+- is a branch which has a direct relationship with a remote repository
+	- as in, it's not necessarily the same remote as the rest of your project
+- git checkout --track <remote>/<branchname> does what, exactly??
+- git branch --set-upstream-to <remote>/<branchname> sets the current branch in
+  the local repository to track the remote/branchname
+- git branch -vv will tell you what tracking branches you have set up; run git
+  fetch --all first to get up-to-date information
+- merge remote branches into your work with git merge <remote>/<branchname>
+- git checkout -b <branchname> <server>/<branchname> will create a new branch
+  from remote
+
+
+Fetching vs Pulling
+- git fetch will fetch all the changes on the server you do not yet have, but will
+  not modify your working directory
+	- you have to merge it in after fetching
+- git pull will perform a fetch followed immediately by a merge
+- generally, it's better to perform a git fetch and a git merge manually
+
+
+Delete Remote Branches
+- use git push <remote> --delete <branchname>
+
+
+
+GIT SERVER
+==========
+- remote repository is "bare" in that it has no working directory
+- the most complicated aspect is user management
+
+Protocol
+- choose what protocol(s) you want to use
+	- "local"
+		- just another directory on your machine or on your network
+		- pro
+			- simple
+			- convenient; fewer steps to pull changes
+		- con
+			- generally unavailable from outside the machine/network
+			- some file systems, like NFS, are notoriously slow
+			- lack of compartmentalization and security
+	- HTTP
+		- just a web server
+		- pro
+			- single url for all types of access
+			- authenticate using username:password
+			- protocol is fast and efficient
+			- can force ssl certificates
+		- con
+			- can be trickier to set up than ssh on some systems
+	- SSH
+		- pro
+			- usually already set up on most servers
+			- if not, it's generally easy to set up
+			- secure
+			- protocol is fast and efficient
+		- con
+			- doesn't support anonymous access
+	- git
+		- pro
+			- generally the fastest protocol
+			- a git daemon comes with the git distribution
+			- git also comes with a "gitweb" cgi scrips for your http server
+		- con
+			- no authentication
+			- generally paired with ssh or https for pushers
+			- read-only access for anyone else to clone
+			- runs its own daemon
+				- so requires xinetd or systemd
+			- requires access to dedicated port 9418
+
+
+Peparing A Release
+- archive the source code
+- git archive <branchname> --prefix='project/' | gzip > 'git describe <branchname>'.tar.gz
+- git archive <branchname> --prefix='project/' --format=zip >
+	'git describe <branchname>.zip
+- git shortlog <branchname>
+	- summarizes all the commits in the range you give it
