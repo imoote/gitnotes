@@ -32,7 +32,7 @@ My personal programming notes are generally neither useful as tutorials nor help
 - [x] be amazed that gedit understands markdown
 - [X] finish playing around the GitHub's markdown checklist
 - [x] make it to the half-way point of _Pro Git_
-- [ ] quickly finish off remaining chapters (probably don't apply much to quick notes)
+- [x] quickly finish off remaining chapters (probably don't apply much to quick notes)
 - [ ] complete a rough logical re-organization of the existing chapters
 - [ ] integrate notes gleaned from _Pro Git_ into my topical chapters, making corrections to my previous notes as I go
 - [ ] set final _Quick Start_ block

@@ -305,3 +305,95 @@ Peparing A Release
 	'git describe <branchname>.zip
 - git shortlog <branchname>
 	- summarizes all the commits in the range you give it
+
+
+Stashing
+- *** NOTA BENE:  IF YOU DO WORK IN A DIRECTORY THAT YOU HAVE STASHED, YOU WILL
+  PROBABLY HAVE TO DEAL WITH MERGE CONFLICTS ***
+	- if you are using stash, make sure that your directory has been reapplied
+	  before you resume working on it
+	- git status won't tell you; you have to check using git stash list
+- when you need to switch branches but don't want to commit or unstange files
+- you can even stash files on one branch and reapply the changes on a different branch
+- git stash [push] cleans the working directory
+- git stash apply will pull the stash off the stack
+	- git stash apply --index to reapply staged files (in another branch?)
+	- keeps the stash on the stack
+- git stash drop [stashname]
+	- git stash pop will apply and drop
+- git stash list will show you what you have stashed
+- git stash branch <newbranchname>
+	- creates a new branch
+	- applies the most recent existing stash to the new branch
+	- drops the stash if it was applied successfully
+- git stash --all stashes everything?
+
+
+Cleaning the Work Directory
+- deletes untracked files which are not ignored (.gitignore)
+	- use -x to also delete ignored untracked files
+	- use -i for interactive mode
+1.	git stash --all
+2.	git clean --dry-run
+3.	git clean [-f]
+4.	git stash drop [stash@{}]
+
+
+Digital Signature
+- see Pro Git
+
+
+Rewriting History
+- it's easy to make changes to your local history
+- it's difficult? to make changes to the history after you've pushed it
+- git commit --amend [--no-edit]
+	- adds staged files to the last commit and allows you to edit the commit message
+		- --no-edit allows you to skip the editor stage
+	- results in a changed SHA-1 hash
+	- "it's like a very small rebase"
+	- don't amend pushed commits
+
+
+Submodules
+- a git project with other git projects within it
+- git submodule add <url> [changedirectoryname?]
+	- clones the designated "absolute or relative" url into a new project
+	  directory within your project directory
+		- the new project is now a part of your project
+	- adds a new .gitmodules directory into your project directory to track
+	  all the submodules you add
+	- git status shows .gitmodules and the new working directory as being
+	  new files which are staged to be committed
+- it's important to note that the url specified in .gitmodules is from where
+  other users (or you) will clone the submodules, so it must be accessible
+- git config submodule.<modulename>.url PRIVATE_URL does something
+- you should probably run a commit when you add a submodule
+- cloning a project with submodules gets you the submodule directories but not
+  the files within them
+	1.	git clone <url>
+	2.	git submodule init
+	3.	git submodule update
+	- git clone --recurse-submodules <url>
+		- will also clone submodules and nested submodules
+	- can also use git submodule update --init to combine init and update
+		- and don't forget git submodule update --init --recursive
+- can run git fetch and git merge in the submodule directories
+
+
+
+GITHUB
+======
+
+Workflow
+1.	Fork the project
+2.	Create a topic branch from master
+3.	Make some commits to improve the project
+4.	Push this branch to your github project repository
+5.	Open a pull request on github
+6.	Discuss and, optionally, continue committing to your fork
+7.	The project owner merges or closes the pull request
+8.	Sync the updated master back into your fork
+
+- this is, basically, the "Integration-Manager" workflow
+	- instead of using email, you use github's web-based tools
+
