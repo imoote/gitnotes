@@ -1,0 +1,36 @@
+QUICK START NOTES
+
+1. Create the remote repository(ies)
+	- on GitHub
+		- log in
+		- create new project
+	- on network
+		- cd into repository directory
+		- mkdir the directory
+		- cd into the directory
+		- git init --bare
+2a. Clone the (empty) repository
+	- decide which repository will be your origin and clone
+	- git clone <url>
+		- this will create the origin entry in the project config
+2b. Or, create your project directory and initialize git's local repository:
+	- mkdir <directory>
+	- cd <directory>
+	- git init
+	- git remote add origin <url>
+3. Check the project's config
+	- git config --list
+		- user name
+		- e-mail address
+		- origin
+4. Add additional remote repositories
+	- git add <repositoryname> <url>
+5. Push to multiple remote repositories
+	- git remote --set-url --add --push origin <url>
+		- do this as many times as you need to for all repos
+	- alternatively
+		- git remote --set-url --add --push all <url>
+			- instead of using origin to push to multiple
+
+
+

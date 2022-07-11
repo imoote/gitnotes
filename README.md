@@ -44,3 +44,4 @@ My personal programming notes are generally neither useful as tutorials nor help
 - [ ] make final commit and archive the repository on ____2022-??-??____
 - [ ] print and bind
 - [ ] remove this GITHub repository on ____2022-??-??____
+- [ ] read the rest of the research books and modify the notes as appropriate

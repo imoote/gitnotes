@@ -105,9 +105,6 @@ Undoing
 	- can also unstage using git reset HEAD <filename>
 - undo changes to a file using git checkout -- <filename>
 	- dangerous
-- "undo" a push by forcing another push
-	- first, do your git commit --amend (which you probably need to do)
-	- git push -f origin <last_known_good_commit>:<branch>
 
 
 Remote Repositories
