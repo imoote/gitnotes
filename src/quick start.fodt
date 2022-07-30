@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-03-30T16:42:51.225558916</meta:creation-date><dc:date>2022-07-29T22:10:50.523763170</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>P1DT3H7M24S</meta:editing-duration><meta:editing-cycles>16</meta:editing-cycles><meta:generator>LibreOffice/6.4.7.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="60" meta:word-count="315" meta:character-count="1969" meta:non-whitespace-character-count="1721"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal notes blank" xlink:href="../../../Templates/personal%20notes%20blank.ott" meta:date="2022-05-13T21:28:46.371248775"/></office:meta>
+ <office:meta><meta:initial-creator>Ian Moote</meta:initial-creator><meta:creation-date>2020-03-30T16:42:51.225558916</meta:creation-date><dc:date>2022-07-29T23:48:26.033512668</dc:date><dc:creator>Ian Moote</dc:creator><meta:editing-duration>P1DT3H8M27S</meta:editing-duration><meta:editing-cycles>17</meta:editing-cycles><meta:generator>LibreOffice/6.4.7.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="67" meta:word-count="345" meta:character-count="2167" meta:non-whitespace-character-count="1889"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="personal notes blank" xlink:href="../../../Templates/personal%20notes%20blank.ott" meta:date="2022-05-13T21:28:46.371248775"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">13547</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">5764</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">34556</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">25296</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">14686</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">15976</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">23587</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">4313</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">13370</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">13547</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">34555</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">28231</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">5764</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">25294</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">20449</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -83,7 +83,7 @@
    <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2893463</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3175711</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -153,7 +153,7 @@
   <draw:gradient draw:name="Gradient_20_2" draw:display-name="Gradient 2" draw:style="radial" draw:cx="10%" draw:cy="10%" draw:start-color="#b2b2b2" draw:end-color="#eeeeee" draw:start-intensity="100%" draw:end-intensity="100%" draw:border="0%"/>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="CA" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -401,35 +401,35 @@
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="0023338a" officeooo:paragraph-rsid="0023338a"/>
   </style:style>
-  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Header">
-   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="002c711b"/>
   </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Footer">
-   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
   </style:style>
   <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Footer">
-   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
-  </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="0023338a" officeooo:paragraph-rsid="0023338a"/>
-  </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Header">
-   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Footer">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Footer">
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Footer">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="_30__20_Code" style:master-page-name="">
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="0023338a" officeooo:paragraph-rsid="0023338a"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="_30__20_Code" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="_30__20_Code">
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="_30__20_Code">
    <style:text-properties officeooo:paragraph-rsid="0026abd1"/>
-  </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="_30__20_Code" style:master-page-name="Quick_20_Start_20_Page">
-   <style:paragraph-properties style:page-number="auto"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="_30__20_Code">
    <style:text-properties officeooo:rsid="0014ec08"/>
@@ -446,95 +446,144 @@
   <style:style style:name="P16" style:family="paragraph" style:parent-style-name="_30__20_Code">
    <style:text-properties officeooo:paragraph-rsid="002a78af"/>
   </style:style>
-  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="_30__20_Code" style:master-page-name="Quick_20_Start_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="00d1c80f" officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="0014ec08" officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="0026abd1" officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="0015a37a" officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="002d2192" officeooo:paragraph-rsid="002d2192"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:paragraph-rsid="002d2192"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:rsid="002edf68" officeooo:paragraph-rsid="002edf68"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="_30__20_Code">
+   <style:text-properties officeooo:paragraph-rsid="002edf68"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="0023338a" officeooo:paragraph-rsid="0023338a"/>
   </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="002c711b"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
-   <style:text-properties officeooo:rsid="00d0617e"/>
+   <style:text-properties officeooo:rsid="002c711b"/>
   </style:style>
   <style:style style:name="T2" style:family="text">
-   <style:text-properties officeooo:rsid="00ce74a1"/>
+   <style:text-properties officeooo:rsid="00d0617e"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties officeooo:rsid="0096702f"/>
+   <style:text-properties officeooo:rsid="00ce74a1"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties officeooo:rsid="00d1c80f"/>
+   <style:text-properties officeooo:rsid="0096702f"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties officeooo:rsid="0098d64c"/>
+   <style:text-properties officeooo:rsid="00d1c80f"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="00cd5595"/>
+   <style:text-properties officeooo:rsid="0098d64c"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties officeooo:rsid="00123216"/>
+   <style:text-properties officeooo:rsid="00cd5595"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties officeooo:rsid="0012c23d"/>
+   <style:text-properties officeooo:rsid="00123216"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties officeooo:rsid="00139029"/>
+   <style:text-properties officeooo:rsid="0012c23d"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties officeooo:rsid="0014ec08"/>
+   <style:text-properties officeooo:rsid="00139029"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
+   <style:text-properties officeooo:rsid="0014ec08"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="0014ec08" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="0015a37a" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="0014ec08" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="00175406" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="0015a37a" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="0023338a" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="10pt" officeooo:rsid="00175406" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="0026abd1" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="0023338a" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="002a78af" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="0026abd1" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties officeooo:rsid="0015a1f1"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="002a78af" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties officeooo:rsid="0015a37a"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-size="8pt" officeooo:rsid="002edf68" fo:background-color="#eeeeee" loext:char-shading-value="0" style:font-name-asian="Noto Sans Mono CJK SC" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-size-complex="10pt" style:font-relief="none"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties officeooo:rsid="00175406"/>
+   <style:text-properties officeooo:rsid="0015a1f1"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties officeooo:rsid="001a909a"/>
+   <style:text-properties officeooo:rsid="0015a37a"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties officeooo:rsid="001bf1c2"/>
+   <style:text-properties officeooo:rsid="00175406"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties officeooo:rsid="0020924a"/>
+   <style:text-properties officeooo:rsid="001a909a"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties officeooo:rsid="0023338a"/>
+   <style:text-properties officeooo:rsid="001bf1c2"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties officeooo:rsid="0024c6ab"/>
+   <style:text-properties officeooo:rsid="0020924a"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties officeooo:rsid="0026abd1"/>
+   <style:text-properties officeooo:rsid="0023338a"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties officeooo:rsid="00292227"/>
+   <style:text-properties officeooo:rsid="0024c6ab"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties officeooo:rsid="002a78af"/>
+   <style:text-properties officeooo:rsid="0026abd1"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
+   <style:text-properties officeooo:rsid="00292227"/>
+  </style:style>
+  <style:style style:name="T30" style:family="text">
+   <style:text-properties officeooo:rsid="002a78af"/>
+  </style:style>
+  <style:style style:name="T31" style:family="text">
    <style:text-properties officeooo:rsid="002c2697"/>
+  </style:style>
+  <style:style style:name="T32" style:family="text">
+   <style:text-properties officeooo:rsid="002c711b"/>
+  </style:style>
+  <style:style style:name="T33" style:family="text">
+   <style:text-properties officeooo:rsid="002d2192"/>
+  </style:style>
+  <style:style style:name="T34" style:family="text">
+   <style:text-properties officeooo:rsid="002edf68"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
@@ -570,13 +619,13 @@
   <style:page-layout style:name="pm5">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
     <style:columns fo:column-count="2" fo:column-gap="0.2in">
-     <style:column style:rel-width="32767*" fo:start-indent="0in" fo:end-indent="0.1in"/>
-     <style:column style:rel-width="32768*" fo:start-indent="0.1in" fo:end-indent="0in"/>
+     <style:column style:rel-width="4986*" fo:start-indent="0in" fo:end-indent="0.1in"/>
+     <style:column style:rel-width="4986*" fo:start-indent="0.1in" fo:end-indent="0in"/>
     </style:columns>
     <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style>
-    <style:header-footer-properties fo:min-height="0in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.1965in"/>
+    <style:header-footer-properties fo:min-height="0in" fo:margin-bottom="0.1965in"/>
    </style:header-style>
    <style:footer-style/>
   </style:page-layout>
@@ -621,16 +670,16 @@
   <style:master-page style:name="Index" style:page-layout-name="pm4" style:next-style-name="Chapter_20_Page"/>
   <style:master-page style:name="Quick_20_Start_20_Page" style:display-name="Quick Start Page" style:page-layout-name="pm5" style:next-style-name="Index">
    <style:header>
-    <text:h text:style-name="P1" text:outline-level="2">Quick Start</text:h>
+    <text:h text:style-name="P2" text:outline-level="2">Quick Star<text:span text:style-name="T1">t</text:span></text:h>
    </style:header>
   </style:master-page>
   <style:master-page style:name="Chapter_20_Page" style:display-name="Chapter Page" style:page-layout-name="pm6" style:next-style-name="Left_20_Page"/>
   <style:master-page style:name="Left_20_Page" style:display-name="Left Page" style:page-layout-name="pm7" style:next-style-name="Right_20_Page">
    <style:header>
-    <text:p text:style-name="P2"><text:chapter text:display="name" text:outline-level="1"/></text:p>
+    <text:p text:style-name="P3"><text:chapter text:display="name" text:outline-level="1"/></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P3"><text:page-number text:select-page="current">0</text:page-number></text:p>
+    <text:p text:style-name="P4"><text:page-number text:select-page="current">0</text:page-number></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Right_20_Page" style:display-name="Right Page" style:page-layout-name="pm8" style:next-style-name="Left_20_Page">
@@ -638,7 +687,7 @@
     <text:p text:style-name="Header"><text:chapter text:display="name" text:outline-level="1"/></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P4"><text:page-number text:select-page="current">0</text:page-number></text:p>
+    <text:p text:style-name="P5"><text:page-number text:select-page="current">0</text:page-number></text:p>
    </style:footer>
   </style:master-page>
  </office:master-styles>
@@ -652,67 +701,75 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P11">//<text:span text:style-name="T8">Status and Info</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git remote -v<text:tab/><text:tab/>#show remote repo <text:span text:style-name="T24">info</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git status<text:tab/><text:tab/><text:tab/><text:span text:style-name="T9">#show stag</text:span><text:span text:style-name="T24">ed files</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git config --list<text:tab/>#show config parameters</text:p>
-   <text:p text:style-name="_30__20_Code"/>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T27">Clone Existing Repositories</text:span></text:p>
-   <text:p text:style-name="P15">git clone /path/to/repository <text:span text:style-name="T27">#from network</text:span></text:p>
-   <text:p text:style-name="P15">git clone user@host:/path<text:tab/>#<text:span text:style-name="T27">from remote</text:span></text:p>
-   <text:p text:style-name="P15">//<text:span text:style-name="T27">eg. </text:span><text:span text:style-name="Source_20_Text">git clone https://github.com/</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T27">user/repo</text:span></text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="Source_20_Text"/></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="Source_20_Text">//</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T27">Create New Repository for New Project</text:span></text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T27">git init<text:tab/>#in current directory</text:span></text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T27">git init --bare &lt;path/to/repository&gt;</text:span></text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="Source_20_Text"><text:tab/></text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T27">#creates bare repo on network</text:span></text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="Source_20_Text">//</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T28">NB: do not use ‘~’ in pathname</text:span></text:span></text:p>
-   <text:p text:style-name="P16">git remote add <text:span text:style-name="T17">&lt;remote&gt;</text:span> &lt;<text:span text:style-name="T27">path / </text:span>url&gt;</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T28">//eg. </text:span><text:span text:style-name="T17">g</text:span><text:span text:style-name="T28">it remote add origin &lt;path&gt;</text:span></text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T20">Log</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git log</text:p>
-   <text:p text:style-name="_30__20_Code">git log –pretty=oneline</text:p>
-   <text:p text:style-name="_30__20_Code">git log --author=&lt;authorname&gt;</text:p>
-   <text:p text:style-name="_30__20_Code">git log --name-status<text:tab/><text:span text:style-name="T20">#</text:span><text:span text:style-name="T25">changed</text:span> files</text:p>
-   <text:p text:style-name="_30__20_Code">git log --graph --oneline --decorate --all</text:p>
-   <text:p text:style-name="_30__20_Code"/>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T19">Managing Source Files</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git add &lt;filename&gt;<text:tab/>#stage a <text:span text:style-name="T26">modified</text:span> file</text:p>
-   <text:p text:style-name="P12">git reset &lt;filename&gt;<text:tab/>#unstage a staged file</text:p>
-   <text:p text:style-name="P13">git reset --mixed &lt;filename&gt;<text:tab/>#unstage file</text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T26">g</text:span>it mv &lt;source&gt; &lt;destination&gt; #move or rename</text:p>
-   <text:p text:style-name="_30__20_Code">git rm &lt;filename(s)&gt;<text:tab/>#<text:span text:style-name="T16">remove and delete file</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git rm --cached &lt;filename&gt;<text:tab/>#remove <text:span text:style-name="T26">and keep</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git checkout &lt;filename&gt;<text:tab/>#replace <text:span text:style-name="T16">file</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git commit<text:tab/><text:tab/>#commit staged files</text:p>
-   <text:p text:style-name="_30__20_Code">git commit -a<text:tab/><text:span text:style-name="T26">#</text:span>combines “add *” with commit</text:p>
-   <text:p text:style-name="_30__20_Code">git commit -m [“message”]<text:tab/><text:span text:style-name="T20">#</text:span><text:span text:style-name="T7">**never use**</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T19">//the </text:span>.<text:span text:style-name="T19">gitignore file is used to exclude</text:span></text:p>
-   <text:p text:style-name="P14">//<text:tab/><text:tab/>files from being tracked</text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">//<text:span text:style-name="T6"> tag </text:span><text:span text:style-name="T26">a</text:span><text:span text:style-name="T6"> major commit in local repository</text:span></text:p>
-   <text:p text:style-name="P10">git tag <text:span text:style-name="T6">&lt;tagname&gt; &lt;reference&gt;</text:span></text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T26">Working With Branches</text:span></text:p>
-   <text:p text:style-name="P10">git checkout -b &lt;branch&gt;<text:tab/>#create branch</text:p>
-   <text:p text:style-name="P10">git branch -d &lt;branch&gt;<text:tab/>#delete branch</text:p>
-   <text:p text:style-name="P10">git checkout &lt;branch&gt;<text:tab/>#<text:span text:style-name="T26">switch to branch</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T10">git fetch &lt;remote&gt; [&lt;branch&gt;] </text:span><text:span text:style-name="T26">#show changes</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git fetch --all<text:tab/><text:tab/><text:tab/>#??</text:p>
-   <text:p text:style-name="_30__20_Code"><text:span text:style-name="T18">git pull &lt;remote&gt; [&lt;branch&gt;]<text:tab/>#</text:span><text:span text:style-name="T19">merges changes</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git diff &lt;src_branch&gt; &lt;targ_branch&gt;<text:tab/>#preview</text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T10">git merge &lt;branch&gt; </text:span><text:span text:style-name="T18">#merge </text:span><text:span text:style-name="T19">local into current</text:span></text:p>
-   <text:p text:style-name="_30__20_Code"><text:span text:style-name="T10">git push &lt;remote&gt; [&lt;branch&gt;]<text:tab/>#push </text:span><text:span text:style-name="T19">changes</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T26">eg. </text:span><text:span text:style-name="T16">g</text:span><text:span text:style-name="T26">it push origin master</text:span></text:p>
-   <text:p text:style-name="_30__20_Code"/>
-   <text:p text:style-name="_30__20_Code">//<text:span text:style-name="T22">some git config parameters</text:span></text:p>
-   <text:p text:style-name="P16">//--<text:span text:style-name="T4">local = repository, --global = user,</text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T4">//<text:tab/><text:tab/>--system = everyone on this computer</text:span></text:p>
-   <text:p text:style-name="_30__20_Code">git config --global user.name “&lt;User Name&gt;”</text:p>
-   <text:p text:style-name="_30__20_Code">git config --global user.email “&lt;user<text:span text:style-name="T5">@</text:span>email&gt;”</text:p>
-   <text:p text:style-name="_30__20_Code">git config --global core.editor gedit</text:p>
-   <text:p text:style-name="_30__20_Code">git config --global commit.template ~/.gitmessage.txt<text:tab/><text:span text:style-name="T29">#commit message template</text:span></text:p>
+   <text:p text:style-name="P17">//<text:span text:style-name="T9">Status and Info</text:span></text:p>
+   <text:p text:style-name="P22">git remote -v<text:tab/><text:tab/>#show remote repo <text:span text:style-name="T26">info</text:span></text:p>
+   <text:p text:style-name="P22">git status<text:tab/><text:tab/><text:tab/><text:span text:style-name="T10">#show stag</text:span><text:span text:style-name="T26">ed files</text:span></text:p>
+   <text:p text:style-name="P22">git config --list<text:tab/>#show config parameters</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T21">Managing Source Files</text:span></text:p>
+   <text:p text:style-name="P22">git add &lt;filename&gt;<text:tab/>#stage a <text:span text:style-name="T28">modified</text:span> file</text:p>
+   <text:p text:style-name="P19">git reset &lt;filename&gt;<text:tab/>#unstage a staged file</text:p>
+   <text:p text:style-name="P20">git reset --mixed &lt;filename&gt;<text:tab/>#unstage file</text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T28">g</text:span>it mv &lt;source&gt; &lt;destination&gt; #move or rename</text:p>
+   <text:p text:style-name="P22">git rm &lt;filename(s)&gt;<text:tab/>#<text:span text:style-name="T17">remove and delete file</text:span></text:p>
+   <text:p text:style-name="P22">git rm --cached &lt;filename&gt;<text:tab/>#remove <text:span text:style-name="T28">and keep</text:span></text:p>
+   <text:p text:style-name="P22">git checkout &lt;filename&gt;<text:tab/>#replace <text:span text:style-name="T17">file</text:span></text:p>
+   <text:p text:style-name="P22">git commit<text:tab/><text:tab/>#commit staged files</text:p>
+   <text:p text:style-name="P22">git commit -a<text:tab/><text:span text:style-name="T28">#</text:span>combines “add *” with commit</text:p>
+   <text:p text:style-name="P22">git commit -m [“message”]<text:tab/><text:span text:style-name="T22">#</text:span><text:span text:style-name="T8">**never use**</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T21">//the </text:span>.<text:span text:style-name="T21">gitignore file is used to exclude</text:span></text:p>
+   <text:p text:style-name="P21">//<text:tab/><text:tab/>files from being tracked</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T28">Working With Branches</text:span></text:p>
+   <text:p text:style-name="P23">git branch<text:tab/><text:tab/><text:tab/><text:tab/><text:tab/>#show branches</text:p>
+   <text:p text:style-name="P23">git branch -a<text:tab/><text:tab/><text:tab/><text:tab/>#remote branches</text:p>
+   <text:p text:style-name="P25">git branch &lt;branch&gt;<text:tab/><text:tab/>#create branch</text:p>
+   <text:p text:style-name="P22">git checkout -b &lt;branch&gt;<text:tab/>#create branch</text:p>
+   <text:p text:style-name="P24"><text:span text:style-name="T33">gir branch -m &lt;new_name&gt;<text:tab/>#rename </text:span><text:span text:style-name="T19">current</text:span></text:p>
+   <text:p text:style-name="P22">git checkout &lt;branch&gt;<text:tab/>#<text:span text:style-name="T28">switch to branch</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T11">git fetch &lt;remote&gt; [&lt;branch&gt;] </text:span><text:span text:style-name="T28">#show changes</text:span></text:p>
+   <text:p text:style-name="P22">git fetch --all<text:tab/><text:tab/><text:tab/>#??</text:p>
+   <text:p text:style-name="P26"><text:span text:style-name="T11">git merge &lt;branch&gt; </text:span><text:span text:style-name="T20">#merge </text:span><text:span text:style-name="T21">local into current</text:span></text:p>
+   <text:p text:style-name="P26"><text:span text:style-name="T20">git pull &lt;remote&gt; [&lt;branch&gt;]<text:tab/>#</text:span><text:span text:style-name="T21">merges </text:span><text:span text:style-name="T19">remote</text:span></text:p>
+   <text:p text:style-name="P22">git diff &lt;src_branch&gt; &lt;targ_branch&gt;<text:tab/>#preview</text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T11">git push &lt;remote&gt; [&lt;branch&gt;]<text:tab/>#push </text:span><text:span text:style-name="T21">changes</text:span></text:p>
+   <text:p text:style-name="P22">//<text:span text:style-name="T28">eg. </text:span><text:span text:style-name="T17">g</text:span><text:span text:style-name="T28">it push origin master</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T33">delete branch</text:span></text:p>
+   <text:p text:style-name="P24">git branch -d &lt;branch&gt;</text:p>
+   <text:p text:style-name="P23">git push &lt;remote&gt; --delete &lt;branch&gt;</text:p>
+   <text:p text:style-name="P24"><text:span text:style-name="T33">git push &lt;remote&gt; :&lt;branch&gt;</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T29">Clone Existing Repositories</text:span></text:p>
+   <text:p text:style-name="P22">git clone /path/to/repository <text:span text:style-name="T29">#from network</text:span></text:p>
+   <text:p text:style-name="P22">git clone user@host:/path<text:tab/>#<text:span text:style-name="T29">from remote</text:span></text:p>
+   <text:p text:style-name="P22">//<text:span text:style-name="T29">eg. </text:span><text:span text:style-name="Source_20_Text">git clone https://github.com/</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T29">user/repo</text:span></text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text"/></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text">//</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T29">Create New Repository for New Project</text:span></text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T29">git init<text:tab/>#in current directory</text:span></text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T29">git init --bare &lt;path/to/repository&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text"><text:tab/></text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T29">#creates bare repo on network</text:span></text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="Source_20_Text">//</text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T30">NB: do not use ‘~’ in pathname</text:span></text:span></text:p>
+   <text:p text:style-name="P22">git remote add <text:span text:style-name="T18">&lt;remote&gt;</text:span> &lt;<text:span text:style-name="T29">path / </text:span>url&gt;</text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T30">//eg. </text:span><text:span text:style-name="T18">g</text:span><text:span text:style-name="T30">it remote add origin &lt;path&gt;</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T22">Log</text:span></text:p>
+   <text:p text:style-name="P22">git log</text:p>
+   <text:p text:style-name="P22">git log –pretty=oneline</text:p>
+   <text:p text:style-name="P22">git log --author=&lt;authorname&gt;</text:p>
+   <text:p text:style-name="P22">git log --name-status<text:tab/><text:span text:style-name="T22">#</text:span><text:span text:style-name="T27">changed</text:span> files</text:p>
+   <text:p text:style-name="P22">git log --graph --oneline --decorate --all</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T7"> tag </text:span><text:span text:style-name="T28">a</text:span><text:span text:style-name="T7"> major commit in local repository</text:span></text:p>
+   <text:p text:style-name="P22">git tag <text:span text:style-name="T7">&lt;tagname&gt; &lt;reference&gt;</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22">//<text:span text:style-name="T24">some git config parameters</text:span></text:p>
+   <text:p text:style-name="P22">//--<text:span text:style-name="T5">local = repository, --global = user,</text:span></text:p>
+   <text:p text:style-name="P18">//<text:tab/><text:tab/>--system = everyone on this computer</text:p>
+   <text:p text:style-name="P22">git config --global user.name “&lt;User Name&gt;”</text:p>
+   <text:p text:style-name="P22">git config --global user.email “&lt;user<text:span text:style-name="T6">@</text:span>email&gt;”</text:p>
+   <text:p text:style-name="P22">git config --global core.editor gedit</text:p>
+   <text:p text:style-name="P22">git config --global commit.template ~/.gitmessage.txt<text:tab/><text:span text:style-name="T31">#commit message template</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
