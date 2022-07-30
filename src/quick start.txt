@@ -1,6 +1,6 @@
 QUICK START NOTES
 
-1. Create the remote repository(ies)
+1. Create the remote repositor(y/ies)
 	- on GitHub
 		- log in
 		- create new project
@@ -10,7 +10,8 @@ QUICK START NOTES
 		- cd into the directory
 		- git init --bare
 2a. Clone the (empty) repository
-	- decide which repository will be your origin and clone
+	- decide which repository will be your origin (GitHub or network
+	  repository) then clone from it
 	- git clone <url>
 		- this will create the origin entry in the project config
 2b. Or, create your project directory and initialize git's local repository:
