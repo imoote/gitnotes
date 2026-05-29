@@ -10,9 +10,9 @@ SSH Keys
 
 GitHub Access Token
 -------------------
-The access token can be used instead of SSH when accessing GitHub from the command line with "git" and "gh".
+The access token can be used instead of SSH when accessing GitHub from the command line with "gh" and/or "git".
 
-Go to your GitHub account --> Settings --> Developer Settings --> Personal Access Tokens --> Tokens (classic) --> Generate New Token --> Generate New Token (classic)
+To get a GitHub token go to your GitHub account --> Settings --> Developer Settings --> Personal Access Tokens --> Tokens (classic) --> Generate New Token --> Generate New Token (classic)
 	- fill in the note (eg.: "Temporary Token for <name> Through <date>")
 	- select 30 days or whatever
 	- select scopes:
