@@ -1,0 +1,46 @@
+GIT
+===
+** Never use the terminal shell to delete, move, or rename files which are
+	being tracked by git.  Use the "git rm" and "git mv" commands to do
+	that. **
+
+	# Configure Git
+	git config --list							# show current config
+	git config --global user.name <"full name">	# configure name
+	git config --global user.email <"email">	# configure email
+	git config --global core.editor <"progname">	# configure editor
+						core.editor <"progname --wait">
+
+	# Initialize Git
+	git init		# initialize the local repository
+
+	# Staging and Unstaging
+	git status				# get status of files in the repository
+	.gitignore				# list of files to ignore
+	git add <filename>		# stage file for commit
+	git reset <filename>	# unstage a file
+	git reset				# unstage all staged files
+	git commit -a			# stage and commit
+
+	# Commit changes to the local repository
+	git commit						# commit staged files
+	git commit -a					# stage and commit all files
+	git commit -F <message_file>	# commit using the message file
+
+	# Removing and Deleting files
+	git rm file1 [file2 ...]	# remove files or directories
+	git rm --cached file1 [...]	# stop tracking files or directories
+	git rm --force file1 [...]	# you can get more with a kind word and a gun...
+	git rm -r file1 [...]		# recursive removal into directories
+
+	# Undo Git rm
+	git reset HEAD	# reset working directory to the state of last commit
+	git reset <hash>	# reset working directory to point of the hash
+	git checkout .		# effectively the same as git reset HEAD
+
+	# Moving files
+	git mv <source> <destination>	# move file
+
+	# Log
+	git log		# commits, newest first
+	git reflog	# ??

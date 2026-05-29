@@ -1,0 +1,302 @@
+GIT
+===
+
+"Git is a database.
+Commit is a record."
+
+
+config
+	--global user.name <"full name">
+	--global user.email <"email">
+	--global core.editor <"command">	## eg.: "gedit --wait"
+	--list
+
+
+clone
+	- creates a local repository from a remote repository
+.gitignore
+	- a list of filespecs to ignore for tracking with "status" command
+init
+	- creates a new local repository for new projects
+	--bare
+		- for creating repositories on remote storage
+	- git branch -m main master
+fetch
+	- downloads commits from a remote repository which are newer than
+	  what you have
+	- usually done before you start work for the day, or just before
+	  performing a merge+commit+push?
+log
+	- shows commits
+merge (to resolve conflicts)
+	- merge the local and the remote commits
+diff
+	- shows differences between two commits
+branch (creates a branch)
+checkout (moves into a branch)
+	- must commit before checking out another branch
+add
+	- stage files to be committed
+rm, mv (git rm, git mv)
+	- remove, move, or rename (mv) a file which is currently being tracked
+	  by git
+restore
+	- reverts changes made to file in the working directory
+	- restores the file from HEAD?
+stash
+	- "stash" the current branch so that you can checkout another branch
+	  without committing unfinished work in the current branch
+status, ls-files
+commit
+	- commit the index of staged files to the current branch
+	- note that commit saves a snapshot, not diff files
+	- only commit complete work
+push (to a remote repository)
+fetch
+	- to resolve push conflicts
+	- see above
+merge (to resolve conflicts)
+	- to resolve push conflicts
+	- see above
+push again
+
+
+checkout, reset, revert
+	- summary
+		- checkout:	used when exploring history
+		- reset:	used when reshaping local work
+		- revert:	used when undoing shared history
+	- checkout
+		- moves HEAD
+		- gives you a detached head, orphaning commits which come after
+		  the checkout point
+	- reset
+		git reset <filename>
+			- removes <filename> from staging area
+		git reset
+			- removes all files from the staging area
+		git reset <commit>??
+		- considered to be a moderately dangerous command as it orphans
+		  commits (which are eventually garbage-collected)
+		- moves a branch (current branch to new commit point?)
+			--soft
+				- branch only
+				- staging area (index) remains unchanged
+				- use this when you've made three commits and want to
+				  combine them into one:
+				  		reset --soft <commitpoint>; commit;
+			--mixed (the default)
+				- branch is moved and staging (index) is reset
+				- changes still exist in files, just unstaged
+				- you've committed, but want to restage it differently;
+				  maybe split it into multiple commits
+			--hard
+				- everything is reset:
+					- branch is moved to the commit point
+					- staging area reset
+					- working directory reset
+				- files change; uncommitted work is gone from the disk
+				- use this when you want to completely abandon work and
+				  start fresh
+	- revert (adds corrective history)
+		- add a new commit that does the opposite of an old commit
+			- eg.: one commit adds 50 lines of code, revert removes those
+			  50 lines of code
+		- what you're recording in history is that you've decided to
+		  undo what you did earlier
+			- you can't rewrite shared history, but you can add to it
+		- use this when you need to undo something that's already been
+		  pushed and shared
+
+rebase (rewrites history)
+	- NEVER REBASE COMMITS THAT YOU'VE ALREADY PUSHED
+	- replays commits with new parents
+		- the branch disappears and commits are applied sequentially to
+		  the end of the branch to which you are rebasing
+	- only rebase local, unpushed commits
+
+when you've really fucked up you can "replay the reflog"
+	- the reflog is the map to where HEAD has pointed recently
+	- git branch recovery <commitID>
+	- reflog entries expire after 90 days for reachable commits, and
+	  30 days for orphaned commits
+	- git reflog shows the recent history
+
+
+Push Problems
+-------------
+If someone modifies a file you are working on, the push will fail.  If you use pull, a new merge+commit will be performed (because git pull is just a git fetch followed by a git merge).  If everyone does this then the commit history is going to look like the dog's dinner.  Better instead to just put your commit after the other person's commit:
+
+	git pull --rebase
+
+If there is a merge conflict then you can:
+
+	git rebase --abort
+	git pull
+
+git pull --ff-only
+git pull --ff
+git pull --rebase
+	- pull
+
+
+Commit Messages
+---------------
+	<type>[optional scope]: <description> (50 or fewer characters)
+	
+	[optional body]
+	
+	[optional footer(s)]
+
+	breaking changes:	put "BREAKING	CHANGE" in the footer and/or "!"
+		after the type/scope to indicate a change that breaks the API
+
+type:
+	fix:		bug patches
+	feat:		feature
+	build:		changes that affect the build system or external
+				dependencies
+	docs:		changes to documentation
+	refsctor:	code change which neither fixes a bug nor adds a feature
+	perf:		code change which improves perfoamance
+	test:		add missing tests, or correct existing test
+	chore:		everything else? [:D
+
+scope:
+	common, animations, core, database, UI, etc.
+
+footer:
+	info about breaking changes, signature info, etc.
+
+
+Commit Best Practices
+---------------------
+- commit often
+	- BUT: not too big, not to small
+	- "real-world programmers commit 5-10 times per day, depending on the
+	  kind of work you're doing" (JUST A GUILDLINE)
+- each commit should reflect a logically separate transaction
+	- one commit for the typo, one commit for the bugfix
+	- this also makes it easier to make meaningful commit messages
+- meaningful commit messages
+	- they're going to show up in the commit history
+	- need to be helpful to you and the other team members
+	- this is much easier to do if each commit represents a logically
+	  separate transaction
+- message tense
+	- some teams use the present tense ("Fix the bug"), other teams use
+	  the past tense ("Fixed the bug")
+	- whichever you use, stick to it
+
+Branches and Workflow
+---------------------
+
+Branches (typical):
+
+master:		deprecated due to victim-culture push-back and liberal racism
+main:		there is always a main branch from which all other branches
+			are derived; it serves as a springboard for all other long-
+			running branches
+stable:		derived from main; should only receive merges from "release-*"
+			and "hotfix" branches
+hotfix/*:	sometimes "hot/*"; derived from main; used for the fixing
+			critical bugs or security vulnerabilities in a live release
+			without waiting for the next scheduled update; the format
+			should be "hotfix/<issueID>"; merges back into main and
+			release
+develop:	derived from main; the development branch; should only
+			receive merges from the "feature/*", "bug/*", and "release-*"
+			branches
+feature/:	derived from the HEAD of develop; generally used for adding or
+			removing features and other changes; format should be
+			"feature/<feature_name>"; merges back into develop
+bug/:		sometimes "bugfix/*"; derived from the HEAD of develop; used
+			for fixing low-priority bugs scheduled to be fixed in the next
+			release cycle; format should be "bug/<bugID>"
+release/:	derived from develop; last-minute changes for release?;
+			always merges back into develop
+
+
+Workflow:
+
+Clone The "Repo"
+	- sooo...
+		- generally you will clone the entire repository, including all
+		  branches and the entire history
+	- you can clone an existing single branch
+		- that existing branch can be master/main/dev
+		- if you are creating a new branch you must at least clone the
+		  branch from which the new branch will be drived
+	
+		git clone --branch master --single-branch <repository-url>
+		
+			--branch		which branch to checkout after cloning
+			--single-branch	only clone the history and files related to
+							the specified branch
+			git fetch ...	additional branches if needed
+	
+	- even so, when you clone a branch you're usually downloading all the
+	  current files in the project
+
+Create A New Feature Branch
+	- create a new branch from master or develop dedicated to the feature,
+	  bugfix, etc.
+		- detailed description
+		- name should be in the format:
+			feature/<feature>
+			hotfix/<issueID>
+			bugfix/<issueID>
+
+Commit and Push Regularly
+	- commit the code regularly to the local repository as it develops
+		- commit only working code, structural changes, and successful
+		  refactoring; generally you don't want to commit incomplete
+		  ideas or changes
+	- regularly push THE BRANCH ON WHICH YOU ARE WORKING
+		- NOT the entire repo!
+		- NOT the branch already merged into master/main/develop/etc.
+		- while you will merge the branch into master/main/dev in order
+		  to test the feature changes / bug fixes, you should only ever
+		  push THE BRANCH ON WHICH YOU'RE WORKING to the remote repository
+	- regularly pushed code serves as a backup and allows for team
+	  collaboration
+
+Open A Pull Request
+	- when the feature is complete, tested locally, and the branch has
+	  been pushed to the repository, open a pull request on the remote
+	  repository
+	- if the pull request is rejected, and assuming that you're part of
+	  a team which is actively developing the project, find out why the
+	  pull was rejected, fix the problem, and resubmit
+
+Review and Test
+	- the pull request is then reviewed by teammates
+	- automated tests are usually run at this point to ensure code
+	  quality
+	- send it back to the programmer or to another teammate if it
+	  requires further development
+
+Merge Into Master/Main/Dev
+	- when the code is complete, working, and clean, merge it into the
+	  appropriate branch of the repository
+	- this can be done directly on the GitHub / BitBucket platforms
+		- and is, in fact, the preferred way to do it to ensure that the
+		  master/main/dev/stable branches do not change during the update
+
+Keep Or Delete The Branch
+	- if you anticipate further development you can simply keep the branch
+	- delete:
+		git branch -d <branch_name>				# delete local branch
+		git push origin --delete <branch_name>	# delete remote branch
+		- note that remote branches must be explicitly deleted; they are
+		  not implicitly deleted as the result of a push
+	- restore a delete branch
+		- reflog:
+			git reflog			# find entry related to the delete branch
+			git checkout -b <branch_name> <sha_hash_from_reflog>	# done
+			git push origin <branch_name>
+		- or, another teammate who still has a copy of the branch can
+		  simply push it back up to the repo
+	- GitHub actually has a temporary "Restore Branch" button which
+	  appears in the list of branches in the web interface
+
