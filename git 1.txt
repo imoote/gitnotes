@@ -44,3 +44,5 @@ GIT
 	# Log
 	git log		# commits, newest first
 	git reflog	# ??
+	
+	git log --graph --oneline --all --decorates
