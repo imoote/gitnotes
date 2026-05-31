@@ -1,13 +1,31 @@
 # GitNotes
 
-My Concise Personal Notes on the use of `Git`, `Github`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF]().
+My Concise Personal Notes on the use of `Git`, `Github`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF] (not available yet).
 
+***
 ## Branch Structure
 
 - `master`:  master development branch
 
+***
+## Stuff To Do
+- [x] play around with the gihub.txt file to make sure the information is fairly accurate
+- [x] create repository for this document on GitHub (remotely)
+- [x] create the master document for project
+- [x] create chapter about the use of gh
+- [x] create chapter about BitBucket
+- [ ] move some of the information from the gh chapter to the github chapter
+- [ ] I don't know what the hell I'm saying here, Friendo
+- [ ] create a QuickStart based on the information I have completed so-far
+- [ ] create a chapter on the basic use of "git"
+- [ ] create a chapter on the intermediate use of "git"
+- [ ] create a chapter on GitKraken
+
+***
+
 [^1]:  Sooo... we gotta talk about BitBucket.
 
-Don't use BitBucket.  BitBucket was bought up by Atlassian and added to their platform.  I spent way too much time trying to get a push to work from the command line, much less trying to integrate it with GitKraken.  It's an inconvenience up with which one need not put when one has access to GitHub.
+	Don't use BitBucket.  BitBucket was bought up by Atlassian and added to their platform.  I spent way too much time trying to get a push to work from the command line, much less trying to integrate it with GitKraken.  It's an inconvenience up with which one need not put when one has access to GitHub.
 
-Just use either GitHub or set up your own remote repository server (easier than you might think).
+	Just use either GitHub or set up your own remote repository server (easier than you might think).
+
