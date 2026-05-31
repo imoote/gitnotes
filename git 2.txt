@@ -1,10 +1,6 @@
 GIT
 ===
 
-"Git is a database.
-Commit is a record."
-
-
 config
 	--list
 	--global user.name <"full name">
@@ -17,10 +13,13 @@ clone
 .gitignore
 	- a list of filespecs to ignore for tracking with "status" command
 init
-	- creates a new local repository for new projects
+	- creates a new local repository in the current directory
 	--bare
-		- for creating repositories on remote storage
+		- this is just for creating repositories on remote storage
 	- git branch -m main master
+		- renames 'main' to the traditional 'master'
+		- consider using when appropriate:
+			git branch -m main develop
 fetch
 	- downloads commits from a remote repository which are newer than
 	  what you have

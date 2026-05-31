@@ -1,6 +1,6 @@
 # GitNotes
 
-My Concise Personal Notes on the use of `Git`, `Github`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF] (not available yet).
+My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `GitKraken`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF] (not available yet).
 
 ***
 ## Branch Structure
