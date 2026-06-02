@@ -218,34 +218,6 @@ release/:	derived from develop; last-minute changes for release?;
 
 Workflow:
 
-Clone The "Repo"
-	- sooo...
-		- generally you will clone the entire repository, including all
-		  branches and the entire history
-	- you can clone an existing single branch
-		- that existing branch can be master/main/dev
-		- if you are creating a new branch you must at least clone the
-		  branch from which the new branch will be drived
-	
-		git clone --branch master --single-branch <repository-url>
-		
-			--branch		which branch to checkout after cloning
-			--single-branch	only clone the history and files related to
-							the specified branch
-			git fetch ...	additional branches if needed
-	
-	- even so, when you clone a branch you're usually downloading all the
-	  current files in the project
-
-Create A New Feature Branch
-	- create a new branch from master or develop dedicated to the feature,
-	  bugfix, etc.
-		- detailed description
-		- name should be in the format:
-			feature/<feature>
-			hotfix/<issueID>
-			bugfix/<issueID>
-
 Commit and Push Regularly
 	- commit the code regularly to the local repository as it develops
 		- commit only working code, structural changes, and successful
@@ -260,7 +232,7 @@ Commit and Push Regularly
 	- regularly pushed code serves as a backup and allows for team
 	  collaboration
 
-Open A Pull Request
+Open A Pull Request (Merge Request)
 	- when the feature is complete, tested locally, and the branch has
 	  been pushed to the repository, open a pull request on the remote
 	  repository
