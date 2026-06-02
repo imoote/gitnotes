@@ -357,3 +357,47 @@ You can filter the history graph upon launch using arguments directly supported 
 Distinction from git-gui
 
 While gitk is bundled with Git and targets history visualization, it is often confused with its sibling tool git-gui. gitk acts as a viewer to read repository history, while git-gui is an interactive tool built for authoring changes, staging files, and creating new commits
+
+
+Sign-Off
+--------
+From Gemini:
+
+In Git, a "sign-off" is a standard line appended to the end of a commit message certifying that the author has the legal right to submit the code under the project's open-source license. It typically looks like this: Signed-off-by: Your Name <your.email@example.com>.
+
+
+Purpose and Legal Meaning
+
+The sign-off serves as a digital agreement to the Developer Certificate of Origin (DCO). It was originally created by the Linux Foundation to establish a clear legal chain of custody for code contributions. By signing off, you affirm that:
+	- You wrote the code yourself, or based it on a compatible open-source
+	  license.
+	- You have the right to contribute it to the project.
+
+
+How to Use Sign-Off
+
+You can apply a sign-off to your work using these Git commands:
+
+	- New Commit: Add -s or --signoff to your commit statement to append
+	  the signature line using your globally configured name and email.
+			git commit -s -m "Your commit message"
+	- Existing Commit: Add a sign-off line to your most recent commit.
+	 		git commit --amend --signoff
+	- During a Rebase: Apply a sign-off automatically to a series of
+	  commits.
+			git rebase --signoff main
+
+
+Sign-Off vs. Commit Signing
+
+These two Git terms are often confused but serve entirely different functions:
+
+Feature		Git Sign-Off				Commit Signing
+Format		Plain text appended to the	Cryptographic digital signature
+			commit message				(GPG/SSH keys)
+Purpose		Legal confirmation of code	Identity verification to prevent
+			ownership and licensing		author spoofing
+Git Flag	-s or --signoff				-S or --gpg-sign
+Visibility	Public text readable inside	Green "Verified" badge on
+			any git log					platforms like GitHub
+
