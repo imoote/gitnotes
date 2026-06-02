@@ -14,6 +14,13 @@ My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `
 - [x] create the master document for project
 - [x] create chapter about the use of gh
 - [x] create chapter about BitBucket
+- [x] correct error in master document creation
+- [ ] what this document is about
+- [ ] git - workflow
+- [ ] git - config / init / commit
+- [ ] git - remote repositories
+- [ ] git - pushing and pulling
+- [ ] git - branches
 - [ ] move some of the information from the gh chapter to the github chapter
 - [ ] I don't know what the hell I'm saying here, Friendo
 - [ ] create a QuickStart based on the information I have completed so-far
