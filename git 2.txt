@@ -218,24 +218,7 @@ release/:	derived from develop; last-minute changes for release?;
 
 Workflow:
 
-Commit and Push Regularly
-	- commit the code regularly to the local repository as it develops
-		- commit only working code, structural changes, and successful
-		  refactoring; generally you don't want to commit incomplete
-		  ideas or changes
-	- regularly push THE BRANCH ON WHICH YOU ARE WORKING
-		- NOT the entire repo!
-		- NOT the branch already merged into master/main/develop/etc.
-		- while you will merge the branch into master/main/dev in order
-		  to test the feature changes / bug fixes, you should only ever
-		  push THE BRANCH ON WHICH YOU'RE WORKING to the remote repository
-	- regularly pushed code serves as a backup and allows for team
-	  collaboration
-
 Open A Pull Request (Merge Request)
-	- when the feature is complete, tested locally, and the branch has
-	  been pushed to the repository, open a pull request on the remote
-	  repository
 	- if the pull request is rejected, and assuming that you're part of
 	  a team which is actively developing the project, find out why the
 	  pull was rejected, fix the problem, and resubmit
