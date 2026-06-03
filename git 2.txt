@@ -218,52 +218,7 @@ release/:	derived from develop; last-minute changes for release?;
 
 Workflow:
 
-Clone The "Repo"
-	- sooo...
-		- generally you will clone the entire repository, including all
-		  branches and the entire history
-	- you can clone an existing single branch
-		- that existing branch can be master/main/dev
-		- if you are creating a new branch you must at least clone the
-		  branch from which the new branch will be drived
-	
-		git clone --branch master --single-branch <repository-url>
-		
-			--branch		which branch to checkout after cloning
-			--single-branch	only clone the history and files related to
-							the specified branch
-			git fetch ...	additional branches if needed
-	
-	- even so, when you clone a branch you're usually downloading all the
-	  current files in the project
-
-Create A New Feature Branch
-	- create a new branch from master or develop dedicated to the feature,
-	  bugfix, etc.
-		- detailed description
-		- name should be in the format:
-			feature/<feature>
-			hotfix/<issueID>
-			bugfix/<issueID>
-
-Commit and Push Regularly
-	- commit the code regularly to the local repository as it develops
-		- commit only working code, structural changes, and successful
-		  refactoring; generally you don't want to commit incomplete
-		  ideas or changes
-	- regularly push THE BRANCH ON WHICH YOU ARE WORKING
-		- NOT the entire repo!
-		- NOT the branch already merged into master/main/develop/etc.
-		- while you will merge the branch into master/main/dev in order
-		  to test the feature changes / bug fixes, you should only ever
-		  push THE BRANCH ON WHICH YOU'RE WORKING to the remote repository
-	- regularly pushed code serves as a backup and allows for team
-	  collaboration
-
-Open A Pull Request
-	- when the feature is complete, tested locally, and the branch has
-	  been pushed to the repository, open a pull request on the remote
-	  repository
+Open A Pull Request (Merge Request)
 	- if the pull request is rejected, and assuming that you're part of
 	  a team which is actively developing the project, find out why the
 	  pull was rejected, fix the problem, and resubmit
@@ -298,4 +253,134 @@ Keep Or Delete The Branch
 		  simply push it back up to the repo
 	- GitHub actually has a temporary "Restore Branch" button which
 	  appears in the list of branches in the web interface
+
+
+GIT GUI / GITK
+- "git gui" is an interface which focusses primarily on repository
+  management, staging, and commit generation
+- 
+
+
+GIT GUI
+
+Core Purpose & Focus
+
+Unlike alternative tools that visualize complex branch trees or project histories, git-gui is a task-oriented application designed to help you craft precise commits. It allows you to selectively stage specific lines or hunks of code from a file, helping you avoid accidentally committing temporary debug statements or incomplete changes.
+
+
+Key Features
+
+- Commit Crafting: Easily view unstaged changes, move files to the staged
+  area, type commit messages, and amend your last commit.
+- Line & Hunk Staging: Right-click within the diff view to stage or unstage
+  individual chunks or specific lines of text instead of the whole file.
+- File Blaming & Browsing: Includes a built-in "blame" viewer to inspect
+  file annotations and a basic file browser to explore past commits.
+- Basic Repository Actions: Create new branches, perform local merges, and
+  fetch, push, or prune remote repositories.
+- History Integration: While it doesn't display project history natively,
+  it provides quick menu shortcuts to launch gitk (Git's companion history
+  viewing tool).
+
+
+The Interface Layout
+
+When you launch the tool by typing git gui into your terminal, the interface is split into four primary quadrants:
+	1. Top Left: Unstaged changes (files you have modified but haven't
+	   added to the index).
+	2. Bottom Left: Staged changes (files ready to be committed).
+	3. Top Right: The diff view, showing the precise line modifications of
+	   the selected file.
+	4. Bottom Right: The commit message box and action buttons (Commit,
+	   Push, Amend).
+
+
+How to Use It
+
+Because it comes bundled with the core software, you do not need to install a heavy third-party client. To use it, open your terminal or Git Bash, navigate to your project folder, and run: git gui 
+
+https://git-scm.com/docs/git-gui
+
+
+GITK
+
+gitk is a built-in, graphical repository browser for Git that displays a visual map of a project's commit history. Written in Tcl/Tk, it historically stands as the very first repository browser created alongside Git. It provides an lightweight alternative to running complex command-line arguments like git log --graph.
+
+
+Key Features
+
+- Commit Graph Visualizer: Displays a dynamic tree structure showing how
+  branches diverge, merge, and connect over time.
+- Diff Viewer: Selecting any commit instantly reveals what lines were
+  added (green) or removed (red) across modified files.
+- Deep History Search: Allows filtering and searching through commits by
+  specific keywords, authors, SHA-1 hashes, or even a specific line of
+  code.
+- Contextual Actions: Right-clicking branches or commits opens shortcuts
+  to cherry-pick changes, reset branches, or create new tags.
+
+
+Basic Usage
+
+To use gitk, open your terminal, navigate to any local Git repository directory, and run:  gitk
+
+
+Common Command Options
+
+You can filter the history graph upon launch using arguments directly supported by the gitk Documentation:
+
+	- gitk --all: View the commit history of every local and remote branch
+	  simultaneously.
+	- gitk --since="2 weeks ago": Restrict the visual graph to recent
+	  changes.
+	- gitk <branch_name>: Isolate and explore the timeline of one specific
+	  branch.
+
+
+Distinction from git-gui
+
+While gitk is bundled with Git and targets history visualization, it is often confused with its sibling tool git-gui. gitk acts as a viewer to read repository history, while git-gui is an interactive tool built for authoring changes, staging files, and creating new commits
+
+
+Sign-Off
+--------
+From Gemini:
+
+In Git, a "sign-off" is a standard line appended to the end of a commit message certifying that the author has the legal right to submit the code under the project's open-source license. It typically looks like this: Signed-off-by: Your Name <your.email@example.com>.
+
+
+Purpose and Legal Meaning
+
+The sign-off serves as a digital agreement to the Developer Certificate of Origin (DCO). It was originally created by the Linux Foundation to establish a clear legal chain of custody for code contributions. By signing off, you affirm that:
+	- You wrote the code yourself, or based it on a compatible open-source
+	  license.
+	- You have the right to contribute it to the project.
+
+
+How to Use Sign-Off
+
+You can apply a sign-off to your work using these Git commands:
+
+	- New Commit: Add -s or --signoff to your commit statement to append
+	  the signature line using your globally configured name and email.
+			git commit -s -m "Your commit message"
+	- Existing Commit: Add a sign-off line to your most recent commit.
+	 		git commit --amend --signoff
+	- During a Rebase: Apply a sign-off automatically to a series of
+	  commits.
+			git rebase --signoff main
+
+
+Sign-Off vs. Commit Signing
+
+These two Git terms are often confused but serve entirely different functions:
+
+Feature		Git Sign-Off				Commit Signing
+Format		Plain text appended to the	Cryptographic digital signature
+			commit message				(GPG/SSH keys)
+Purpose		Legal confirmation of code	Identity verification to prevent
+			ownership and licensing		author spoofing
+Git Flag	-s or --signoff				-S or --gpg-sign
+Visibility	Public text readable inside	Green "Verified" badge on
+			any git log					platforms like GitHub
 
