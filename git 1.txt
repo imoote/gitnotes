@@ -45,4 +45,7 @@ GIT
 	git log		# commits, newest first
 	git reflog	# ??
 	
-	git log --graph --oneline --all --decorate
+	# git log "adog":
+	git log --all --decorate --oneline --graph
+	git config alias.lg "log --all --decorate --oneline --graph"
+
