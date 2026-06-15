@@ -187,8 +187,8 @@ Commit Best Practices
 	  the past tense ("Fixed the bug")
 	- whichever you use, stick to it
 
-Branches and Workflow
----------------------
+
+
 
 GIT GUI / GITK
 - "git gui" is an interface which focusses primarily on repository
