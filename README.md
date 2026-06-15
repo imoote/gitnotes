@@ -1,14 +1,14 @@
 # GitNotes
 
-My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `GitKraken`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF](./release/gitnotes.pdf).
+My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `GitKraken`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF](./release/gitnotes.pdf) (Not the current version.  Switch to the "release" branch to get it).
 
 ***
 ## Branch Structure
 
-- `master`:				master development branch
-- `release`:			current release version of GitNotes
-- `bitbucket`:			the "bitbucket" chapter
-- `chapter/workflow`:	the "workflow" chapter
+- `master`: master development branch
+- `release`: current release version of GitNotes (not working as intended)
+- `chapter/bitbucket`: the "bitbucket" chapter
+- `chapter/workflow`: the "workflow" chapter
 
 ***
 ## Stuff To Do
