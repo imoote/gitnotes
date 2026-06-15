@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2026-06-02T12:30:09.723723423</meta:creation-date><meta:editing-cycles>7</meta:editing-cycles><meta:editing-duration>PT34M23S</meta:editing-duration><dc:description>This is a brief blurb describing the contents of the file and probably to whom it is targeted.</dc:description><dc:title>Title</dc:title><meta:generator>LibreOffice/26.2.2.2$Linux_X86_64 LibreOffice_project/620$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2026-06-15T11:42:51.098786011</dc:date><dc:creator>Ian Moote</dc:creator><meta:print-date>2026-06-02T12:53:24.946262189</meta:print-date><meta:printed-by>PDF files: Ian Moote</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="49" meta:word-count="931" meta:character-count="5830" meta:non-whitespace-character-count="4906"/><meta:user-defined meta:name="Subtitle">Subtitle</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Title" xlink:href="../../../../../../home/ubuntu/Templates/concise%20notes%20chapter%20blank.ott" meta:date="2026-06-02T12:30:07.779943222"/></office:meta>
+ <office:meta><meta:creation-date>2026-06-02T12:30:09.723723423</meta:creation-date><meta:editing-cycles>8</meta:editing-cycles><meta:editing-duration>PT34M36S</meta:editing-duration><dc:description>This is a brief blurb describing the contents of the file and probably to whom it is targeted.</dc:description><dc:title>Title</dc:title><meta:generator>LibreOffice/26.2.2.2$Linux_X86_64 LibreOffice_project/620$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2026-06-15T12:11:31.432939928</dc:date><dc:creator>Ian Moote</dc:creator><meta:print-date>2026-06-02T12:53:24.946262189</meta:print-date><meta:printed-by>PDF files: Ian Moote</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="71" meta:word-count="1262" meta:character-count="7778" meta:non-whitespace-character-count="6539"/><meta:user-defined meta:name="Subtitle">Subtitle</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Title" xlink:href="../../../../../../home/ubuntu/Templates/concise%20notes%20chapter%20blank.ott" meta:date="2026-06-02T12:30:07.779943222"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">27785</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">11612</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">22668</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">9169</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">10890</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6636</config:config-item>
      <config:config-item config:name="ViewTop" config:type="long">32163</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">27785</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">11612</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">22666</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">36952</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">20779</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">3</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -160,7 +160,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3675167</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3698412</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -470,46 +470,58 @@
   <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="00311738" officeooo:paragraph-rsid="00311738"/>
   </style:style>
-  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Code_20_Block">
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Code_20_Block">
    <style:text-properties officeooo:rsid="0031a9c5" officeooo:paragraph-rsid="0031a9c5"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="003239e3" officeooo:paragraph-rsid="003239e3"/>
-  </style:style>
-  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="0036944d" officeooo:paragraph-rsid="0036944d" fo:background-color="#ffff00"/>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00340019" officeooo:paragraph-rsid="00340019"/>
+   <style:text-properties officeooo:paragraph-rsid="0038141f"/>
   </style:style>
   <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="003239e3" officeooo:paragraph-rsid="003587cf"/>
+   <style:text-properties officeooo:rsid="0038549f" officeooo:paragraph-rsid="0038549f"/>
   </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="003587cf" officeooo:paragraph-rsid="003587cf"/>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="003239e3" officeooo:paragraph-rsid="003239e3"/>
   </style:style>
   <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="003239e3" officeooo:paragraph-rsid="003239e3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0036944d" officeooo:paragraph-rsid="0036944d" fo:background-color="#ffff00"/>
   </style:style>
   <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" officeooo:paragraph-rsid="003587cf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="00340019" officeooo:paragraph-rsid="00340019"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" officeooo:paragraph-rsid="0038141f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="003239e3" officeooo:paragraph-rsid="003587cf"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f" fo:background-color="#ffff00" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="003587cf" officeooo:paragraph-rsid="003587cf"/>
   </style:style>
   <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f" fo:background-color="transparent" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="003239e3" officeooo:paragraph-rsid="003239e3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="00340019" officeooo:paragraph-rsid="003239e3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" officeooo:paragraph-rsid="003587cf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="002b4a3b" officeooo:paragraph-rsid="002b4a3b"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" officeooo:paragraph-rsid="0038141f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f" fo:background-color="#ffff00" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0038141f" officeooo:paragraph-rsid="0038141f" fo:background-color="transparent" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00340019" officeooo:paragraph-rsid="003239e3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="002b4a3b" officeooo:paragraph-rsid="002b4a3b"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:font-weight="normal" officeooo:rsid="001b499a" officeooo:paragraph-rsid="00276054" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -534,33 +546,36 @@
    <style:text-properties officeooo:rsid="0031a9c5"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties officeooo:rsid="003587cf"/>
+   <style:text-properties officeooo:rsid="0038141f"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="003587cf"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties officeooo:rsid="00340019"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties officeooo:rsid="0036944d" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+   <style:text-properties officeooo:rsid="00340019"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="0036944d" fo:background-color="#ffff00" loext:char-shading-value="0"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0036944d" fo:background-color="#ffff00" loext:char-shading-value="0" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="003587cf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties officeooo:rsid="0036944d"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0036944d" fo:background-color="#ffff00" loext:char-shading-value="0" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties officeooo:rsid="0038141f" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+   <style:text-properties officeooo:rsid="0036944d"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
+   <style:text-properties officeooo:rsid="0038141f" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
    <style:text-properties fo:font-variant="small-caps" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Code_20_Frame">
@@ -634,7 +649,7 @@
     <text:h text:style-name="P2" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638"/></text:h>
    </style:header>
    <style:header-left>
-    <text:h text:style-name="P3" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-start text:id="IMark96528285076672"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-end text:id="IMark96528285076672"/></text:h>
+    <text:h text:style-name="P3" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-start text:id="IMark96528285680176"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-end text:id="IMark96528285680176"/></text:h>
    </style:header-left>
   </style:master-page>
   <style:master-page style:name="Index" style:page-layout-name="pm1" draw:style-name="dp1"/>
@@ -688,27 +703,49 @@
     <text:p text:style-name="P14">Regularly push <text:span text:style-name="T5">the branch on which you are working</text:span> – <text:span text:style-name="T6">not</text:span> the entire repo! <text:span text:style-name="T6">Not</text:span> the branch already merged into main/master/develop! <text:s/>While it’s true that you will merge the branch into the master development branch to test features, bug fixes, etc., you should only ever push <text:span text:style-name="T5">the branch on which you are working</text:span> to the remote repository.</text:p>
     <text:p text:style-name="P14">Regularly pushed code serves as a backup and allows for team collaboration.</text:p>
     <text:h text:style-name="P13" text:outline-level="2">Open A Merge Request</text:h>
-    <text:p text:style-name="P14">Sometimes called a “pull request” by some people. <text:s/><text:span text:style-name="T7">You probably wouldn’t actually perform this step if you are the sole developer of the project.</text:span></text:p>
-    <text:p text:style-name="P14">When the feature is complete, tested locally, and the branch has been pushed to the repository, open a merge request on the remote repository. This informs the maintainers of the project that you have completed your feature or bugfix and are requesting that it be merged into the master branch.</text:p>
-    <text:p text:style-name="P15"><text:tab/>gh pr create</text:p>
-    <text:h text:style-name="P16" text:outline-level="2">Typical Branches</text:h>
-    <text:p text:style-name="P17">Note that this section is a work in development. <text:s/>My notes have a number of inconsistencies when it comes to branch derivations, usage, and merges, and I’ve tried to highlight these inconsistencies for future clarification or correction.</text:p>
-    <text:p text:style-name="P18">This list of typical branch names and their uses should serve as a guide. <text:s/>Actual branch names for your project are up to you. <text:s/><text:span text:style-name="T8">As Git is a versioning platform initially intended for coders, the branch names and descriptions are taken from that culture.</text:span></text:p>
-    <text:p text:style-name="P19"><text:span text:style-name="T9">main / master:</text:span><text:tab/><text:span text:style-name="T10">All projects have, or should have,</text:span> a ma<text:span text:style-name="T10">ster</text:span> branch<text:span text:style-name="T10"> which serves as a springboard for all other long-running branches</text:span> all other branches; <text:span text:style-name="T8">it is the branch</text:span> from which <text:span text:style-name="T8">all long-running branches are derived</text:span>. <text:s/><text:span text:style-name="T8">Nothing happens here. <text:s/>For large and/or complex projects with significant collaboration, this is just the skeleton on which the infrastructure is hung. <text:s/>The default name for this branch these days is “main”; t</text:span><text:span text:style-name="T10">he former default master branch name of</text:span> “master” has been deprecated. <text:s/><text:span text:style-name="T11">Nothing happens here? <text:s/>What would be the purpose of having a master branch at all which apparently does nothing?</text:span></text:p>
-    <text:p text:style-name="P20"><text:span text:style-name="T9">stable:</text:span><text:tab/>Derived from the master branch and should only receive merges from “release/*” and “hotfix/*” branches. <text:s/><text:span text:style-name="T11">How does “stable” differ from “develop”? <text:s/>When should “develop” be merged into “stable”</text:span></text:p>
-    <text:p text:style-name="P20"><text:span text:style-name="T9">hotfix/* / hot/*:</text:span><text:tab/>Derived from the master branch and used for the fixing of critical bugs or security vulnerabilities in a live release without waiting for the next scheduled update. <text:s/>The format of this branch name should be “hotfix/&lt;issueID&gt;”. <text:s/>This branch is merged back into “stable”.</text:p>
-    <text:p text:style-name="P21">dev / develop:<text:span text:style-name="T12"><text:tab/></text:span><text:span text:style-name="T13">Derived from main, this is the primary development branch. <text:s/>This branch should only receive merges from “feature/*” and “bug/*” <text:s/>branches. <text:s/></text:span><text:span text:style-name="T14">Why have a separate develop branch instead of doing all your development on the master branch? <text:s/>How does “develop” differ from “stable”, and when does “develop” get merged into “stable”.</text:span></text:p>
-    <text:p text:style-name="P22"><text:span text:style-name="T9">feature:</text:span><text:tab/>Derived from the HEAD of “develop”. <text:s/>Generally used for adding or removing features and other changes. <text:s/>The format of this branch should be “feature/&lt;feature_name&gt;”. <text:s/>It gets merged back into “develop”. <text:s/><text:span text:style-name="T11">From the HEAD of “develop”? <text:s/>If “develop” is not a dynamic branch, why not derive it from “release/*” instead of “develop”?</text:span></text:p>
-    <text:p text:style-name="P23"><text:span text:style-name="T9">bugfix/* / bug/*:</text:span><text:tab/>Derived from the HEAD of “develop”. <text:s/>This branch is used for fixing low-priority bugs which are scheduled to be fixed in the next release cycle. <text:s/>The format of this branch should be “bugfix/&lt;bugID&gt;”. It gets merged back into “develop”. <text:s/><text:span text:style-name="T11">From the HEAD of “develop”? <text:s/>If “develop” is not a dynamic branch, why not derive it from “release/*” instead of “develop”?</text:span></text:p>
-    <text:p text:style-name="P22"><text:span text:style-name="T9">release/*:</text:span><text:tab/><text:span text:style-name="T15">Derived from “develop”. <text:s/>The format of this branch should be “release/&lt;version&gt;”. <text:s/></text:span><text:span text:style-name="T16">Other than having a version number, how does “release/*” differ from “stable”?</text:span></text:p>
-    <text:p text:style-name="P24"><text:soft-page-break/><text:span text:style-name="T9">nightly build:</text:span><text:tab/>Also not covered here is the concept of the “nightly” or “unstable” build.</text:p>
-    <text:p text:style-name="P24"><text:span text:style-name="T9">Oh yeah:</text:span><text:tab/>There should also be a branch for documentation. <text:s/>Maybe that is what gets rolled up into “release/*” rather than into “develop” or “stable”.</text:p>
-    <text:p text:style-name="P25">** Also, if working on a book, the use of “revision/*” rather than “release/*” may be more appropriate, as is “chapter/*” rather than “feature/*”. <text:s/>Additional branches such as “errata”, often published as a separate document, may also be appropriate.</text:p>
-    <text:p text:style-name="P26"/>
+    <text:p text:style-name="P14">Sometimes called a “pull request”. <text:s/><text:span text:style-name="T7">You probably wouldn’t actually perform this step if you are the sole developer of the project.</text:span></text:p>
+    <text:p text:style-name="P14">When <text:span text:style-name="T8">a</text:span> feature is complete, tested locally, and the branch has been pushed to the repository, open a merge request on the remote repository. This informs the maintainers of the project that you have completed your feature or bugfix and are requesting that it be merged into the master branch.</text:p>
+    <text:p text:style-name="P15">If your merge request is rejected, and assuming that you are part of a team which is actively developing the project, find out why the pull was rejected, fix the problem, and resubmit.</text:p>
+    <text:p text:style-name="P15">You typically do this through the website / repository interface, or if using GitHub you can use the “gh” command line interface:</text:p>
+    <text:p text:style-name="P16"><text:tab/>gh pr create</text:p>
+    <text:h text:style-name="P17" text:outline-level="2">Review and Test</text:h>
+    <text:p text:style-name="P15">When a Merge Request is received, the changes are reviewed by teammates. <text:s/>Automated tests are usually run, at this point, to ensure code quality. <text:s/>If the code requires further development or polishing, send it back to the programmer or another teammate.</text:p>
+    <text:h text:style-name="P17" text:outline-level="2">Merge Into Master/Main/Dev</text:h>
+    <text:p text:style-name="P18"><text:span text:style-name="T8">W</text:span>hen the code is complete, working, and clean, merge it into the appropriate branch of the repository. <text:s/><text:span text:style-name="T8">This can be done directly on the GitHub or BitBucket platforms and is, in fact, the preferred way to do it to ensure that the master/main/dev/stable branches do not change during this update.</text:span></text:p>
+    <text:h text:style-name="P17" text:outline-level="2">Keep or Delete the Branch</text:h>
+    <text:p text:style-name="P19">Keeping or deleting merged branches is a topic of perennial discussion.</text:p>
+    <text:p text:style-name="P19">If you anticipate further development on a feature you can keep the branch, otherwise you should probably just delete it. <text:s/>In a well-organized project there is very dubious gain in holding on to multiple branches of history of past work.</text:p>
+    <text:p text:style-name="P19">To delete a local branch:</text:p>
+    <text:p text:style-name="Code_20_Block">git branch -d &lt;branchname&gt;</text:p>
+    <text:p text:style-name="P19">Note that remote branches must be explicitly deleted. <text:s/>They implicitly deleted as the result of a push. <text:s/>To delete a remote branch:</text:p>
+    <text:p text:style-name="Code_20_Block">git push origin --delete &lt;branch_name&gt;</text:p>
+    <text:p text:style-name="P19">To restore a deleted branch use:</text:p>
+    <text:p text:style-name="Code_20_Block">git reflog</text:p>
+    <text:p text:style-name="P19">to find the entry related to the delete branch, then use:</text:p>
+    <text:p text:style-name="Code_20_Block">git checkout -b &lt;branch_name&gt; &lt;sha_hash_from_reflog&gt;</text:p>
+    <text:p text:style-name="P19">to restore the branch locally. <text:s/>Then, at some point, use:</text:p>
+    <text:p text:style-name="Code_20_Block">git push origin &lt;branch_name&gt;</text:p>
+    <text:p text:style-name="P19">to also restore the branch remotely.</text:p>
+    <text:p text:style-name="P19"><text:soft-page-break/>Alternatively, a teammate who still has a copy of the deleted branch can push it up to the repo and you can pull it back down.</text:p>
+    <text:p text:style-name="P19">GitHub also has a temporary “Restore Branch” button which appears in the list of branches in the web interface.</text:p>
+    <text:h text:style-name="P20" text:outline-level="2">Typical Branches</text:h>
+    <text:p text:style-name="P21">Note that this section is a work in development. <text:s/>My notes have a number of inconsistencies when it comes to branch derivations, usage, and merges, and I’ve tried to highlight these inconsistencies for future clarification or correction.</text:p>
+    <text:p text:style-name="P22">This list of typical branch names and their uses should serve as a guide. <text:s/>Actual branch names for your project are up to you. <text:s/><text:span text:style-name="T9">As Git is a versioning platform initially intended for coders, the branch names and descriptions are taken from that culture.</text:span></text:p>
+    <text:p text:style-name="P23"><text:span text:style-name="T10">main / master:</text:span><text:tab/><text:span text:style-name="T11">All projects have, or should have,</text:span> a ma<text:span text:style-name="T11">ster</text:span> branch<text:span text:style-name="T11"> which serves as a springboard for all other long-running branches</text:span> all other branches; <text:span text:style-name="T9">it is the branch</text:span> from which <text:span text:style-name="T9">all long-running branches are derived</text:span>. <text:s/><text:span text:style-name="T9">Nothing happens here. <text:s/>For large and/or complex projects with significant collaboration, this is just the skeleton on which the infrastructure is hung. <text:s/>The default name for this branch these days is “main”; t</text:span><text:span text:style-name="T11">he former default master branch name of</text:span> “master” has been deprecated. <text:s/><text:span text:style-name="T12">Nothing happens here? <text:s/>What would be the purpose of having a master branch at all which apparently does nothing?</text:span></text:p>
+    <text:p text:style-name="P24"><text:span text:style-name="T10">stable:</text:span><text:tab/>Derived from the master branch and should only receive merges from “release/*” and “hotfix/*” branches. <text:s/><text:span text:style-name="T12">How does “stable” differ from “develop”? <text:s/>When should “develop” be merged into “stable”</text:span></text:p>
+    <text:p text:style-name="P24"><text:span text:style-name="T10">hotfix/* / hot/*:</text:span><text:tab/>Derived from the master branch and used for the fixing of critical bugs or security vulnerabilities in a live release without waiting for the next scheduled update. <text:s/>The format of this branch name should be “hotfix/&lt;issueID&gt;”. <text:s/>This branch is merged back into “stable”.</text:p>
+    <text:p text:style-name="P25">dev / develop:<text:span text:style-name="T13"><text:tab/></text:span><text:span text:style-name="T14">Derived from main, this is the primary development branch. <text:s/>This branch should only receive merges from “feature/*” and “bug/*” <text:s/>branches. <text:s/></text:span><text:span text:style-name="T15">Why have a separate develop branch instead of doing all your development on the master branch? <text:s/>How does “develop” differ from “stable”, and when does “develop” get merged into “stable”.</text:span></text:p>
+    <text:p text:style-name="P26"><text:span text:style-name="T10">feature:</text:span><text:tab/>Derived from the HEAD of “develop”. <text:s/>Generally used for adding or removing features and other changes. <text:s/>The format of this branch should be “feature/&lt;feature_name&gt;”. <text:s/>It gets merged back into “develop”. <text:s/><text:span text:style-name="T12">From the HEAD of “develop”? <text:s/>If “develop” is not a dynamic branch, why not derive it from “release/*” instead of “develop”?</text:span></text:p>
+    <text:p text:style-name="P27"><text:span text:style-name="T10">bugfix/* / bug/*:</text:span><text:tab/>Derived from the HEAD of “develop”. <text:s/>This branch is used for fixing low-priority bugs which are scheduled to be fixed in the next release cycle. <text:s/>The format of this branch should be “bugfix/&lt;bugID&gt;”. It gets merged back into “develop”. <text:s/><text:span text:style-name="T12">From the HEAD of “develop”? <text:s/>If “develop” is not a dynamic branch, why not derive it from “release/*” instead of “develop”?</text:span></text:p>
+    <text:p text:style-name="P26"><text:span text:style-name="T10">release/*:</text:span><text:tab/><text:span text:style-name="T16">Derived from “develop”. <text:s/>The format of this branch should be “release/&lt;version&gt;”. <text:s/></text:span><text:span text:style-name="T17">Other than having a version number, how does “release/*” differ from “stable”?</text:span></text:p>
+    <text:p text:style-name="P28"><text:span text:style-name="T10">nightly build:</text:span><text:tab/>Also not covered here is the concept of the “nightly” or “unstable” build.</text:p>
+    <text:p text:style-name="P28"><text:span text:style-name="T10">Oh yeah:</text:span><text:tab/>There should also be a branch for documentation. <text:s/>Maybe that is what gets rolled up into “release/*” rather than into “develop” or “stable”.</text:p>
+    <text:p text:style-name="P29">** Also, if working on a book, the use of “revision/*” rather than “release/*” may be more appropriate, as is “chapter/*” rather than “feature/*”. <text:s/>Additional branches such as “errata”, often published as a separate document, may also be appropriate.</text:p>
+    <text:p text:style-name="P30"/>
    </text:section>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P27"><text:s/><text:span text:style-name="T17">There Should Be One Blank Line After/Between Each Section</text:span>.</text:p>
-   <text:p text:style-name="P28"/>
+   <text:p text:style-name="P31"><text:s/><text:span text:style-name="T18">There Should Be One Blank Line After/Between Each Section</text:span>.</text:p>
+   <text:p text:style-name="P32"/>
   </office:text>
  </office:body>
 </office:document>

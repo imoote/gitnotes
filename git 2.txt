@@ -190,45 +190,6 @@ Commit Best Practices
 Branches and Workflow
 ---------------------
 
-Workflow:
-
-Open A Pull Request (Merge Request)
-	- if the pull request is rejected, and assuming that you're part of
-	  a team which is actively developing the project, find out why the
-	  pull was rejected, fix the problem, and resubmit
-
-Review and Test
-	- the pull request is then reviewed by teammates
-	- automated tests are usually run at this point to ensure code
-	  quality
-	- send it back to the programmer or to another teammate if it
-	  requires further development
-
-Merge Into Master/Main/Dev
-	- when the code is complete, working, and clean, merge it into the
-	  appropriate branch of the repository
-	- this can be done directly on the GitHub / BitBucket platforms
-		- and is, in fact, the preferred way to do it to ensure that the
-		  master/main/dev/stable branches do not change during the update
-
-Keep Or Delete The Branch
-	- if you anticipate further development you can simply keep the branch
-	- delete:
-		git branch -d <branch_name>				# delete local branch
-		git push origin --delete <branch_name>	# delete remote branch
-		- note that remote branches must be explicitly deleted; they are
-		  not implicitly deleted as the result of a push
-	- restore a delete branch
-		- reflog:
-			git reflog			# find entry related to the delete branch
-			git checkout -b <branch_name> <sha_hash_from_reflog>	# done
-			git push origin <branch_name>
-		- or, another teammate who still has a copy of the branch can
-		  simply push it back up to the repo
-	- GitHub actually has a temporary "Restore Branch" button which
-	  appears in the list of branches in the web interface
-
-
 GIT GUI / GITK
 - "git gui" is an interface which focusses primarily on repository
   management, staging, and commit generation
