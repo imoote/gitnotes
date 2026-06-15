@@ -190,32 +190,6 @@ Commit Best Practices
 Branches and Workflow
 ---------------------
 
-Branches (typical):
-
-master:		deprecated due to victim-culture push-back and liberal racism
-main:		there is always a main branch from which all other branches
-			are derived; it serves as a springboard for all other long-
-			running branches
-stable:		derived from main; should only receive merges from "release-*"
-			and "hotfix" branches
-hotfix/*:	sometimes "hot/*"; derived from main; used for the fixing
-			critical bugs or security vulnerabilities in a live release
-			without waiting for the next scheduled update; the format
-			should be "hotfix/<issueID>"; merges back into main and
-			release
-develop:	derived from main; the development branch; should only
-			receive merges from the "feature/*", "bug/*", and "release-*"
-			branches
-feature/:	derived from the HEAD of develop; generally used for adding or
-			removing features and other changes; format should be
-			"feature/<feature_name>"; merges back into develop
-bug/:		sometimes "bugfix/*"; derived from the HEAD of develop; used
-			for fixing low-priority bugs scheduled to be fixed in the next
-			release cycle; format should be "bug/<bugID>"
-release/:	derived from develop; last-minute changes for release?;
-			always merges back into develop
-
-
 Workflow:
 
 Open A Pull Request (Merge Request)
