@@ -9,6 +9,7 @@ My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `
 - `release`: current release version of GitNotes (not working as intended)
 - `chapter/bitbucket`: the "bitbucket" chapter
 - `chapter/workflow`: the "workflow" chapter
+- 'chapter/branch': the "branch" chapter
 
 ***
 ## Stuff To Do
@@ -18,7 +19,7 @@ My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `
 - [x] create chapter about the use of gh
 - [x] create chapter about BitBucket
 - [x] correct error in master document creation
-- [ ] "release" should probably go away and be part of the "master" branch
+- [x] "release" should probably go away and be part of the "master" branch
 - [ ] what this document is about
 - [ ] git - workflow
 - [ ] git - config / init / commit
