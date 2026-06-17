@@ -23,6 +23,7 @@ init
 fetch
 	- downloads commits from a remote repository which are newer than
 	  what you have
+		- I think you must then merge them into your local repository
 	- usually done before you start work for the day, or just before
 	  performing a merge+commit+push?
 log
@@ -58,6 +59,13 @@ merge (to resolve conflicts)
 	- to resolve push conflicts
 	- see above
 push again
+
+
+Delete a branch:
+	git branch -d <branch_name>	# delete a merged branch
+	git branch -D <branch_name> #force  delete of an unmerged branch
+	git push origin --delete <branch_name>
+	
 
 
 checkout, reset, revert
