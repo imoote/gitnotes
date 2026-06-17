@@ -5,7 +5,6 @@ This is the merge test file.
 
 delete this line
 
-delete this line
 
 delete this line
 
