@@ -11,6 +11,7 @@ This document is starting to shape up, but the structure is not working.  I need
 Consider the following general structure:
 - [ ] quick start
 - [ ] what this document is about / who it's for
+- [ ] Git file management: using rm and mv (and restore?)
 - [ ] creating a local repo
 - [ ] git config
 	- [ ] global, system, local
@@ -19,9 +20,10 @@ Consider the following general structure:
 - [ ] using branches
 	- [ ] get a list of existing branches
 		- [ ] git branch		# only local branches
-		- [ ] git branch -r	# only remote branches
-		- [ ] git branch -a	# all branches, local and remote
+		- [ ] git branch -r		# only remote branches
+		- [ ] git branch -a		# all branches, local and remote
 		- [ ] git remote show origin	# tracking status and remote branches
+	- [ ] checking out an existing branch
 	- [ ] creating a new branch
 	- [ ] pulling an existing branch
 	- [ ] branch naming conventions
@@ -59,6 +61,9 @@ Consider the following general structure:
 		- [ ] once the code on "main" / "develop" passes all QA tests and
 		  is successfully deployed, it is merged into stable and tagged
 		  with a release version
+- [ ] git restore: how to fix bad file editing
+	- if `restore` has already been covered earlier in this file, this
+	  will be more extensive coverage of the `restore` command
 - [ ] fetching, pulling, merging
 	- [ ] merge individual file(s)
 - [ ] merge request
