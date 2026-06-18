@@ -69,10 +69,14 @@ Consider the following general structure:
 		  the branch's commits into the parent branch
 - [ ] the stable branch
 - [ ] the release branch
+- [ ] Git for non-coders: tips on how creatives like writers and artists
+      can use Git for versioning their own work.
 
 ***
 
-## Branch Structure
+## Current Branch Structure
+Branches can be found using the `branch` command:
+	git branch
 
 - `master`: master development branch
 - `release`: current release version of GitNotes (not working as intended)
