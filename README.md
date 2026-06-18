@@ -1,72 +1,74 @@
 # GitNotes
 
-*Note To Ian:* Do not have a "workflow" chapter.  Include a "workflow" section in each task chapter.
+These are my *Concise Personal Notes* on the use primarily of `Git`, but also of `Github`, `GitKraken`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF](./release/gitnotes.pdf).
 
-My Concise Personal Notes on the use primarily of `Git`, but also of `Github`, `GitKraken`, ~~`BitBucket`~~[^1], and the `gh` GitHub command line interface tool.  [Download the PDF](./release/gitnotes.pdf)
+---
 
-This document is starting to shape up, but the structure is not working.  I need to reorganize this it to reflect the tasks that a Git user would do, not organized by the things that Git does or how Git works.
+This document is starting to shape up, but the structure is not working.  I need to refactor the organization to reflect the tasks that a Git user would do, not the logical grouping of what Git does or how it works.
+
+**Note To Ian:** *Do not have a "workflow" chapter.  Instead, include a "workflow" section in each task chapter.*
 
 Consider the following general structure:
-- quick start
-- what this document is about / who it's for
-- creating a local repo
-- git config
-	- global, system, local
-	- user name, email, editor
-	- remotes
-- using branches
-	- get a list of existing branches
-		git branch		# only local branches
-		git branch -r	# only remote branches
-		git branch -a	# all branches, local and remote
-		git remote show origin	# tracking status and remote branches
-	- creating a new branch
-	- pulling an existing branch
-	- branch naming conventions
-		- release
-			- used when you have a scheduled release cycle
-				- avoid "release" if you practice "continuous delivery"
-			- used to isolate, stabilize, and finalize a specific version
+- [ ] quick start
+- [ ] what this document is about / who it's for
+- [ ] creating a local repo
+- [ ] git config
+	- [ ] global, system, local
+	- [ ] user name, email, editor
+	- [ ] remotes
+- [ ] using branches
+	- [ ] get a list of existing branches
+		- [ ] git branch		# only local branches
+		- [ ] git branch -r	# only remote branches
+		- [ ] git branch -a	# all branches, local and remote
+		- [ ] git remote show origin	# tracking status and remote branches
+	- [ ] creating a new branch
+	- [ ] pulling an existing branch
+	- [ ] branch naming conventions
+		- [ ] release
+			- [ ] used when you have a scheduled release cycle
+				- [ ] avoid "release" if you practice "continuous delivery"
+			- [ ] used to isolate, stabilize, and finalize a specific version
 			  of software before it goes to production
-			- it is a dedicated buffer zone where a team performs final
+			- [ ] it is a dedicated buffer zone where a team performs final
 			  testing, fixes minor bugs, and prepares metadata (like
 			  version numbers) without interrupting ongoing development
-			- workflow:
-				- development cycle finishes, all features merged into
+			- [ ] workflow:
+				- [ ] development cycle finishes, all features merged into
 				  "develop", "release" branch created
-				- code freezes; new features are merged into "develop"
+				- [ ] code freezes; new features are merged into "develop"
 				  for the next release
-				- release is a staging area for stabilization
-					- bug fixes
-					- documentation updates
-					- release metadata
-				- once it's stable, dual merge:
-					- merge to "master" or a "stable" version branch
-						- tag the merge with the version number
-					- merge to "develop"
-						- any bug fixes are merged back into the
+				- [ ] release is a staging area for stabilization
+					- [ ] bug fixes
+					- [ ] documentation updates
+					- [ ] release metadata
+				- [ ] once it's stable, dual merge:
+					- [ ] merge to "master" or a "stable" version branch
+						- [ ] tag the merge with the version number
+					- [ ] merge to "develop"
+						- [ ] any bug fixes are merged back into the
 						  development stream to be carried forward
-					- release branch deleted
-		- stable/<version?>
-			- long-running
-			- thoroughly-tested production-ready code
-			- for long-term support, "stable" refers to frozen major
+					- [ ] release branch deleted
+		- [ ] stable/<version?>
+			- [ ] long-running
+			- [ ] thoroughly-tested production-ready code
+			- [ ] for long-term support, "stable" refers to frozen major
 			  versions which only accept low-risk patches
-		- daily development and feature integration happen on "main" or
+		- [ ] daily development and feature integration happen on "main" or
 		  "develop"
-		- once the code on "main" / "develop" passes all QA tests and
+		- [ ] once the code on "main" / "develop" passes all QA tests and
 		  is successfully deployed, it is merged into stable and tagged
 		  with a release version
-- fetching, pulling, merging
-	- merge individual file(s)
-- merge request
-	- deleting a branch
-		- "keeping obsolete branches serves no technical purpose and 
+- [ ] fetching, pulling, merging
+	- [ ] merge individual file(s)
+- [ ] merge request
+	- [ ] deleting a branch
+		- [ ] "keeping obsolete branches serves no technical purpose and 
 		  creates massive clutter for collaboration"
-		- successful merges integrates the entire history and all of
+		- [ ] successful merges integrates the entire history and all of
 		  the branch's commits into the parent branch
-- the stable branch
-- the release branch
+- [ ] the stable branch
+- [ ] the release branch
 
 ***
 
