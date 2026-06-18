@@ -76,7 +76,7 @@ Consider the following general structure:
 - `release`: current release version of GitNotes (not working as intended)
 - `chapter/bitbucket`: the "bitbucket" chapter
 - `chapter/workflow`: the "workflow" chapter
-- 'chapter/branch': the "branch" chapter
+- `chapter/branch`: the "branch" chapter
 
 ***
 ## Stuff To Do
@@ -87,7 +87,7 @@ Consider the following general structure:
 - [x] create chapter about BitBucket
 - [x] correct error in master document creation
 - [x] "release" should probably go away and be part of the "master" branch
-- [ ] refactor the project
+- [x] refactor the document structure
 - [ ] what this document is about
 - [ ] git - workflow
 - [ ] git - config / init / commit
