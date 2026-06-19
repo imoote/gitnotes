@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2026-06-17T23:13:59.687370858</meta:creation-date><meta:editing-cycles>2</meta:editing-cycles><meta:editing-duration>PT5M10S</meta:editing-duration><dc:description>This is a brief blurb describing the contents of the file and probably to whom it is targeted.</dc:description><dc:title>Title</dc:title><meta:generator>LibreOffice/26.2.2.2$Linux_X86_64 LibreOffice_project/620$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2026-06-17T23:57:03.918345736</dc:date><dc:creator>Ian Moote</dc:creator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="22" meta:word-count="170" meta:character-count="1078" meta:non-whitespace-character-count="921"/><meta:user-defined meta:name="Subtitle">Subtitle</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Title" xlink:href="../../../../../../home/ubuntu/Templates/concise%20notes%20chapter%20blank.ott" meta:date="2026-06-17T23:13:57.572002968"/></office:meta>
+ <office:meta><meta:creation-date>2026-06-17T23:13:59.687370858</meta:creation-date><meta:editing-cycles>4</meta:editing-cycles><meta:editing-duration>PT19M3S</meta:editing-duration><dc:description>This is a brief blurb describing the contents of the file and probably to whom it is targeted.</dc:description><dc:title>Title</dc:title><meta:generator>LibreOffice/26.2.2.2$Linux_X86_64 LibreOffice_project/620$Build-2</meta:generator><meta:initial-creator>Ian Moote</meta:initial-creator><dc:date>2026-06-19T00:12:34.835066365</dc:date><dc:creator>Ian Moote</dc:creator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="40" meta:word-count="525" meta:character-count="3239" meta:non-whitespace-character-count="2723"/><meta:user-defined meta:name="Subtitle">Subtitle</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Title" xlink:href="../../../../../../home/ubuntu/Templates/concise%20notes%20chapter%20blank.ott" meta:date="2026-06-17T23:13:57.572002968"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">27462</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">2577</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">22668</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">9169</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">13931</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">32002</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13496</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">7851</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">27462</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">2577</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">22666</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">36629</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">11744</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">3</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -131,7 +131,7 @@
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">wAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMArAAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6QTQARHVwbGV4Ok5vbmUAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmYMAFBSSU5URVJfTkFNRQ8AR2VuZXJpYyBQcmludGVyCwBEUklWRVJfTkFNRQcAU0dFTlBSVA==</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">wAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMArAAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKRHVwbGV4Ok5vbmUAUGFnZVNpemU6QTQAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmYMAFBSSU5URVJfTkFNRQ8AR2VuZXJpYyBQcmludGVyCwBEUklWRVJfTkFNRQcAU0dFTlBSVA==</config:config-item>
    <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -160,7 +160,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3226308</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3809506</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -438,42 +438,105 @@
    <style:text-properties officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b"/>
   </style:style>
   <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Chapter_20_Description_20_Text">
-   <style:text-properties officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Code_20_Block">
-   <style:text-properties officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b"/>
-  </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Code_20_Block">
-   <style:text-properties officeooo:rsid="002d8b57" officeooo:paragraph-rsid="002d8b57"/>
-  </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:paragraph-rsid="002cf59b"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Code_20_Block">
-   <style:text-properties officeooo:rsid="002f40ac" officeooo:paragraph-rsid="002f40ac"/>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="003559bf" officeooo:paragraph-rsid="003559bf"/>
   </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Code_20_Block">
-   <style:text-properties officeooo:rsid="00313ac4" officeooo:paragraph-rsid="00313ac4"/>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="002cf59b" officeooo:paragraph-rsid="002cf59b"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="002d8b57" officeooo:paragraph-rsid="002d8b57"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="00386240" officeooo:paragraph-rsid="00386240"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="003559bf" officeooo:paragraph-rsid="003559bf"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="002b4a3b" officeooo:paragraph-rsid="002b4a3b"/>
+   <style:text-properties officeooo:rsid="00386240" officeooo:paragraph-rsid="00386240"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="003559bf" officeooo:paragraph-rsid="0035d042"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="0032f197"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="0032f197" officeooo:paragraph-rsid="0032f197"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="003495bb" officeooo:paragraph-rsid="003495bb"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="002cf59b"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="002f40ac" officeooo:paragraph-rsid="002f40ac"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Code_20_Block">
+   <style:text-properties officeooo:rsid="00313ac4" officeooo:paragraph-rsid="00313ac4"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="002b4a3b" officeooo:paragraph-rsid="002b4a3b"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:font-weight="normal" officeooo:rsid="001b499a" officeooo:paragraph-rsid="00276054" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
-  </style:style>
-  <style:style style:name="T2" style:family="text">
    <style:text-properties officeooo:rsid="002d8b57"/>
   </style:style>
-  <style:style style:name="T3" style:family="text">
+  <style:style style:name="T2" style:family="text">
    <style:text-properties officeooo:rsid="002cf59b"/>
   </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
   <style:style style:name="T4" style:family="text">
+   <style:text-properties officeooo:rsid="003779dd"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties officeooo:rsid="003779dd" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties officeooo:rsid="003a20e2"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="0035d042"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="003779dd" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties officeooo:rsid="00386240"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties officeooo:rsid="00386240" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00386240" fo:background-color="transparent" loext:char-shading-value="0" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:font-weight="bold" fo:background-color="transparent" loext:char-shading-value="0" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties officeooo:rsid="003a20e2" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties officeooo:rsid="0035d042" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties officeooo:rsid="003495bb"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
    <style:text-properties fo:font-variant="small-caps" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Frame">
@@ -547,7 +610,7 @@
     <text:h text:style-name="P2" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638"/></text:h>
    </style:header>
    <style:header-left>
-    <text:h text:style-name="P3" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638 Copy 1"/><text:alphabetical-index-mark-start text:id="IMark94535310438688"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638 Copy 1"/><text:alphabetical-index-mark-end text:id="IMark94535310438688"/></text:h>
+    <text:h text:style-name="P3" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-start text:id="IMark101724692437568"/>Quick Start<text:bookmark-end text:name="__RefHeading___Toc301_2094561638 Copy 2"/><text:alphabetical-index-mark-end text:id="IMark101724692437568"/></text:h>
    </style:header-left>
   </style:master-page>
   <style:master-page style:name="Index" style:page-layout-name="pm1" draw:style-name="dp1"/>
@@ -558,7 +621,7 @@
   <style:master-page style:name="Right_20_Page" style:display-name="Right Page" style:page-layout-name="pm4" draw:style-name="dp1" style:next-style-name="Left_20_Page"/>
  </office:master-styles>
  <office:body>
-  <office:text text:use-soft-page-breaks="true">
+  <office:text>
    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
    <text:sequence-decls>
     <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
@@ -568,36 +631,59 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P4" text:outline-level="1" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc533_2094561638"/>Branches<text:bookmark-end text:name="__RefHeading___Toc533_2094561638"/></text:h>
-   <text:p text:style-name="P5"><text:span text:style-name="T1">Branches are an incredibly powerful tool to use when collaborating. <text:s/>They can also be an important organizational tool when working alone as long as you don’t allow them to get out of control. <text:s/>This chapter shows how to create them, how to use them, when to delete them, some useful branch structures, etc.</text:span></text:p>
+   <text:p text:style-name="P5">Branches are an incredibly powerful tool to use when collaborating. <text:s/>They can also be an important organizational tool when working alone as long as you don’t allow them to get out of control. <text:s/>This chapter shows how to create them, how to use them, when to delete them, some useful branch structures, etc.</text:p>
    <text:section text:style-name="Sect1" text:name="Branches">
-    <text:h text:style-name="P6" text:outline-level="2"><text:span text:style-name="T2">Typical Branch Naming Conventions (q.v.)</text:span></text:h>
-    <text:h text:style-name="Heading_20_2" text:outline-level="2"><draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:x="0.0091in" svg:y="0.0028in" svg:width="3.3709in" draw:z-index="0">
+    <text:h text:style-name="P6" text:outline-level="2" text:is-list-header="true"><text:span text:style-name="T1">Typical Branch Naming Conventions (q.v.)</text:span></text:h>
+    <text:h text:style-name="P7" text:outline-level="2" text:is-list-header="true"><draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:x="0.0091in" svg:y="0.0028in" svg:width="3.3709in" draw:z-index="0">
       <draw:text-box fo:min-height="0.2256in">
-       <text:p text:style-name="Code_20_Block"><text:span text:style-name="T3">m</text:span>ain / master:<text:tab/><text:span text:style-name="T3">long-running; could hold most files</text:span></text:p>
-       <text:p text:style-name="P7">develop:<text:tab/><text:tab/>long-running; instead of main / master</text:p>
-       <text:p text:style-name="P8">feature/*<text:tab/>temporary; for developing features</text:p>
-       <text:p text:style-name="P8">bug/*<text:tab/><text:tab/>temporary; for fixing low-priority bugs</text:p>
-       <text:p text:style-name="P8">hotfix/*<text:tab/><text:tab/>temporary; critical bugs or vulnerabilities</text:p>
-       <text:p text:style-name="P8">release<text:tab/><text:tab/>temporary: for stabilizing code; → stable/*</text:p>
-       <text:p text:style-name="P8">stable/&lt;version&gt;<text:tab/>long-running; frozen; long-term support</text:p>
+       <text:p text:style-name="Code_20_Block"><text:span text:style-name="T2">m</text:span>ain / master:<text:tab/><text:span text:style-name="T2">long-running; could hold most files</text:span></text:p>
+       <text:p text:style-name="P8">develop:<text:tab/><text:tab/>long-running; instead of main / master</text:p>
+       <text:p text:style-name="P9">feature/*<text:tab/>temporary; for developing features</text:p>
+       <text:p text:style-name="P9">bug/*<text:tab/><text:tab/>temporary; for fixing low-priority bugs</text:p>
+       <text:p text:style-name="P9">hotfix/*<text:tab/><text:tab/>temporary; critical bugs or vulnerabilities</text:p>
+       <text:p text:style-name="P10">docs<text:tab/><text:tab/>temporary; documentation changes</text:p>
+       <text:p text:style-name="P10">test<text:tab/><text:tab/>temporary; for developing unit tests</text:p>
+       <text:p text:style-name="P9">release<text:tab/><text:tab/>temporary: for stabilizing code; → stable/*</text:p>
+       <text:p text:style-name="P9">stable/&lt;version&gt;<text:tab/>long-running; frozen; long-term support</text:p>
       </draw:text-box>
-     </draw:frame><text:soft-page-break/>How To Use</text:h>
-    <text:p text:style-name="P9"><draw:frame draw:style-name="fr1" draw:name="Frame2" text:anchor-type="paragraph" svg:x="0.0728in" svg:y="0.0429in" svg:width="3.3173in" draw:z-index="1">
-      <draw:text-box fo:min-height="0.2252in">
-       <text:p text:style-name="P10">Git branch<text:tab/><text:tab/># list local branches</text:p>
-       <text:p text:style-name="P10">git branch &lt;branch_name&gt;<text:tab/># create new branch</text:p>
-       <text:p text:style-name="P10">git switch &lt;branch_name&gt;<text:tab/># switch to branch</text:p>
-       <text:p text:style-name="P11">git pull origin</text:p>
-       <text:p text:style-name="P10">git add &lt;file_name&gt;<text:tab/># add file(s) to staging area</text:p>
-       <text:p text:style-name="P10">git commit<text:tab/><text:tab/># commit changes to branch</text:p>
-       <text:p text:style-name="P10">git push origin &lt;branch_name&gt;<text:tab/># push it to remote</text:p>
+     </draw:frame>Conventional Branch Usage</text:h>
+    <text:p text:style-name="P11"><text:span text:style-name="T3">main / master:</text:span> <text:s/>This long-running branch holds production-ready, stable code <text:span text:style-name="T4">which is usually merged in from </text:span><text:span text:style-name="T5">release</text:span><text:span text:style-name="T4">, or sometimes </text:span><text:span text:style-name="T5">develop</text:span><text:span text:style-name="T4">. <text:s/></text:span><text:span text:style-name="T6">Merge points will be tagged with the version number.</text:span></text:p>
+    <text:p text:style-name="P11"><text:span text:style-name="T3">develop:</text:span> <text:s/><text:span text:style-name="T7">This long-running branch is used to test the integration of completed features. <text:s/></text:span><text:span text:style-name="T4">Eventually </text:span></text:p>
+    <text:p text:style-name="P11"><text:span text:style-name="T8">f</text:span><text:span text:style-name="T3">eature/*:</text:span> <text:s/><text:span text:style-name="T4">These short-lived branches are used for developing new functionality, adjusting layout, etc. <text:s/>It is usually derived from </text:span><text:span text:style-name="T5">develop</text:span><text:span text:style-name="T4"> and is usually deleted after it is merged back into </text:span><text:span text:style-name="T5">develop</text:span><text:span text:style-name="T4">.</text:span></text:p>
+    <text:p text:style-name="P11"><text:span text:style-name="T8">b</text:span><text:span text:style-name="T3">ugfix/&lt;</text:span><text:span text:style-name="T8">issueID&gt;</text:span><text:span text:style-name="T3">:</text:span> <text:s/><text:span text:style-name="T4">This short-lived branch is used to correct low-priority bugs which are scheduled to be corrected for the next release cycle. <text:s/>It is derived from </text:span><text:span text:style-name="T5">develop</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T9">or </text:span><text:span text:style-name="T10">release</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T4">and is merged back int</text:span><text:span text:style-name="T9">o the branch from which it was derived.</text:span></text:p>
+    <text:p text:style-name="P11"><text:span text:style-name="T11">h</text:span><text:span text:style-name="T12">otfix/*:</text:span> <text:s/><text:span text:style-name="T9">This short-lived branch is used to correct critical bugs and vulnerabilities in production code. <text:s/>It is derived from </text:span><text:span text:style-name="T10">master</text:span><text:span text:style-name="T9"> and is merged back into </text:span><text:span text:style-name="T10">master</text:span><text:span text:style-name="T9">, and into </text:span><text:span text:style-name="T10">stable/&lt;&gt;</text:span><text:span text:style-name="T9"> if used.</text:span></text:p>
+    <text:p text:style-name="P12"><text:span text:style-name="T3">docs:</text:span> <text:s/>This short-lived branch is used to update documentation. <text:s/>It is derived from <text:span text:style-name="T13">develop</text:span> or <text:span text:style-name="T13">master</text:span>, and is merged back into the branch from which it was derived.</text:p>
+    <text:p text:style-name="P12"><text:span text:style-name="T3">test:</text:span> <text:s/>If used, this is a short-lived branch used to develop unit tests for specific modules. <text:s/>It will be derived from <text:span text:style-name="T13">develop</text:span> or <text:span text:style-name="T14">master</text:span><text:span text:style-name="T6"> and will be merged back into the branch from which it was derived.</text:span></text:p>
+    <text:p text:style-name="P13"><text:span text:style-name="T3">release:</text:span> <text:s/><text:span text:style-name="T7">If you have a regular release cycle this short-lived branch is derived from </text:span><text:span text:style-name="T15">develop</text:span><text:span text:style-name="T7">. <text:s/>The code is frozen on this branch </text:span><text:span text:style-name="T6">and no further feature development will occur</text:span><text:span text:style-name="T7"> while final QA testing is done. <text:s/>It only accepts merges from </text:span><text:span text:style-name="T15">bugfix/*</text:span><text:span text:style-name="T7"> branches. <text:s/>When testing is complete, it is merged back into </text:span><text:span text:style-name="T15">develop</text:span><text:span text:style-name="T7">, as well as </text:span><text:span text:style-name="T15">master</text:span><text:span text:style-name="T7">, and </text:span><text:span text:style-name="T15">stable/&lt;version&gt;</text:span><text:span text:style-name="T7"> if you intend to support multiple versions of the code.</text:span></text:p>
+    <text:p text:style-name="P11"><text:span text:style-name="T3">stable/&lt;version&gt;:</text:span> <text:s/><text:span text:style-name="T6">These are long-running branches hold multiple stable release versions of your code.</text:span></text:p>
+    <text:p text:style-name="P11"/>
+    <text:p text:style-name="P14"><draw:frame draw:style-name="fr1" draw:name="Frame3" text:anchor-type="paragraph" svg:x="0.0161in" svg:y="0.0626in" svg:width="3.3508in" draw:z-index="2">
+      <draw:text-box fo:min-height="0.1591in">
+       <text:p text:style-name="P15">- <text:span text:style-name="T16">c</text:span>reate branch for new feature or to fix a bug</text:p>
+       <text:p text:style-name="P16">- edit files to add feature or fix bug</text:p>
+       <text:p text:style-name="P16">- commit the files to the local repository</text:p>
+       <text:p text:style-name="P16">- push the branch to the remote repo</text:p>
+       <text:p text:style-name="P16">- switch to the parent branch</text:p>
+       <text:p text:style-name="P16">- merge the branches</text:p>
+       <text:p text:style-name="P16">- if work is done, delete the work branch</text:p>
       </draw:text-box>
      </draw:frame></text:p>
-    <text:p text:style-name="P9"/>
+    <text:p text:style-name="P17"><draw:frame draw:style-name="fr1" draw:name="Frame2" text:anchor-type="paragraph" svg:x="0.0728in" svg:y="0.0429in" svg:width="3.3173in" draw:z-index="1">
+      <draw:text-box fo:min-height="0.2252in">
+       <text:p text:style-name="P18">Git branch<text:tab/><text:tab/># list local branches</text:p>
+       <text:p text:style-name="P18">git branch &lt;branch_name&gt;<text:tab/># create new branch</text:p>
+       <text:p text:style-name="P18">git switch &lt;branch_name&gt;<text:tab/># switch to branch</text:p>
+       <text:p text:style-name="P19">git pull origin</text:p>
+       <text:p text:style-name="P18">git add &lt;file_name&gt;<text:tab/># add file(s) to staging area</text:p>
+       <text:p text:style-name="P18">git commit<text:tab/><text:tab/># commit changes to branch</text:p>
+       <text:p text:style-name="P18">git push origin &lt;branch_name&gt;<text:tab/># push it to remote</text:p>
+      </draw:text-box>
+     </draw:frame></text:p>
+    <text:p text:style-name="P17"/>
    </text:section>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:s/><text:span text:style-name="T4">There Should Be One Blank Line After/Between Each Section</text:span>.</text:p>
-   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P20"/>
+   <text:p text:style-name="P20"><text:s/><text:span text:style-name="T17">There Should Be One Blank Line After/Between Each Section</text:span>.</text:p>
+   <text:p text:style-name="P21"/>
   </office:text>
  </office:body>
 </office:document>
