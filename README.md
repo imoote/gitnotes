@@ -9,7 +9,6 @@ This document is starting to shape up, but the structure is not working.  I need
 **Note To Ian:** *Do not have a "workflow" chapter.  Instead, include a "workflow" section in each task chapter.*
 
 Consider the following general structure:
-- [ ] merge and remove the workflow branch
 - [ ] quick start
 - [ ] what this document is about / who it's for
 - [ ] Git file management: using rm and mv (and restore?)
@@ -100,8 +99,10 @@ Branches can be found using the `branch` command:
 - [x] correct error in master document creation
 - [x] "release" should probably go away and be part of the "master" branch
 - [x] refactor the document structure
+- [ ] merge and remove the workflow branch
+- [ ] move the "branch" notes in the "workflow" file into "branch"
 - [ ] what this document is about
-- [ ] git - workflow
+~- [ ] git - workflow~
 - [ ] git - config / init / commit
 - [ ] git - remote repositories
 - [ ] git - pushing and pulling
