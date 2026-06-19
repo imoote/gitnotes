@@ -88,7 +88,7 @@ Consider the following general structure:
 - [x] "release" should probably go away and be part of the "master" branch
 - [x] refactor the document structure
 - [x] merge and remove the workflow branch
-- [ ] move the "branch" notes in the "workflow" file into "branch"
+- [ ] move the "branch" notes from the "workflow" file into "branch"
 - [ ] what this document is about
 - [ ] git - config / init / commit
 - [ ] git - remote repositories
