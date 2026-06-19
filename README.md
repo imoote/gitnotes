@@ -86,7 +86,6 @@ Branches can be found using the `branch` command:
 - `master`: master development branch
 - `release`: current release version of GitNotes (not working as intended)
 - `chapter/bitbucket`: the "bitbucket" chapter
-- `chapter/workflow`: the "workflow" chapter
 - `chapter/branch`: the "branch" chapter
 
 ***
