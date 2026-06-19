@@ -4,11 +4,12 @@ These are my *Concise Personal Notes* on the use primarily of `Git`, but also of
 
 ---
 
-This document is starting to shape up, but the structure is not working.  I need to refactor the organization to reflect the tasks that a Git user would do, not the logical grouping of what Git does or how it works.
+This document is starting to shape up, but the structure is not working.  I need to refactor the organization to reflect the tasks that a Git user would do and, to a lesser extent, in the order they would do it, not the logical grouping of what Git does or how it works.
 
 **Note To Ian:** *Do not have a "workflow" chapter.  Instead, include a "workflow" section in each task chapter.*
 
 Consider the following general structure:
+- [ ] merge and remove the workflow branch
 - [ ] quick start
 - [ ] what this document is about / who it's for
 - [ ] Git file management: using rm and mv (and restore?)
