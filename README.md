@@ -90,7 +90,6 @@ Consider the following general structure:
 - [x] merge and remove the workflow branch
 - [ ] move the "branch" notes in the "workflow" file into "branch"
 - [ ] what this document is about
-~- [ ] git - workflow~
 - [ ] git - config / init / commit
 - [ ] git - remote repositories
 - [ ] git - pushing and pulling
