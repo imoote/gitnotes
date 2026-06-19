@@ -99,7 +99,7 @@ Branches can be found using the `branch` command:
 - [x] correct error in master document creation
 - [x] "release" should probably go away and be part of the "master" branch
 - [x] refactor the document structure
-- [ ] merge and remove the workflow branch
+- [x] merge and remove the workflow branch
 - [ ] move the "branch" notes in the "workflow" file into "branch"
 - [ ] what this document is about
 ~- [ ] git - workflow~
