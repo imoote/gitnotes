@@ -78,17 +78,6 @@ Consider the following general structure:
       can use Git for versioning their own work.
 
 ***
-
-## Current Branch Structure
-Branches can be found using the `branch` command:
-	git branch
-
-- `master`: master development branch
-- `release`: current release version of GitNotes (not working as intended)
-- `chapter/bitbucket`: the "bitbucket" chapter
-- `chapter/branch`: the "branch" chapter
-
-***
 ## Stuff To Do
 - [x] play around with the gihub.txt file to make sure the information is fairly accurate
 - [x] create repository for this document on GitHub (remotely)
