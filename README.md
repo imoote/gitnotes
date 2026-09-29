@@ -9,7 +9,7 @@ This document is starting to shape up, but the structure is not working.  I need
 **Note To Ian:** *Do not have a "workflow" chapter.  Instead, include a "workflow" section in each task chapter.*
 
 Consider the following general structure:
-- [ ] quick start
+- [x] quick start
 - [ ] what this document is about / who it's for
 - [ ] Git file management: using rm and mv (and restore?)
 - [ ] creating a local repo
