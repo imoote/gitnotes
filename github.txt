@@ -22,4 +22,5 @@ To get a GitHub token go to your GitHub account --> Settings --> Developer Setti
 			delete_repo
 --> Generate Token
 - copy the token and save it to your passwords file
+- use it in place of the password during the push
 
